@@ -1,0 +1,40 @@
+name: Teste funcional do portal
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - 'data/**'
+      - '.github/workflows/testar-navegador.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  navegador:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Iniciar servidor local
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/guariba-site.log 2>&1 &
+          sleep 2
+      - name: Verificar páginas num navegador real
+        run: |
+          CHROME="$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
+          if [ -z "$CHROME" ]; then echo "Chrome/Chromium ausente"; exit 1; fi
+          "$CHROME" --headless --no-sandbox --disable-dev-shm-usage --disable-gpu --virtual-time-budget=6000 --dump-dom 'http://127.0.0.1:8765/#/' > /tmp/inicio.html 2>/tmp/chrome-inicio.log
+          grep -q 'Entenda sua cidade' /tmp/inicio.html
+          grep -q 'Matérias importadas' /tmp/inicio.html
+          "$CHROME" --headless --no-sandbox --disable-dev-shm-usage --disable-gpu --virtual-time-budget=6000 --dump-dom 'http://127.0.0.1:8765/#/vereadores' > /tmp/vereadores.html 2>/tmp/chrome-vereadores.log
+          grep -q 'Cassio Santa Cruz' /tmp/vereadores.html
+          grep -q 'Fabiano da Bocha' /tmp/vereadores.html
+          "$CHROME" --headless --no-sandbox --disable-dev-shm-usage --disable-gpu --virtual-time-budget=6000 --dump-dom 'http://127.0.0.1:8765/#/atividade' > /tmp/atividade.html 2>/tmp/chrome-atividade.log
+          grep -q 'Atividade legislativa' /tmp/atividade.html
+          grep -q 'Conferir registro no portal oficial' /tmp/atividade.html
+          "$CHROME" --headless --no-sandbox --disable-dev-shm-usage --disable-gpu --virtual-time-budget=6000 --dump-dom 'http://127.0.0.1:8765/#/contas' > /tmp/contas.html 2>/tmp/chrome-contas.log
+          grep -q 'Balanço Patrimonial' /tmp/contas.html
+          grep -q 'Consultar contas contábeis' /tmp/contas.html
+          grep -q 'Ativo patrimonial' /tmp/contas.html
+          echo "TESTE DE NAVEGAÇÃO APROVADO: início, vereadores, legislativo e contas públicas."
