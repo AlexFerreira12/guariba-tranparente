@@ -37,4 +37,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "data: sincronizar matérias oficiais do SAPL Guariba"
+          # Atualizações de documentação e interface podem ter chegado enquanto importamos.
+          # Aplicar o commit de dados sobre a versão mais recente sem reescrever histórico.
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
