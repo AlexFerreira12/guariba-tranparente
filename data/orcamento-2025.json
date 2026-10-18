@@ -1,0 +1,2869 @@
+{
+  "origem": "siconfi-dca-orcamentaria",
+  "codigoIbge": 3518602,
+  "instituicao": "Prefeitura Municipal de Guariba - SP",
+  "exercicio": 2025,
+  "titulo": "Receitas e despesas orçamentárias anuais",
+  "metodologia": "Dados anuais da DCA enviados ao Tesouro Nacional. Valores de receitas são BRUTOS exceto intraorçamentárias; deduções informadas separadamente. Despesas são apresentadas por estágio. Não somar linhas de totais e subtotais dos anexos.",
+  "indicadores": {
+    "receitasBrutasExcetoIntra": 233576259.93,
+    "deducoesFundebExcetoIntra": 20597517.54,
+    "outrasDeducoesExcetoIntra": 341818.16,
+    "despesasEmpenhadas": 214826599.53,
+    "despesasLiquidadas": 208444807.65,
+    "despesasPagas": 206765947.4
+  },
+  "despesasPorFuncaoPagas": [
+    {
+      "funcao": "01 - Legislativa",
+      "valor": 4154427.45
+    },
+    {
+      "funcao": "04 - Administração",
+      "valor": 16479669.05
+    },
+    {
+      "funcao": "06 - Segurança Pública",
+      "valor": 3396932.16
+    },
+    {
+      "funcao": "08 - Assistência Social",
+      "valor": 8523874.09
+    },
+    {
+      "funcao": "10 - Saúde",
+      "valor": 54997622.27
+    },
+    {
+      "funcao": "11 - Trabalho",
+      "valor": 2440736.17
+    },
+    {
+      "funcao": "12 - Educação",
+      "valor": 84001858.65
+    },
+    {
+      "funcao": "13 - Cultura",
+      "valor": 2851977.63
+    },
+    {
+      "funcao": "14 - Direitos da Cidadania",
+      "valor": 128471.46
+    },
+    {
+      "funcao": "15 - Urbanismo",
+      "valor": 8069491.16
+    },
+    {
+      "funcao": "18 - Gestão Ambiental",
+      "valor": 9303346.23
+    },
+    {
+      "funcao": "20 - Agricultura",
+      "valor": 7302.57
+    },
+    {
+      "funcao": "22 - Indústria",
+      "valor": 553004.42
+    },
+    {
+      "funcao": "26 - Transporte",
+      "valor": 3689643.84
+    },
+    {
+      "funcao": "27 - Desporto e Lazer",
+      "valor": 1960883.37
+    },
+    {
+      "funcao": "28 - Encargos Especiais",
+      "valor": 6206706.88
+    }
+  ],
+  "fontes": {
+    "DCA-Anexo I-C": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo+I-C&id_ente=3518602",
+    "DCA-Anexo I-D": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo+I-D&id_ente=3518602",
+    "DCA-Anexo I-E": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo+I-E&id_ente=3518602"
+  },
+  "registros": [
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "ReceitasExcetoIntraOrcamentarias",
+      "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 233576259.93
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "ReceitasExcetoIntraOrcamentarias",
+      "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 20597517.54
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "ReceitasExcetoIntraOrcamentarias",
+      "conta": "RECEITAS (EXCETO INTRA-ORÇAMENTÁRIAS) (I)",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 341818.16
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.0.0.0.00.0.0",
+      "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 222114726.01
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.0.0.0.00.0.0",
+      "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 20597517.54
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.0.0.0.00.0.0",
+      "conta": "1.0.0.0.00.0.0 - Receitas Correntes",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 341818.16
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.0.0.00.0.0",
+      "conta": "1.1.0.0.00.0.0 - Impostos, Taxas e Contribuições de Melhoria",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 29326750.81
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.0.0.00.0.0",
+      "conta": "1.1.0.0.00.0.0 - Impostos, Taxas e Contribuições de Melhoria",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 291829.34
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.0.00.0.0",
+      "conta": "1.1.1.0.00.0.0 - Impostos",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 27049331.86
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.0.00.0.0",
+      "conta": "1.1.1.0.00.0.0 - Impostos",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 244944.25
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.2.00.0.0",
+      "conta": "1.1.1.2.00.0.0 - Impostos sobre o Patrimônio",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 12202380.97
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.2.00.0.0",
+      "conta": "1.1.1.2.00.0.0 - Impostos sobre o Patrimônio",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 244902.4
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.2.50.0.0",
+      "conta": "1.1.1.2.50.0.0 - Imposto sobre a Propriedade Predial e Territorial Urbana",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 10538379.53
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.2.50.0.0",
+      "conta": "1.1.1.2.50.0.0 - Imposto sobre a Propriedade Predial e Territorial Urbana",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 239857.81
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.2.53.0.0",
+      "conta": "1.1.1.2.53.0.0 - Impostos sobre Transmissão \"Inter Vivos\" de Bens Imóveis e de Direitos Reais sobre Imóveis",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1664001.44
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.2.53.0.0",
+      "conta": "1.1.1.2.53.0.0 - Impostos sobre Transmissão \"Inter Vivos\" de Bens Imóveis e de Direitos Reais sobre Imóveis",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 5044.59
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.3.00.0.0",
+      "conta": "1.1.1.3.00.0.0 - Impostos sobre a Renda e Proventos de Qualquer Natureza",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 4949753.36
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.3.03.0.0",
+      "conta": "1.1.1.3.03.0.0 - Imposto sobre a Renda - Retido na Fonte",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 4949753.36
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.3.03.1.0",
+      "conta": "1.1.1.3.03.1.0 - Imposto sobre a Renda - Retido na Fonte - Trabalho",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1241518.02
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.3.03.4.0",
+      "conta": "1.1.1.3.03.4.0 - Imposto sobre a Renda - Retido na Fonte - Outros Rendimentos",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3708235.34
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.4.00.0.0",
+      "conta": "1.1.1.4.00.0.0 - Impostos sobre a Produção e Circulação de Mercadorias e Serviços",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 9897197.53
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.4.00.0.0",
+      "conta": "1.1.1.4.00.0.0 - Impostos sobre a Produção e Circulação de Mercadorias e Serviços",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 41.85
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.4.51.0.0",
+      "conta": "1.1.1.4.51.0.0 - Impostos sobre Serviços",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 9897197.53
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.4.51.0.0",
+      "conta": "1.1.1.4.51.0.0 - Impostos sobre Serviços",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 41.85
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.4.51.1.0",
+      "conta": "1.1.1.4.51.1.0 - Imposto sobre Serviços de Qualquer Natureza - ISSQN",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 9897197.53
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.1.4.51.1.0",
+      "conta": "1.1.1.4.51.1.0 - Imposto sobre Serviços de Qualquer Natureza - ISSQN",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 41.85
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.0.00.0.0",
+      "conta": "1.1.2.0.00.0.0 - Taxas",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 2277418.95
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.0.00.0.0",
+      "conta": "1.1.2.0.00.0.0 - Taxas",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 46885.09
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.1.00.0.0",
+      "conta": "1.1.2.1.00.0.0 - Taxas pelo Exercício do Poder de Polícia",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 2075734.27
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.1.00.0.0",
+      "conta": "1.1.2.1.00.0.0 - Taxas pelo Exercício do Poder de Polícia",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 46026.74
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.1.01.0.0",
+      "conta": "1.1.2.1.01.0.0 - Taxas de Inspeção, Controle e Fiscalização",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1973644.58
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.1.01.0.0",
+      "conta": "1.1.2.1.01.0.0 - Taxas de Inspeção, Controle e Fiscalização",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 44153.06
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.1.50.0.0",
+      "conta": "1.1.2.1.50.0.0 - Taxa de Fiscalização de Vigilância Sanitária",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 102089.69
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.1.50.0.0",
+      "conta": "1.1.2.1.50.0.0 - Taxa de Fiscalização de Vigilância Sanitária",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 1873.68
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.2.00.0.0",
+      "conta": "1.1.2.2.00.0.0 - Taxas pela Prestação de Serviços",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 201684.68
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.2.00.0.0",
+      "conta": "1.1.2.2.00.0.0 - Taxas pela Prestação de Serviços",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 858.35
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.2.01.0.0",
+      "conta": "1.1.2.2.01.0.0 - Taxas pela Prestação de Serviços em Geral",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 201684.68
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.1.2.2.01.0.0",
+      "conta": "1.1.2.2.01.0.0 - Taxas pela Prestação de Serviços em Geral",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 858.35
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.2.0.0.00.0.0",
+      "conta": "1.2.0.0.00.0.0 - Contribuições",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 2342049.98
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.2.0.0.00.0.0",
+      "conta": "1.2.0.0.00.0.0 - Contribuições",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 3144.68
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.2.4.0.00.0.0",
+      "conta": "1.2.4.0.00.0.0 - Contribuição para o Custeio do Serviço de Iluminação Pública",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 2342049.98
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.2.4.0.00.0.0",
+      "conta": "1.2.4.0.00.0.0 - Contribuição para o Custeio do Serviço de Iluminação Pública",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 3144.68
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.0.0.00.0.0",
+      "conta": "1.3.0.0.00.0.0 - Receita Patrimonial",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3394869.11
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.0.0.00.0.0",
+      "conta": "1.3.0.0.00.0.0 - Receita Patrimonial",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 73.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.1.0.00.0.0",
+      "conta": "1.3.1.0.00.0.0 - Exploração do Patrimônio Imobiliário do Estado",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 18257.47
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.1.0.00.0.0",
+      "conta": "1.3.1.0.00.0.0 - Exploração do Patrimônio Imobiliário do Estado",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 3.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.1.1.00.0.0",
+      "conta": "1.3.1.1.00.0.0 - Exploração do Patrimônio Imobiliário do Estado",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 18257.47
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.1.1.00.0.0",
+      "conta": "1.3.1.1.00.0.0 - Exploração do Patrimônio Imobiliário do Estado",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 3.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.1.1.01.0.0",
+      "conta": "1.3.1.1.01.0.0 - Aluguéis, Arrendamentos, Foros, Laudêmios, Tarifas de Ocupação",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 18257.47
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.1.1.01.0.0",
+      "conta": "1.3.1.1.01.0.0 - Aluguéis, Arrendamentos, Foros, Laudêmios, Tarifas de Ocupação",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 3.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.1.1.01.1.0",
+      "conta": "1.3.1.1.01.1.0 - Aluguéis e Arrendamentos",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 18257.47
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.1.1.01.1.0",
+      "conta": "1.3.1.1.01.1.0 - Aluguéis e Arrendamentos",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 3.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.2.0.00.0.0",
+      "conta": "1.3.2.0.00.0.0 - Valores Mobiliários",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3376611.64
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.2.0.00.0.0",
+      "conta": "1.3.2.0.00.0.0 - Valores Mobiliários",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 70.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.2.1.00.0.0",
+      "conta": "1.3.2.1.00.0.0 - Juros e Correções Monetárias",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3376611.64
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.2.1.00.0.0",
+      "conta": "1.3.2.1.00.0.0 - Juros e Correções Monetárias",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 70.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.2.1.01.0.0",
+      "conta": "1.3.2.1.01.0.0 - Remuneração de Depósitos Bancários",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3359900.64
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.2.1.01.0.0",
+      "conta": "1.3.2.1.01.0.0 - Remuneração de Depósitos Bancários",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 70.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.3.2.1.05.0.0",
+      "conta": "1.3.2.1.05.0.0 - Juros de Títulos de Renda",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 16711.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.6.0.0.00.0.0",
+      "conta": "1.6.0.0.00.0.0 - Receita de Serviços",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 55412.63
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.6.0.0.00.0.0",
+      "conta": "1.6.0.0.00.0.0 - Receita de Serviços",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 320.62
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.6.1.0.00.0.0",
+      "conta": "1.6.1.0.00.0.0 - Serviços Administrativos e Comerciais Gerais",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 450.4
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.6.1.1.00.0.0",
+      "conta": "1.6.1.1.00.0.0 - Serviços Administrativos e Comerciais Gerais",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 450.4
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.6.1.1.01.0.0",
+      "conta": "1.6.1.1.01.0.0 - Serviços Administrativos e Comerciais Gerais Prestados por Entidades e Órgãos Públicos em Geral",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 450.4
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.6.9.0.00.0.0",
+      "conta": "1.6.9.0.00.0.0 - Outros Serviços",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 54962.23
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.6.9.0.00.0.0",
+      "conta": "1.6.9.0.00.0.0 - Outros Serviços",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 320.62
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.0.0.00.0.0",
+      "conta": "1.7.0.0.00.0.0 - Transferências Correntes",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 185726628.09
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.0.0.00.0.0",
+      "conta": "1.7.0.0.00.0.0 - Transferências Correntes",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 20597517.54
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.0.0.00.0.0",
+      "conta": "1.7.0.0.00.0.0 - Transferências Correntes",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 44892.58
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.0.00.0.0",
+      "conta": "1.7.1.0.00.0.0 - Transferências da União e de suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 81317337.49
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.0.00.0.0",
+      "conta": "1.7.1.0.00.0.0 - Transferências da União e de suas Entidades",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 10691900.31
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.0.00.0.0",
+      "conta": "1.7.1.0.00.0.0 - Transferências da União e de suas Entidades",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 44892.58
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.00.0.0",
+      "conta": "1.7.1.1.00.0.0 - Transferências Decorrentes de Participação na Receita da União",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 59860657.02
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.00.0.0",
+      "conta": "1.7.1.1.00.0.0 - Transferências Decorrentes de Participação na Receita da União",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 10691900.31
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.51.0.0",
+      "conta": "1.7.1.1.51.0.0 -Cota-Parte do Fundo de Participação dos Municípios - FPM",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 58324026.76
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.51.0.0",
+      "conta": "1.7.1.1.51.0.0 -Cota-Parte do Fundo de Participação dos Municípios - FPM",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 10384574.33
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.51.1.0",
+      "conta": "1.7.1.1.51.1.0 - Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 51922873.77
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.51.1.0",
+      "conta": "1.7.1.1.51.1.0 - Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 10384574.33
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.51.2.0",
+      "conta": "1.7.1.1.51.2.0 - Cota-Parte do Fundo de Participação dos Municípios - Cotas Extraordinárias",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 6401152.99
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.52.0.0",
+      "conta": "1.7.1.1.52.0.0 - Cota-Parte do Imposto Sobre a Propriedade Territorial Rural",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1536630.26
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.1.52.0.0",
+      "conta": "1.7.1.1.52.0.0 - Cota-Parte do Imposto Sobre a Propriedade Territorial Rural",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 307325.98
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.2.00.0.0",
+      "conta": "1.7.1.2.00.0.0 -Transferências das Compensações Financeiras pela Exploração de Recursos Naturais",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1016517.26
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.2.52.0.0",
+      "conta": "1.7.1.2.52.0.0 - Cota-parte da Compensação Financeira pela Produção de Petróleo",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1000820.49
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.2.52.4.0",
+      "conta": "1.7.1.2.52.4.0 - Cota-Parte do Fundo Especial do Petróleo ¿ FEP",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1000820.49
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.2.99.0.0",
+      "conta": "1.7.1.2.99.0.0 - Outras Transferências decorrentes de Compensação Financeira pela Exploração de Recursos Naturais ",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 15696.77
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.3.00.0.0",
+      "conta": "1.7.1.3.00.0.0 -Transferências de Recursos do Sistema Único de Saúde ¿ SUS ",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 14171835.4
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.3.50.0.0",
+      "conta": "1.7.1.3.50.0.0 - Transferências de Recursos do Sistema Único de Saúde ¿ SUS ¿ Repasses Fundo a Fundo - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 14171835.4
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.3.50.1.0",
+      "conta": "1.7.1.3.50.1.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Atenção Primária",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 6612608.92
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.3.50.2.0",
+      "conta": "1.7.1.3.50.2.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Atenção Especializada",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 5743569.75
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.3.50.3.0",
+      "conta": "1.7.1.3.50.3.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Vigilância em Saúde",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 660411.96
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.3.50.4.0",
+      "conta": "1.7.1.3.50.4.0 -Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Assistência Farmacêutica",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 223864.8
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.3.50.5.0",
+      "conta": "1.7.1.3.50.5.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Gestão do SUS",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 931379.97
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.4.00.0.0",
+      "conta": "1.7.1.4.00.0.0 -Transferências de Recursos do Fundo Nacional do Desenvolvimento da Educação ¿ FNDE¿ ",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 4554037.83
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.4.50.0.0",
+      "conta": "1.7.1.4.50.0.0 - Transferências do Salário-Educação",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3466141.59
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.4.52.0.0",
+      "conta": "1.7.1.4.52.0.0 - Transferências referentes ao Programa Nacional de Alimentação Escolar ¿ PNAE",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1070408.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.4.53.0.0",
+      "conta": "1.7.1.4.53.0.0 - Transferências referentes ao Programa Nacional de Apoio ao Transporte do Escolar ¿ PNATE",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 17488.24
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.5.00.0.0",
+      "conta": "1.7.1.5.00.0.0 - Transferências de Recursos de Complementação da União ao Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação ¿ FUNDEB ",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1122316.27
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.5.00.0.0",
+      "conta": "1.7.1.5.00.0.0 - Transferências de Recursos de Complementação da União ao Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação ¿ FUNDEB ",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 44892.58
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.6.00.0.0",
+      "conta": "1.7.1.6.00.0.0 - Transferências de Recursos do Fundo Nacional de Assistência Social ¿ FNAS",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 485961.87
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.9.00.0.0",
+      "conta": "1.7.1.9.00.0.0 - Outras Transferências de Recursos da União e de suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 106011.84
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.1.9.99.0.0",
+      "conta": "1.7.1.9.99.0.0 - Outras Transferências de Recursos da União e de suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 106011.84
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.0.00.0.0",
+      "conta": "1.7.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 57990565.21
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.0.00.0.0",
+      "conta": "1.7.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 9905617.23
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.00.0.0",
+      "conta": "1.7.2.1.00.0.0 - Participação na Receita dos Estados e Distrito Federal",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 49583857.7
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.00.0.0",
+      "conta": "1.7.2.1.00.0.0 - Participação na Receita dos Estados e Distrito Federal",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 9905617.23
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.50.0.0",
+      "conta": "1.7.2.1.50.0.0 - Cota-Parte do ICMS",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 40110883.54
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.50.0.0",
+      "conta": "1.7.2.1.50.0.0 - Cota-Parte do ICMS",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 8022176.49
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.51.0.0",
+      "conta": "1.7.2.1.51.0.0 - Cota-Parte do IPVA",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 9131216.12
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.51.0.0",
+      "conta": "1.7.2.1.51.0.0 - Cota-Parte do IPVA",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 1825591.77
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.52.0.0",
+      "conta": "1.7.2.1.52.0.0 - Cota-Parte do IPI - Municípios",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 289244.56
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.52.0.0",
+      "conta": "1.7.2.1.52.0.0 - Cota-Parte do IPI - Municípios",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 57848.97
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.53.0.0",
+      "conta": "1.7.2.1.53.0.0 - Cota-Parte da Contribuição de Intervenção no Domínio Econômico",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 49146.08
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.1.98.0.0",
+      "conta": "1.7.2.1.98.0.0 -Transferências Decorrentes de Participação em Outras Receitas de Impostos dos Estados e do Distrito Federal",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3367.4
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.2.00.0.0",
+      "conta": "1.7.2.2.00.0.0 - Transferências das Compensações Financeiras pela Exploração de Recursos Naturais",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 72304.12
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.2.52.0.0",
+      "conta": "1.7.2.2.52.0.0 - Cota-parte Royalties ¿ Compensação Financeira pela Produção do Petróleo",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 72304.12
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.4.00.0.0",
+      "conta": "1.7.2.4.00.0.0 - Transferências de Convênios dos Estados e DF e de Suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 6977366.76
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.4.50.0.0",
+      "conta": "1.7.2.4.50.0.0 - Transferências de Convênios dos Estados e DF para o Sistema Único de Saúde ¿ SUS",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 4981829.57
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.4.51.0.0",
+      "conta": "1.7.2.4.51.0.0 -Transferências de Convênios dos Estados Destinadas a Programas de Educação",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1995537.19
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.9.00.0.0",
+      "conta": "1.7.2.9.00.0.0 - Outras Transferências dos Estados e Distrito Federal",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1357036.63
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.9.51.0.0",
+      "conta": "1.7.2.9.51.0.0 - Transferências de Estados destinadas à Assistência Social",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 507948.1
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.2.9.99.0.0",
+      "conta": "1.7.2.9.99.0.0 - Outras Transferências dos Estados e DF",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 849088.53
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.5.0.00.0.0",
+      "conta": "1.7.5.0.00.0.0 - Transferências de Outras Instituições Públicas",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 46418725.39
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.7.5.1.00.0.0",
+      "conta": "1.7.5.1.00.0.0 - Transferências de Recursos do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação - FUNDEB",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 46418725.39
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.0.0.00.0.0",
+      "conta": "1.9.0.0.00.0.0 - Outras Receitas Correntes",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1269015.39
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.0.0.00.0.0",
+      "conta": "1.9.0.0.00.0.0 - Outras Receitas Correntes",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 1557.94
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.1.0.00.0.0",
+      "conta": "1.9.1.0.00.0.0 - Multas Administrativas, Contratuais e Judiciais",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 188729.07
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.1.0.00.0.0",
+      "conta": "1.9.1.0.00.0.0 - Multas Administrativas, Contratuais e Judiciais",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 1538.25
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.1.1.00.0.0",
+      "conta": "1.9.1.1.00.0.0 - Multas Administrativas, Contratuais e Judiciais",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 188729.07
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.1.1.00.0.0",
+      "conta": "1.9.1.1.00.0.0 - Multas Administrativas, Contratuais e Judiciais",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 1538.25
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.1.1.01.0.0",
+      "conta": "1.9.1.1.01.0.0 - Multas Previstas em Legislação Específica",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 188729.07
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.1.1.01.0.0",
+      "conta": "1.9.1.1.01.0.0 - Multas Previstas em Legislação Específica",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 1538.25
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.2.0.00.0.0",
+      "conta": "1.9.2.0.00.0.0 - Indenizações, Restituições e Ressarcimentos",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 1001623.25
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.2.2.00.0.0",
+      "conta": "1.9.2.2.00.0.0 - Restituições",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 852275.84
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.2.2.99.0.0",
+      "conta": "1.9.2.2.99.0.0 - Outras Restituições",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 852275.84
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.2.3.00.0.0",
+      "conta": "1.9.2.3.00.0.0 - Ressarcimentos",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 149347.41
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.2.3.99.0.0",
+      "conta": "1.9.2.3.99.0.0 - Outros Ressarcimentos",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 149347.41
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.9.0.00.0.0",
+      "conta": "1.9.9.0.00.0.0 - Demais Receitas Correntes",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 78663.07
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.9.0.00.0.0",
+      "conta": "1.9.9.0.00.0.0 - Demais Receitas Correntes",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 19.69
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.9.9.00.0.0",
+      "conta": "1.9.9.9.00.0.0 - Outras Receitas Correntes",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 78663.07
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.9.9.00.0.0",
+      "conta": "1.9.9.9.00.0.0 - Outras Receitas Correntes",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 19.69
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.9.9.12.0.0",
+      "conta": "1.9.9.9.12.0.0 - Encargos Legais pela Inscrição em Dívida Ativa e Receitas de Ônus de Sucumbência",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 78663.07
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.9.9.12.0.0",
+      "conta": "1.9.9.9.12.0.0 - Encargos Legais pela Inscrição em Dívida Ativa e Receitas de Ônus de Sucumbência",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 19.69
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.9.9.12.2.0",
+      "conta": "1.9.9.9.12.2.0 - Ônus de Sucumbência",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 78663.07
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO1.9.9.9.12.2.0",
+      "conta": "1.9.9.9.12.2.0 - Ônus de Sucumbência",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 19.69
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.0.0.0.00.0.0",
+      "conta": "2.0.0.0.00.0.0 - Receitas de Capital",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 11461533.92
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.2.0.0.00.0.0",
+      "conta": "2.2.0.0.00.0.0 - Alienação de Bens",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 257092.94
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.2.2.0.00.0.0",
+      "conta": "2.2.2.0.00.0.0 - Alienação de Bens Imóveis",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 257092.94
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.0.0.00.0.0",
+      "conta": "2.4.0.0.00.0.0 - Transferências de Capital",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 11204440.98
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.1.0.00.0.0",
+      "conta": "2.4.1.0.00.0.0 - Transferências da União e de suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 5563660.35
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.1.1.00.0.0",
+      "conta": "2.4.1.1.00.0.0 - Transferências de Recursos do Sistema Único de Saúde - SUS",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3072844.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.1.1.50.0.0",
+      "conta": "2.4.1.1.50.0.0 - Transferências de Recursos do Sistema Único de Saúde ¿ SUS ¿ Fundo a Fundo - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3072844.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.1.1.50.1.0",
+      "conta": "2.4.1.1.50.1.0 - Transferências de Recursos do Bloco de Manutenção das Ações e Serviços Públicos de Saúde ¿ Atenção Primária",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 3072844.0
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.1.4.00.0.0",
+      "conta": "2.4.1.4.00.0.0 - Transferências de Convênios da União e de suas Entidades ",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 2490816.35
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.1.4.99.0.0",
+      "conta": "2.4.1.4.99.0.0 - Outras Transferências de Convênios da União e de Suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 2490816.35
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.2.0.00.0.0",
+      "conta": "2.4.2.0.00.0.0 - Transferências dos Estados e do Distrito Federal e de suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 5640780.63
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.2.2.00.0.0",
+      "conta": "2.4.2.2.00.0.0 - Transferências de Convênios dos Estados e DF e de Suas Entidades ",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 5640780.63
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "RO2.4.2.2.99.0.0",
+      "conta": "2.4.2.2.99.0.0 - Outras Transferências de Convênios dos Estados e DF e de Suas Entidades",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 5640780.63
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "TotalReceitas",
+      "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+      "coluna": "Receitas Brutas Realizadas",
+      "valor": 233576259.93
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "TotalReceitas",
+      "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+      "coluna": "Deduções - FUNDEB",
+      "valor": 20597517.54
+    },
+    {
+      "anexo": "DCA-Anexo I-C",
+      "codigo": "TotalReceitas",
+      "conta": "TOTAL DAS RECEITAS (III) = (I + II)",
+      "coluna": "Outras Deduções da Receita",
+      "valor": 341818.16
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "TotalDespesas",
+      "conta": "Total Geral da Despesa",
+      "coluna": "Despesas Empenhadas",
+      "valor": 214826599.53
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "TotalDespesas",
+      "conta": "Total Geral da Despesa",
+      "coluna": "Despesas Liquidadas",
+      "valor": 208444807.65
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "TotalDespesas",
+      "conta": "Total Geral da Despesa",
+      "coluna": "Despesas Pagas",
+      "valor": 206765947.4
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.0.00.00.00.00",
+      "conta": "3.0.00.00.00 - Despesas Correntes",
+      "coluna": "Despesas Empenhadas",
+      "valor": 198329121.27
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.0.00.00.00.00",
+      "conta": "3.0.00.00.00 - Despesas Correntes",
+      "coluna": "Despesas Liquidadas",
+      "valor": 195848737.98
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.0.00.00.00.00",
+      "conta": "3.0.00.00.00 - Despesas Correntes",
+      "coluna": "Despesas Pagas",
+      "valor": 194169877.73
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.00.00.00.00",
+      "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+      "coluna": "Despesas Empenhadas",
+      "valor": 99084073.53
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.00.00.00.00",
+      "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+      "coluna": "Despesas Liquidadas",
+      "valor": 99084073.53
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.00.00.00.00",
+      "conta": "3.1.00.00.00 - Pessoal e Encargos Sociais",
+      "coluna": "Despesas Pagas",
+      "valor": 97489978.8
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.00.00.00",
+      "conta": "3.1.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Empenhadas",
+      "valor": 99084073.53
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.00.00.00",
+      "conta": "3.1.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Liquidadas",
+      "valor": 99084073.53
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.00.00.00",
+      "conta": "3.1.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Pagas",
+      "valor": 97489978.8
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.03.00.00",
+      "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+      "coluna": "Despesas Empenhadas",
+      "valor": 296158.38
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.03.00.00",
+      "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+      "coluna": "Despesas Liquidadas",
+      "valor": 296158.38
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.03.00.00",
+      "conta": "3.1.90.03.00 - Pensões do RPPS e do Militar",
+      "coluna": "Despesas Pagas",
+      "valor": 295311.18
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.11.00.00",
+      "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+      "coluna": "Despesas Empenhadas",
+      "valor": 77740257.8
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.11.00.00",
+      "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+      "coluna": "Despesas Liquidadas",
+      "valor": 77740257.8
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.11.00.00",
+      "conta": "3.1.90.11.00 - Vencimentos e Vantagens Fixas - Pessoal Civil",
+      "coluna": "Despesas Pagas",
+      "valor": 77739787.14
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.00.00",
+      "conta": "3.1.90.13.00 - Obrigações Patronais",
+      "coluna": "Despesas Empenhadas",
+      "valor": 18017717.74
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.00.00",
+      "conta": "3.1.90.13.00 - Obrigações Patronais",
+      "coluna": "Despesas Liquidadas",
+      "valor": 18017717.74
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.00.00",
+      "conta": "3.1.90.13.00 - Obrigações Patronais",
+      "coluna": "Despesas Pagas",
+      "valor": 16424940.87
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.01.00",
+      "conta": "3.1.90.13.01 - FGTS",
+      "coluna": "Despesas Empenhadas",
+      "valor": 6120378.6
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.01.00",
+      "conta": "3.1.90.13.01 - FGTS",
+      "coluna": "Despesas Liquidadas",
+      "valor": 6120378.6
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.01.00",
+      "conta": "3.1.90.13.01 - FGTS",
+      "coluna": "Despesas Pagas",
+      "valor": 5449021.19
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.02.00",
+      "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+      "coluna": "Despesas Empenhadas",
+      "valor": 11897339.14
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.02.00",
+      "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+      "coluna": "Despesas Liquidadas",
+      "valor": 11897339.14
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.13.02.00",
+      "conta": "3.1.90.13.02 - Contribuições Previdenciárias - INSS",
+      "coluna": "Despesas Pagas",
+      "valor": 10975919.68
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.16.00.00",
+      "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+      "coluna": "Despesas Empenhadas",
+      "valor": 2563465.77
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.16.00.00",
+      "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+      "coluna": "Despesas Liquidadas",
+      "valor": 2563465.77
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.16.00.00",
+      "conta": "3.1.90.16.00 - Outras Despesas Variáveis - Pessoal Civil",
+      "coluna": "Despesas Pagas",
+      "valor": 2563465.77
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.91.00.00",
+      "conta": "3.1.90.91.00 - Sentenças Judiciais",
+      "coluna": "Despesas Empenhadas",
+      "valor": 466473.84
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.91.00.00",
+      "conta": "3.1.90.91.00 - Sentenças Judiciais",
+      "coluna": "Despesas Liquidadas",
+      "valor": 466473.84
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.1.90.91.00.00",
+      "conta": "3.1.90.91.00 - Sentenças Judiciais",
+      "coluna": "Despesas Pagas",
+      "valor": 466473.84
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.00.00.00.00",
+      "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+      "coluna": "Despesas Empenhadas",
+      "valor": 99245047.74
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.00.00.00.00",
+      "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+      "coluna": "Despesas Liquidadas",
+      "valor": 96764664.45
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.00.00.00.00",
+      "conta": "3.3.00.00.00 - Outras Despesas Correntes",
+      "coluna": "Despesas Pagas",
+      "valor": 96679898.93
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.50.00.00.00",
+      "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+      "coluna": "Despesas Empenhadas",
+      "valor": 3139554.27
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.50.00.00.00",
+      "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+      "coluna": "Despesas Liquidadas",
+      "valor": 3139554.27
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.50.00.00.00",
+      "conta": "3.3.50.00.00 - Transferências a Instituições Privadas sem Fins Lucrativos",
+      "coluna": "Despesas Pagas",
+      "valor": 3138304.27
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.71.00.00.00",
+      "conta": "3.3.71.00.00 - Transferências a Consórcios Públicos mediante contrato de rateio",
+      "coluna": "Despesas Empenhadas",
+      "valor": 349367.52
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.71.00.00.00",
+      "conta": "3.3.71.00.00 - Transferências a Consórcios Públicos mediante contrato de rateio",
+      "coluna": "Despesas Liquidadas",
+      "valor": 349367.52
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.71.00.00.00",
+      "conta": "3.3.71.00.00 - Transferências a Consórcios Públicos mediante contrato de rateio",
+      "coluna": "Despesas Pagas",
+      "valor": 349367.52
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.00.00.00",
+      "conta": "3.3.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Empenhadas",
+      "valor": 95756125.95
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.00.00.00",
+      "conta": "3.3.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Liquidadas",
+      "valor": 93275742.66
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.00.00.00",
+      "conta": "3.3.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Pagas",
+      "valor": 93192227.14
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.30.00.00",
+      "conta": "3.3.90.30.00 - Material de Consumo",
+      "coluna": "Despesas Empenhadas",
+      "valor": 23189563.54
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.30.00.00",
+      "conta": "3.3.90.30.00 - Material de Consumo",
+      "coluna": "Despesas Liquidadas",
+      "valor": 22629230.09
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.30.00.00",
+      "conta": "3.3.90.30.00 - Material de Consumo",
+      "coluna": "Despesas Pagas",
+      "valor": 22628216.24
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.32.00.00",
+      "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+      "coluna": "Despesas Empenhadas",
+      "valor": 2241204.45
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.32.00.00",
+      "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+      "coluna": "Despesas Liquidadas",
+      "valor": 2187258.04
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.32.00.00",
+      "conta": "3.3.90.32.00 - Material, Bem ou Serviço para Distribuição Gratuita",
+      "coluna": "Despesas Pagas",
+      "valor": 2187258.04
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.36.00.00",
+      "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1554166.22
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.36.00.00",
+      "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1549566.5
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.36.00.00",
+      "conta": "3.3.90.36.00 - Outros Serviços de Terceiros - Pessoa Física",
+      "coluna": "Despesas Pagas",
+      "valor": 1549566.5
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.39.00.00",
+      "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+      "coluna": "Despesas Empenhadas",
+      "valor": 63533802.85
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.39.00.00",
+      "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+      "coluna": "Despesas Liquidadas",
+      "valor": 61767548.94
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.39.00.00",
+      "conta": "3.3.90.39.00 - Outros Serviços de Terceiros - Pessoa Jurídica",
+      "coluna": "Despesas Pagas",
+      "valor": 61685047.27
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.40.00.00",
+      "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1628005.68
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.40.00.00",
+      "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1545055.88
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.40.00.00",
+      "conta": "3.3.90.40.00 - Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica",
+      "coluna": "Despesas Pagas",
+      "valor": 1545055.88
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.47.00.00",
+      "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1961337.57
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.47.00.00",
+      "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1961337.57
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.47.00.00",
+      "conta": "3.3.90.47.00 - Obrigações Tributárias e Contributivas",
+      "coluna": "Despesas Pagas",
+      "valor": 1961337.57
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.92.00.00",
+      "conta": "3.3.90.92.00 - Despesas de Exercícios Anteriores",
+      "coluna": "Despesas Empenhadas",
+      "valor": 27613.49
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.92.00.00",
+      "conta": "3.3.90.92.00 - Despesas de Exercícios Anteriores",
+      "coluna": "Despesas Liquidadas",
+      "valor": 27613.49
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.92.00.00",
+      "conta": "3.3.90.92.00 - Despesas de Exercícios Anteriores",
+      "coluna": "Despesas Pagas",
+      "valor": 27613.49
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.93.00.00",
+      "conta": "3.3.90.93.00 - Indenizações e Restituições",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1620432.15
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.93.00.00",
+      "conta": "3.3.90.93.00 - Indenizações e Restituições",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1608132.15
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO3.3.90.93.00.00",
+      "conta": "3.3.90.93.00 - Indenizações e Restituições",
+      "coluna": "Despesas Pagas",
+      "valor": 1608132.15
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.0.00.00.00.00",
+      "conta": "4.0.00.00.00 - Despesas de Capital",
+      "coluna": "Despesas Empenhadas",
+      "valor": 16497478.26
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.0.00.00.00.00",
+      "conta": "4.0.00.00.00 - Despesas de Capital",
+      "coluna": "Despesas Liquidadas",
+      "valor": 12596069.67
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.0.00.00.00.00",
+      "conta": "4.0.00.00.00 - Despesas de Capital",
+      "coluna": "Despesas Pagas",
+      "valor": 12596069.67
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.00.00.00.00",
+      "conta": "4.4.00.00.00 - Investimentos",
+      "coluna": "Despesas Empenhadas",
+      "valor": 12252108.95
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.00.00.00.00",
+      "conta": "4.4.00.00.00 - Investimentos",
+      "coluna": "Despesas Liquidadas",
+      "valor": 8350700.36
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.00.00.00.00",
+      "conta": "4.4.00.00.00 - Investimentos",
+      "coluna": "Despesas Pagas",
+      "valor": 8350700.36
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.00.00.00",
+      "conta": "4.4.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Empenhadas",
+      "valor": 12252108.95
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.00.00.00",
+      "conta": "4.4.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Liquidadas",
+      "valor": 8350700.36
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.00.00.00",
+      "conta": "4.4.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Pagas",
+      "valor": 8350700.36
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.51.00.00",
+      "conta": "4.4.90.51.00 - Obras e Instalações",
+      "coluna": "Despesas Empenhadas",
+      "valor": 11056676.53
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.51.00.00",
+      "conta": "4.4.90.51.00 - Obras e Instalações",
+      "coluna": "Despesas Liquidadas",
+      "valor": 7198348.73
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.51.00.00",
+      "conta": "4.4.90.51.00 - Obras e Instalações",
+      "coluna": "Despesas Pagas",
+      "valor": 7198348.73
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.51.99.00",
+      "conta": "4.4.90.51.99 - Outras Obras e Instalações",
+      "coluna": "Despesas Empenhadas",
+      "valor": 11056676.53
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.51.99.00",
+      "conta": "4.4.90.51.99 - Outras Obras e Instalações",
+      "coluna": "Despesas Liquidadas",
+      "valor": 7198348.73
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.51.99.00",
+      "conta": "4.4.90.51.99 - Outras Obras e Instalações",
+      "coluna": "Despesas Pagas",
+      "valor": 7198348.73
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.52.00.00",
+      "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1195432.42
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.52.00.00",
+      "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1152351.63
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.4.90.52.00.00",
+      "conta": "4.4.90.52.00 - Equipamentos e Material Permanente",
+      "coluna": "Despesas Pagas",
+      "valor": 1152351.63
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.00.00.00.00",
+      "conta": "4.6.00.00.00 - Amortização da Dívida",
+      "coluna": "Despesas Empenhadas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.00.00.00.00",
+      "conta": "4.6.00.00.00 - Amortização da Dívida",
+      "coluna": "Despesas Liquidadas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.00.00.00.00",
+      "conta": "4.6.00.00.00 - Amortização da Dívida",
+      "coluna": "Despesas Pagas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.90.00.00.00",
+      "conta": "4.6.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Empenhadas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.90.00.00.00",
+      "conta": "4.6.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Liquidadas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.90.00.00.00",
+      "conta": "4.6.90.00.00 - Aplicações Diretas",
+      "coluna": "Despesas Pagas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.90.71.00.00",
+      "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+      "coluna": "Despesas Empenhadas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.90.71.00.00",
+      "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+      "coluna": "Despesas Liquidadas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-D",
+      "codigo": "DO4.6.90.71.00.00",
+      "conta": "4.6.90.71.00 - Principal da Dívida Contratual Resgatado",
+      "coluna": "Despesas Pagas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "Despesas Exceto Intraorçamentárias",
+      "coluna": "Despesas Empenhadas",
+      "valor": 214826599.53
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "01 - Legislativa",
+      "coluna": "Despesas Empenhadas",
+      "valor": 4245479.27
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "01.031 - Ação Legislativa",
+      "coluna": "Despesas Empenhadas",
+      "valor": 4245479.27
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04 - Administração",
+      "coluna": "Despesas Empenhadas",
+      "valor": 17067630.54
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04.122 - Administração Geral",
+      "coluna": "Despesas Empenhadas",
+      "valor": 13406752.22
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04.123 - Administração Financeira",
+      "coluna": "Despesas Empenhadas",
+      "valor": 3660878.32
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06 - Segurança Pública",
+      "coluna": "Despesas Empenhadas",
+      "valor": 3462783.13
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06.181 - Policiamento",
+      "coluna": "Despesas Empenhadas",
+      "valor": 3396660.31
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06.182 - Defesa Civil",
+      "coluna": "Despesas Empenhadas",
+      "valor": 66122.82
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08 - Assistência Social",
+      "coluna": "Despesas Empenhadas",
+      "valor": 8681620.52
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.241 - Assistência à Pessoa Idosa",
+      "coluna": "Despesas Empenhadas",
+      "valor": 538523.32
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.242 - Assistência à Pessoa com Deficiência",
+      "coluna": "Despesas Empenhadas",
+      "valor": 262530.26
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.243 - Assistência à Criança e ao Adolescente",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1955322.76
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.244 - Assistência Comunitária",
+      "coluna": "Despesas Empenhadas",
+      "valor": 5925244.18
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10 - Saúde",
+      "coluna": "Despesas Empenhadas",
+      "valor": 57026479.68
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.301 - Atenção Básica",
+      "coluna": "Despesas Empenhadas",
+      "valor": 12922662.04
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+      "coluna": "Despesas Empenhadas",
+      "valor": 42204508.21
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.303 - Suporte Profilático e Terapêutico",
+      "coluna": "Despesas Empenhadas",
+      "valor": 370037.36
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.304 - Vigilância Sanitária",
+      "coluna": "Despesas Empenhadas",
+      "valor": 185716.67
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.305 - Vigilância Epidemiológica",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1343555.4
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "11 - Trabalho",
+      "coluna": "Despesas Empenhadas",
+      "valor": 2453057.58
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "11.332 - Relações de Trabalho",
+      "coluna": "Despesas Empenhadas",
+      "valor": 2453057.58
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12 - Educação",
+      "coluna": "Despesas Empenhadas",
+      "valor": 86192275.62
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.361 - Ensino Fundamental",
+      "coluna": "Despesas Empenhadas",
+      "valor": 50257381.91
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.365 - Educação Infantil",
+      "coluna": "Despesas Empenhadas",
+      "valor": 27206457.98
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.366 - Educação de Jovens e Adultos",
+      "coluna": "Despesas Empenhadas",
+      "valor": 421881.61
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.367 - Educação Especial",
+      "coluna": "Despesas Empenhadas",
+      "valor": 919608.56
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "FU12 - Demais Subfunções",
+      "coluna": "Despesas Empenhadas",
+      "valor": 7386945.56
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "13 - Cultura",
+      "coluna": "Despesas Empenhadas",
+      "valor": 2952748.78
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "13.392 - Difusão Cultural",
+      "coluna": "Despesas Empenhadas",
+      "valor": 2952748.78
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "14 - Direitos da Cidadania",
+      "coluna": "Despesas Empenhadas",
+      "valor": 128471.46
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "FU14 - Demais Subfunções",
+      "coluna": "Despesas Empenhadas",
+      "valor": 128471.46
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "15 - Urbanismo",
+      "coluna": "Despesas Empenhadas",
+      "valor": 10595843.45
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "15.451 - Infraestrutura Urbana",
+      "coluna": "Despesas Empenhadas",
+      "valor": 10595843.45
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "18 - Gestão Ambiental",
+      "coluna": "Despesas Empenhadas",
+      "valor": 9558909.08
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "18.541 - Preservação e Conservação Ambiental",
+      "coluna": "Despesas Empenhadas",
+      "valor": 9558909.08
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "20 - Agricultura",
+      "coluna": "Despesas Empenhadas",
+      "valor": 7302.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "20.608 - Promoção da Produção Agropecuária",
+      "coluna": "Despesas Empenhadas",
+      "valor": 7302.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "22 - Indústria",
+      "coluna": "Despesas Empenhadas",
+      "valor": 558760.89
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "22.661 - Promoção Industrial",
+      "coluna": "Despesas Empenhadas",
+      "valor": 558760.89
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "26 - Transporte",
+      "coluna": "Despesas Empenhadas",
+      "valor": 3689643.84
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "26.782 - Transporte Rodoviário",
+      "coluna": "Despesas Empenhadas",
+      "valor": 3689643.84
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "27 - Desporto e Lazer",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1998886.24
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "27.812 - Desporto Comunitário",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1998886.24
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28 - Encargos Especiais",
+      "coluna": "Despesas Empenhadas",
+      "valor": 6206706.88
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28.841 - Refinanciamento da Dívida Interna",
+      "coluna": "Despesas Empenhadas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28.846 - Outros Encargos Especiais",
+      "coluna": "Despesas Empenhadas",
+      "valor": 1961337.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "Despesas Exceto Intraorçamentárias",
+      "coluna": "Despesas Liquidadas",
+      "valor": 208444807.65
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "01 - Legislativa",
+      "coluna": "Despesas Liquidadas",
+      "valor": 4212048.15
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "01.031 - Ação Legislativa",
+      "coluna": "Despesas Liquidadas",
+      "valor": 4212048.15
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04 - Administração",
+      "coluna": "Despesas Liquidadas",
+      "valor": 16647058.35
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04.122 - Administração Geral",
+      "coluna": "Despesas Liquidadas",
+      "valor": 13048931.23
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04.123 - Administração Financeira",
+      "coluna": "Despesas Liquidadas",
+      "valor": 3598127.12
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06 - Segurança Pública",
+      "coluna": "Despesas Liquidadas",
+      "valor": 3439084.64
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06.181 - Policiamento",
+      "coluna": "Despesas Liquidadas",
+      "valor": 3372961.82
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06.182 - Defesa Civil",
+      "coluna": "Despesas Liquidadas",
+      "valor": 66122.82
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08 - Assistência Social",
+      "coluna": "Despesas Liquidadas",
+      "valor": 8569747.47
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.241 - Assistência à Pessoa Idosa",
+      "coluna": "Despesas Liquidadas",
+      "valor": 538523.32
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.242 - Assistência à Pessoa com Deficiência",
+      "coluna": "Despesas Liquidadas",
+      "valor": 262530.26
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.243 - Assistência à Criança e ao Adolescente",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1946121.48
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.244 - Assistência Comunitária",
+      "coluna": "Despesas Liquidadas",
+      "valor": 5822572.41
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10 - Saúde",
+      "coluna": "Despesas Liquidadas",
+      "valor": 55330613.69
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.301 - Atenção Básica",
+      "coluna": "Despesas Liquidadas",
+      "valor": 11685452.4
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+      "coluna": "Despesas Liquidadas",
+      "valor": 41776074.26
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.303 - Suporte Profilático e Terapêutico",
+      "coluna": "Despesas Liquidadas",
+      "valor": 364014.96
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.304 - Vigilância Sanitária",
+      "coluna": "Despesas Liquidadas",
+      "valor": 183216.67
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.305 - Vigilância Epidemiológica",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1321855.4
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "11 - Trabalho",
+      "coluna": "Despesas Liquidadas",
+      "valor": 2448374.84
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "11.332 - Relações de Trabalho",
+      "coluna": "Despesas Liquidadas",
+      "valor": 2448374.84
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12 - Educação",
+      "coluna": "Despesas Liquidadas",
+      "valor": 84875653.52
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.361 - Ensino Fundamental",
+      "coluna": "Despesas Liquidadas",
+      "valor": 49445052.09
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.365 - Educação Infantil",
+      "coluna": "Despesas Liquidadas",
+      "valor": 26763036.07
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.366 - Educação de Jovens e Adultos",
+      "coluna": "Despesas Liquidadas",
+      "valor": 368211.34
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.367 - Educação Especial",
+      "coluna": "Despesas Liquidadas",
+      "valor": 917526.06
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "FU12 - Demais Subfunções",
+      "coluna": "Despesas Liquidadas",
+      "valor": 7381827.96
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "13 - Cultura",
+      "coluna": "Despesas Liquidadas",
+      "valor": 2868632.86
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "13.392 - Difusão Cultural",
+      "coluna": "Despesas Liquidadas",
+      "valor": 2868632.86
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "14 - Direitos da Cidadania",
+      "coluna": "Despesas Liquidadas",
+      "valor": 128471.46
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "FU14 - Demais Subfunções",
+      "coluna": "Despesas Liquidadas",
+      "valor": 128471.46
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "15 - Urbanismo",
+      "coluna": "Despesas Liquidadas",
+      "valor": 8102119.19
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "15.451 - Infraestrutura Urbana",
+      "coluna": "Despesas Liquidadas",
+      "valor": 8102119.19
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "18 - Gestão Ambiental",
+      "coluna": "Despesas Liquidadas",
+      "valor": 9371049.29
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "18.541 - Preservação e Conservação Ambiental",
+      "coluna": "Despesas Liquidadas",
+      "valor": 9371049.29
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "20 - Agricultura",
+      "coluna": "Despesas Liquidadas",
+      "valor": 7302.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "20.608 - Promoção da Produção Agropecuária",
+      "coluna": "Despesas Liquidadas",
+      "valor": 7302.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "22 - Indústria",
+      "coluna": "Despesas Liquidadas",
+      "valor": 558605.04
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "22.661 - Promoção Industrial",
+      "coluna": "Despesas Liquidadas",
+      "valor": 558605.04
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "26 - Transporte",
+      "coluna": "Despesas Liquidadas",
+      "valor": 3689643.84
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "26.782 - Transporte Rodoviário",
+      "coluna": "Despesas Liquidadas",
+      "valor": 3689643.84
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "27 - Desporto e Lazer",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1989695.86
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "27.812 - Desporto Comunitário",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1989695.86
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28 - Encargos Especiais",
+      "coluna": "Despesas Liquidadas",
+      "valor": 6206706.88
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28.841 - Refinanciamento da Dívida Interna",
+      "coluna": "Despesas Liquidadas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28.846 - Outros Encargos Especiais",
+      "coluna": "Despesas Liquidadas",
+      "valor": 1961337.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "Despesas Exceto Intraorçamentárias",
+      "coluna": "Despesas Pagas",
+      "valor": 206765947.4
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "01 - Legislativa",
+      "coluna": "Despesas Pagas",
+      "valor": 4154427.45
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "01.031 - Ação Legislativa",
+      "coluna": "Despesas Pagas",
+      "valor": 4154427.45
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04 - Administração",
+      "coluna": "Despesas Pagas",
+      "valor": 16479669.05
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04.122 - Administração Geral",
+      "coluna": "Despesas Pagas",
+      "valor": 12907438.38
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "04.123 - Administração Financeira",
+      "coluna": "Despesas Pagas",
+      "valor": 3572230.67
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06 - Segurança Pública",
+      "coluna": "Despesas Pagas",
+      "valor": 3396932.16
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06.181 - Policiamento",
+      "coluna": "Despesas Pagas",
+      "valor": 3331903.73
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "06.182 - Defesa Civil",
+      "coluna": "Despesas Pagas",
+      "valor": 65028.43
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08 - Assistência Social",
+      "coluna": "Despesas Pagas",
+      "valor": 8523874.09
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.241 - Assistência à Pessoa Idosa",
+      "coluna": "Despesas Pagas",
+      "valor": 537273.32
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.242 - Assistência à Pessoa com Deficiência",
+      "coluna": "Despesas Pagas",
+      "valor": 262530.26
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.243 - Assistência à Criança e ao Adolescente",
+      "coluna": "Despesas Pagas",
+      "valor": 1942887.78
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "08.244 - Assistência Comunitária",
+      "coluna": "Despesas Pagas",
+      "valor": 5781182.73
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10 - Saúde",
+      "coluna": "Despesas Pagas",
+      "valor": 54997622.27
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.301 - Atenção Básica",
+      "coluna": "Despesas Pagas",
+      "valor": 11620774.56
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.302 - Assistência Hospitalar e Ambulatorial",
+      "coluna": "Despesas Pagas",
+      "valor": 41526261.03
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.303 - Suporte Profilático e Terapêutico",
+      "coluna": "Despesas Pagas",
+      "valor": 364014.96
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.304 - Vigilância Sanitária",
+      "coluna": "Despesas Pagas",
+      "valor": 180853.45
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "10.305 - Vigilância Epidemiológica",
+      "coluna": "Despesas Pagas",
+      "valor": 1305718.27
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "11 - Trabalho",
+      "coluna": "Despesas Pagas",
+      "valor": 2440736.17
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "11.332 - Relações de Trabalho",
+      "coluna": "Despesas Pagas",
+      "valor": 2440736.17
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12 - Educação",
+      "coluna": "Despesas Pagas",
+      "valor": 84001858.65
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.361 - Ensino Fundamental",
+      "coluna": "Despesas Pagas",
+      "valor": 48586291.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.365 - Educação Infantil",
+      "coluna": "Despesas Pagas",
+      "valor": 26762631.81
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.366 - Educação de Jovens e Adultos",
+      "coluna": "Despesas Pagas",
+      "valor": 368211.34
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "12.367 - Educação Especial",
+      "coluna": "Despesas Pagas",
+      "valor": 917526.06
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "FU12 - Demais Subfunções",
+      "coluna": "Despesas Pagas",
+      "valor": 7367197.87
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "13 - Cultura",
+      "coluna": "Despesas Pagas",
+      "valor": 2851977.63
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "13.392 - Difusão Cultural",
+      "coluna": "Despesas Pagas",
+      "valor": 2851977.63
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "14 - Direitos da Cidadania",
+      "coluna": "Despesas Pagas",
+      "valor": 128471.46
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "FU14 - Demais Subfunções",
+      "coluna": "Despesas Pagas",
+      "valor": 128471.46
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "15 - Urbanismo",
+      "coluna": "Despesas Pagas",
+      "valor": 8069491.16
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "15.451 - Infraestrutura Urbana",
+      "coluna": "Despesas Pagas",
+      "valor": 8069491.16
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "18 - Gestão Ambiental",
+      "coluna": "Despesas Pagas",
+      "valor": 9303346.23
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "18.541 - Preservação e Conservação Ambiental",
+      "coluna": "Despesas Pagas",
+      "valor": 9303346.23
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "20 - Agricultura",
+      "coluna": "Despesas Pagas",
+      "valor": 7302.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "20.608 - Promoção da Produção Agropecuária",
+      "coluna": "Despesas Pagas",
+      "valor": 7302.57
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "22 - Indústria",
+      "coluna": "Despesas Pagas",
+      "valor": 553004.42
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "22.661 - Promoção Industrial",
+      "coluna": "Despesas Pagas",
+      "valor": 553004.42
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "26 - Transporte",
+      "coluna": "Despesas Pagas",
+      "valor": 3689643.84
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "26.782 - Transporte Rodoviário",
+      "coluna": "Despesas Pagas",
+      "valor": 3689643.84
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "27 - Desporto e Lazer",
+      "coluna": "Despesas Pagas",
+      "valor": 1960883.37
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "27.812 - Desporto Comunitário",
+      "coluna": "Despesas Pagas",
+      "valor": 1960883.37
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28 - Encargos Especiais",
+      "coluna": "Despesas Pagas",
+      "valor": 6206706.88
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28.841 - Refinanciamento da Dívida Interna",
+      "coluna": "Despesas Pagas",
+      "valor": 4245369.31
+    },
+    {
+      "anexo": "DCA-Anexo I-E",
+      "codigo": "TotalDespesas",
+      "conta": "28.846 - Outros Encargos Especiais",
+      "coluna": "Despesas Pagas",
+      "valor": 1961337.57
+    }
+  ],
+  "coletadoEm": "2026-10-17"
+}
