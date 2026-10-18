@@ -35,7 +35,7 @@ def get(params):
 def collect(year,mode,until):
     end=f"{year}1231" if year<until.year else until.strftime("%Y%m%d")
     common={"dataInicial":f"{year}0101","dataFinal":end,"codigoModalidadeContratacao":mode,
-            "codigoMunicipioIbge":IBGE,"tamanhoPagina":100}
+            "codigoMunicipioIbge":IBGE,"tamanhoPagina":50}
     first=get({**common,"pagina":1})
     total=first.get("totalRegistros",0)
     pages=first.get("totalPaginas",0)
