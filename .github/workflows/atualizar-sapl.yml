@@ -1,0 +1,38 @@
+name: Atualizar matérias do SAPL
+on:
+  schedule:
+    - cron: '17 8 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/importar_sapl.py'
+      - '.github/workflows/atualizar-sapl.yml'
+permissions:
+  contents: write
+concurrency:
+  group: atualizar-sapl
+  cancel-in-progress: false
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Coletar e validar dados públicos de Guariba
+        run: |
+          python3 scripts/importar_sapl.py
+          python3 scripts/validar_dados.py
+      - name: Registrar mudanças verificadas
+        run: |
+          git add data/materias.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança encontrada."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: sincronizar matérias oficiais do SAPL Guariba"
+          git push origin HEAD:main

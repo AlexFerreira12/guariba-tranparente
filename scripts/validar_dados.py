@@ -35,7 +35,10 @@ def run():
         numbers.add(m['id'])
         assert m['tipo'] and m['numero'] and m['titulo'] and m['resumo']
         assert m['status'] in {'virou-lei','aprovado-camara','solicitado','nao-verificado'}
-        assert m['autores'] and all(a in ids for a in m['autores'])
+        assert isinstance(m['autores'], list) and all(a in ids for a in m['autores'])
+        if m.get('origem') == 'sapl-api':
+            assert m.get('saplId', 0) > 0 and isinstance(m.get('autoresOficiais'), list)
+            assert m.get('id') == f"sapl-{m['saplId']}"
         assert valid_source(m['fonte']), f'Fonte inesperada: {m["id"]}'
         assert date.fromisoformat(m['data']) <= date.today(), f'Data futura: {m["id"]}'
         assert m['situacao'], f'Situação não explicada: {m["id"]}'
