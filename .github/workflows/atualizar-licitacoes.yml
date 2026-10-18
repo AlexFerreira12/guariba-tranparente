@@ -20,7 +20,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Importar registros oficiais filtrados por município
-        run: python3 scripts/importar_licitacoes.py
+        run: |
+          python3 scripts/importar_licitacoes.py
+          python3 scripts/validar_licitacoes.py
       - name: Publicar apenas coleta completa
         run: |
           git add data/licitacoes.json

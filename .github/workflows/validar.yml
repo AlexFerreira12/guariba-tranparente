@@ -18,3 +18,4 @@ jobs:
         run: |
           python3 scripts/validar_dados.py
           python3 scripts/validar_financas.py
+          python3 scripts/validar_licitacoes.py
