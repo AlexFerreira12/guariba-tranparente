@@ -1,74 +1,86 @@
 # Guariba Transparente
 
-Portal cívico **independente**, gratuito e dedicado **exclusivamente à cidade de Guariba/SP** nesta primeira etapa. Organiza dados oficiais sobre os vereadores e prepara os módulos de contas públicas, obras e emendas.
+[**Abrir portal de Guariba**](https://alexferreira12.github.io/guariba-tranparente/)
 
-**Portal de testes:** https://alexferreira12.github.io/guariba-tranparente/
+Portal cívico **independente**, gratuito, dedicado exclusivamente a **Guariba/SP** no lançamento. Reúne atividades legislativas e prestações de contas públicas com acesso aos documentos oficiais. Não é produto oficial da Prefeitura nem da Câmara Municipal.
 
-## Estado atual — MVP legislativo v0.2
+## Cobertura efetiva da versão v0.4 — outubro de 2026
 
-- Interface responsiva para celular e computador.
-- Perfis dos **11 eleitos em 2024** com links para as páginas oficiais do SAPL.
-- **571 matérias legislativas** (371 de 2025, 200 de 2026) na primeira coleta de 17/10/2026.
-- Dessas, **409 matérias** estão vinculadas a pelo menos um dos 11 eleitos, conforme os IDs oficiais de autoria da API. Matérias conjuntas podem aparecer em mais de um perfil.
-- Pesquisa por tipo, assunto, ano e situação, com paginação na listagem principal.
-- Atualização automatizada por GitHub Actions, diariamente ou por execução manual.
-- Links para consulta das bases de contas públicas. **Valores financeiros ainda não foram importados.**
+| Módulo | Origem | Cobertura disponível |
+|---|---|---|
+| Vereadores | TSE e SAPL | 11 eleitos em 2024, partidos, votos, cadastro oficial |
+| Atividade legislativa | API SAPL | 571 matérias de 2025–2026 (371 + 200), 409 com autoria de pelo menos um dos 11 eleitos |
+| Normas e votação | API SAPL | 132 matérias com lei vinculada, 31 com outra norma, 263 com registros de votação na primeira coleta |
+| Tramitação | API SAPL | 551 matérias com histórico; mostra última movimentação e até 12 etapas recentes |
+| Prestação de contas | SICONFI / DCA 2025 | 397 linhas de receita/despesa e 102 linhas patrimoniais; 16 funções orçamentárias |
+| Licitações | PNCP | 507 publicações de pregões e dispensas municipais de 2025–2026, após remover registros de outras cidades |
 
-### Limites e compromisso editorial
+**Atualizações:** consulta de matérias e licitações programada diariamente no GitHub Actions; DCA programada mensalmente. A periodicidade de consulta não significa disponibilidade de novos dados oficiais, nem atualização instantânea.
 
-**A importação é factual, não uma auditoria de resultados.** O SAPL fornece registros, ementas, autorias, tipos e datas. A situação **“Solicitado”** aparece nas indicações; **“A verificar”** significa que ainda não conferimos votação, sanção, veto e norma vinculada.
+### O que os números significam
 
-**Não** deduzimos que uma matéria virou lei apenas porque foi arquivada ou porque `em_tramitacao` é falso. Da mesma forma, não presumimos execução de obras, pagamentos ou emendas sem documento de comprovação.
+- **Matéria apresentada** ≠ matéria aprovada.
+- **Indicação solicitada** ≠ obra/serviço executado.
+- **Votação registrada** ≠ lei sancionada.
+- **Norma jurídica vinculada** identifica documento oficial publicado. Não comprova implementação da política pública.
+- **Valor estimado/homologado no PNCP** ≠ despesa efetivamente paga.
+- **Receitas brutas, deduções, despesas empenhadas, liquidadas e pagas** são categorias contábeis diferentes; não somar saldos patrimoniais ou subtotais.
+- **Participação de vereador na articulação de emenda** só será vinculada com documento que a comprove; não basta a destinação de deputado.
+- Os **11 eleitos em 2024 não comprovam a composição atual em exercício** diante de licenças, suplências ou mudanças de partido.
 
-Os registros com autoria da Prefeitura, comissões ou outros agentes também integram a base pública; **não** são atribuídos indevidamente aos 11 perfis. A lista dos eleitos em 2024 não substitui a composição atual em exercício, que pode variar por licenças ou suplência.
+## O que ainda falta para considerar completo
 
-Este site **não é um portal oficial**, nem contém rankings ou pontuações de vereadores.
+O portal é **versão de desenvolvimento**, não 100% concluída. Os principais trabalhos pendentes são:
 
-## Como executar localmente
+1. **Fiscalização legislativa aprofundada:** decisões finais de projetos sem norma vinculada, vetos, votações nominais quando disponíveis, presenças e sessões.
+2. **Execução orçamentária atual:** receitas e pagamentos mensais de 2026, com competência e método, separados do balanço anual DCA de 2025.
+3. **Contratos e fornecedores:** valor efetivamente contratado, vigência, aditivos, pagamentos e execução documental, após confirmar fonte filtrável por Guariba.
+4. **Obras e emendas:** obra, objeto, origem, repasses, medição e execução demonstrada; vereador articulador somente com prova.
+5. **Qualidade e acessibilidade:** revisão editorial contínua, tratamento de divergências, ajustes móveis e monitoramento de erros/falhas de coleta.
+6. **Cobertura do PNCP:** atualmente apenas modalidades 6 e 8 (pregões eletrônicos e dispensas) e publicações a partir de 2025. Não inferir que é a totalidade das licitações de Guariba.
 
-Requer Python 3 e navegador moderno. O frontend é HTML, CSS e JavaScript sem dependências de produção.
+## Tecnologia
+
+Front-end simples em HTML, CSS e JavaScript, responsivo, publicado no GitHub Pages. Dados oficiais baixados pelos scripts Python, validados e versionados no repositório. Nenhuma chave privada de API precisa ser publicada no navegador.
+
+O repositório contém:
+
+- `index.html`, `assets/styles.css`, `assets/app.js`: interface pública.
+- `data/vereadores.json`: eleitos de 2024 e perfis oficiais.
+- `data/materias.json`: matérias, normas, votações e tramitações do SAPL.
+- `data/contas-2025.json`: balanço patrimonial anual do Tesouro.
+- `data/orcamento-2025.json`: receitas e despesas anuais, natureza e funções.
+- `data/licitacoes.json`: pregões eletrônicos e dispensas PNCP filtrados por município.
+- `scripts/`: importadores, diagnósticos e verificadores.
+- `.github/workflows/`: sincronização programada, CI e testes de navegador com Chrome headless.
+
+### Testar localmente
 
 ```bash
 python3 -m http.server 8080
 ```
 
-Abra `http://localhost:8080`. Não abra diretamente via `file://`, pois o navegador precisa buscar os arquivos JSON.
+Abra `http://localhost:8080`.
 
-## Organização
-
-- `index.html` e `assets/`: interface.
-- `data/vereadores.json`: perfis de eleitos de 2024 e IDs oficiais.
-- `data/materias.json`: registros obtidos automaticamente do SAPL.
-- `scripts/importar_sapl.py`: importação paginada e associação conservadora de autoria.
-- `scripts/validar_dados.py`: integridade dos dados e checagem de fontes.
-- `scripts/probe_sapl.py`: diagnóstico técnico de endpoints.
-- `.github/workflows/atualizar-sapl.yml`: sincronização diária e publicação no repositório, com validação antes do commit.
-- `.github/workflows/validar.yml`: testes automáticos em cada atualização do código.
-
-Para executar a importação:
+### Validar
 
 ```bash
-python3 scripts/importar_sapl.py
 python3 scripts/validar_dados.py
+python3 scripts/validar_financas.py
+python3 scripts/validar_licitacoes.py
 node --check assets/app.js
 ```
 
-A rotina de importação **interrompe o processo** se houver erro de conexão, inconsistência da paginação, duplicação de IDs, mudança no cadastro dos autores ou formato inesperado. A última versão previamente validada permanece disponível no site se houver falha na coleta. O GitHub registra o histórico das alterações.
+Os testes de navegação e de integração são executados em GitHub Actions. Os robôs recusam publicar resultados quando a consulta está incompleta ou os vínculos de município/autoria não podem ser confirmados, preservando a última cópia aprovada.
 
-**Não edite manualmente `data/materias.json` para atribuir situação legislativa**, porque a próxima sincronização automática substitui o arquivo. A próxima fase implementará uma base separada de decisões confirmadas, sem misturar registros automáticos e revisão documental.
+## Fontes oficiais
 
-## Fontes
+- [SAPL — Câmara Municipal de Guariba](https://sapl.guariba.sp.leg.br/)
+- [Prefeitura — Transparência](https://guariba.sp.gov.br/portal-da-transparencia)
+- [Tesouro Nacional / SICONFI](https://apidatalake.tesouro.gov.br/docs/siconfi/)
+- [Portal Nacional de Contratações Públicas](https://pncp.gov.br/app/editais)
+- [TSE — dados abertos eleitorais](https://dadosabertos.tse.jus.br/)
 
-- [SAPL — Câmara de Guariba](https://sapl.guariba.sp.leg.br/)
-- [Portal da Transparência — Prefeitura](https://www.guariba.sp.gov.br/portal-da-transparencia)
-- [Portal do Tribunal de Contas do Estado de SP](https://www.transparencia.tce.sp.gov.br/conjunto-de-dados)
-- [TSE — dados eleitorais](https://dadosabertos.tse.jus.br/)
+## Princípios editoriais
 
-## Próximos passos
-
-1. Ligar tramitações, votações e normas jurídicas aos registros e verificar seus resultados.
-2. Conferir situação de indicações, requerimentos, autores coletivos e substituições de mandato.
-3. Importar receitas, despesas, contratos, obras e emendas sem misturar valores empenhados, liquidados e pagos.
-4. Testar acessibilidade, desempenho e confiabilidade editorial antes de divulgação pública ampla.
-
-**Sem monetização na fase atual.**
+Sem monetização na fase inicial; preservamos os links oficiais e a data de coleta. Não atribuímos irregularidade sem provas, não inventamos números faltantes, não transformamos quantidade de proposições em ranking de vereadores e não atribuímos resultados ou verbas sem documento. Para corrigir erros de associação ou apresentar fonte complementar, use as **Issues** deste repositório.
