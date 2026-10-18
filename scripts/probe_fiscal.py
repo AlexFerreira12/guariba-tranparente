@@ -24,3 +24,17 @@ for base in BASES:
             print("FISCAL",base,endpoint,str(params),"itens",len(records),"keys",list(records[0]) if records else [],"amostra",json.dumps(records[:1],ensure_ascii=False)[:1800])
         except (HTTPError,URLError,TimeoutError,OSError,ValueError) as exc:
             print("FISCAL FALHA",base,endpoint,str(exc)[:200])
+
+print("=== INSPEÇÃO DCA 2025 ===")
+try:
+    url="https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca?"+urlencode({"an_exercicio":2025,"no_anexo":"DCA-Anexo I-AB","id_ente":3518602})
+    with urlopen(Request(url,headers={"User-Agent":"GuaribaTransparente/0.3"}),timeout=25) as response:
+        d=json.load(response)
+    items=d.get("items",[])
+    print("COLUNAS",sorted({str(x.get("coluna")) for x in items}))
+    print("INSTITUICOES",sorted({str(x.get("instituicao")) for x in items}))
+    print("ROTULOS",sorted({str(x.get("rotulo")) for x in items}))
+    for x in items[:24]:
+        print("LINHA-DCA",json.dumps({k:x.get(k) for k in ("cod_conta","conta","coluna","valor","instituicao")},ensure_ascii=False))
+except (HTTPError,URLError,TimeoutError,OSError,ValueError) as exc:
+    print("INSPEÇÃO DCA FALHOU",str(exc))
