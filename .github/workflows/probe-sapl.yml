@@ -1,10 +1,16 @@
-name: Testar API SAPL (manual)
+name: Diagnosticar API SAPL
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/probe-sapl.yml'
+      - 'scripts/probe_sapl.py'
 jobs:
   probe:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
-      - name: Testar endpoints públicos sem modificar os dados
+      - name: Testar endpoints públicos sem modificar dados
         run: python3 scripts/probe_sapl.py
