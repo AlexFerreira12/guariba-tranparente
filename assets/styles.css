@@ -3,3 +3,24 @@
 /* Ícones vetoriais de controles e textos precisam de medidas explícitas em mobile. */
 .btn svg,.text-link svg,.matter-meta svg,.matter-source svg{width:14px;height:14px;flex:none;vertical-align:middle}
 .panel-header{gap:12px;flex-wrap:wrap}
+
+
+/* Série fiscal: valores oficiais de 2025 por função, sem ranking editorial */
+.fiscal-bars{display:grid;gap:12px;padding:18px;background:#fff;border:1px solid #e1e9ed;border-radius:16px}
+.fiscal-row{display:grid;grid-template-columns:minmax(155px,1.65fr) minmax(100px,2fr) minmax(115px,auto);gap:14px;align-items:center;padding:7px 0;border-bottom:1px solid #edf1f3}
+.fiscal-row:last-child{border-bottom:none}
+.fiscal-title{font-size:13px;line-height:1.35;font-weight:600;color:#244052}
+.fiscal-track{height:10px;background:#e6eff1;border-radius:30px;overflow:hidden}
+.fiscal-fill{height:100%;background:#258b77;border-radius:30px}
+.fiscal-value{font-weight:700;font-size:13px;text-align:right;color:#164c44;white-space:nowrap;font-variant-numeric:tabular-nums}
+.history-list{margin:12px 0 6px;padding-left:22px;display:grid;gap:9px;line-height:1.45}
+.history-list li{padding-left:4px;font-size:13px}
+.matter-situation summary{cursor:pointer;font-weight:700}
+.matter-situation details[open],details.matter-situation[open]{background:#f5f8fa}
+@media(max-width:700px){
+  .fiscal-row{grid-template-columns:1fr auto;gap:6px 10px}
+  .fiscal-title{grid-column:1 / -1}
+  .fiscal-track{grid-column:1}
+  .fiscal-value{grid-column:2;font-size:12px}
+  .fiscal-bars{padding:13px}
+}
