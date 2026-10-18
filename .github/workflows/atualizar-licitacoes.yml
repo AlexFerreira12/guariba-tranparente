@@ -1,0 +1,33 @@
+name: Atualizar licitações PNCP Guariba
+on:
+  schedule:
+    - cron: '39 9 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/importar_licitacoes.py'
+      - '.github/workflows/atualizar-licitacoes.yml'
+permissions:
+  contents: write
+concurrency:
+  group: atualizar-licitacoes
+  cancel-in-progress: false
+jobs:
+  coleta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - name: Importar registros oficiais filtrados por município
+        run: python3 scripts/importar_licitacoes.py
+      - name: Publicar apenas coleta completa
+        run: |
+          git add data/licitacoes.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: atualizar pregões e dispensas PNCP Guariba"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
