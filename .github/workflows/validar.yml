@@ -1,0 +1,18 @@
+name: Validar projeto
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar Javascript
+        run: node --check assets/app.js
+      - name: Validar dados e fontes
+        run: python3 scripts/validar_dados.py
