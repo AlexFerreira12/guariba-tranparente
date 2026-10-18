@@ -20,7 +20,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Importar DCA de Guariba/SP
-        run: python3 scripts/importar_financas.py
+        run: |
+          python3 scripts/importar_financas.py
+          python3 scripts/validar_financas.py
       - name: Enviar apenas registros validados
         run: |
           git add data/contas-2025.json

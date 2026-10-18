@@ -15,4 +15,6 @@ jobs:
       - name: Verificar Javascript
         run: node --check assets/app.js
       - name: Validar dados e fontes
-        run: python3 scripts/validar_dados.py
+        run: |
+          python3 scripts/validar_dados.py
+          python3 scripts/validar_financas.py
