@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b2234">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Guariba Transparente: acompanhe vereadores, proposições legislativas e fontes oficiais das contas públicas de Guariba/SP.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Guariba Transparente | Informação pública ao seu alcance</title>
+  
+  <link rel="stylesheet" href="assets/styles.css">
+  
+<script defer src="assets/app.js"></script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navegação principal">
+      <a href="#/" class="brand" aria-label="Guariba Transparente, início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="38" height="38"><path d="M6 16L20 7l14 9v18H6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M13 19v10M20 19v10M27 19v10M5 34h30M6 15h28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-name">GUARIBA<span>TRANSPARENTE</span></span>
+      </a>
+      <div class="sidebar-section-label">EXPLORAR</div>
+      <nav class="nav-list" id="nav">
+        <a href="#/" class="nav-link" data-route="/" data-icon="home"><span class="nav-ico"></span> Visão geral</a>
+        <a href="#/vereadores" class="nav-link" data-route="/vereadores" data-icon="users"><span class="nav-ico"></span> Vereadores</a>
+        <a href="#/atividade" class="nav-link" data-route="/atividade" data-icon="file-text"><span class="nav-ico"></span> Atividade legislativa</a>
+        <a href="#/contas" class="nav-link" data-route="/contas" data-icon="chart"><span class="nav-ico"></span> Contas públicas</a>
+        <a href="#/emendas" class="nav-link" data-route="/emendas" data-icon="coins"><span class="nav-ico"></span> Obras e emendas</a>
+      </nav>
+      <div class="sidebar-section-label side-secondary">SOBRE O PORTAL</div>
+      <nav class="nav-list">
+        <a href="#/metodologia" class="nav-link" data-route="/metodologia" data-icon="shield"><span class="nav-ico"></span> Fontes e método</a>
+      </nav>
+      <div class="sidebar-spacer"></div>
+      <div class="independent-card"><span class="independent-dot"></span><strong>Portal independente</strong><p>Informações públicas, organizadas para facilitar a consulta da população.</p><a href="#/metodologia">Como funcionamos <span aria-hidden="true">↗</span></a></div>
+      <div class="sidebar-footer">Guariba · São Paulo<br>Projeto em desenvolvimento · v0.1</div>
+    </aside>
+    <div class="site-column">
+      <header class="topbar">
+        <div class="topbar-left"><button id="menu-toggle" class="icon-btn mobile-only" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button><span class="bread" id="breadcrumb">Visão geral</span><span class="bread-sub">/ Guariba, SP</span></div>
+        <div class="topbar-right"><span class="live-pill"><span class="live-dot"></span> Dados em preparação</span><a class="header-source" href="https://sapl.guariba.sp.leg.br/" target="_blank" rel="noopener noreferrer">SAPL oficial <span aria-hidden="true">↗</span></a></div>
+      </header>
+      <main id="main" tabindex="-1" aria-live="polite"></main>
+      <footer class="site-footer"><span>Guariba Transparente · Iniciativa independente, sem vínculo institucional com a Prefeitura ou Câmara.</span><span><a href="#/metodologia">Metodologia e fontes</a></span></footer>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

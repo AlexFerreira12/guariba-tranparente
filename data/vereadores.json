@@ -1,0 +1,74 @@
+{
+  "referencia": "Eleitos nas eleições municipais de 2024 para a legislatura 2025–2028. O exercício do mandato pode mudar por licenças ou substituições.",
+  "source": "https://sapl.guariba.sp.leg.br/parlamentar/",
+  "vereadores": [
+    {
+      "id": "cassio-santa-cruz",
+      "nome": "Cassio Santa Cruz",
+      "partido": "PSD",
+      "votos2024": 2592,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/10"
+    },
+    {
+      "id": "fabiano-da-bocha",
+      "nome": "Fabiano da Bocha",
+      "partido": "MDB",
+      "votos2024": 981
+    },
+    {
+      "id": "marcia-alves",
+      "nome": "Márcia Alves",
+      "partido": "MDB",
+      "votos2024": 913
+    },
+    {
+      "id": "andinho",
+      "nome": "Andinho",
+      "partido": "PODEMOS",
+      "votos2024": 852,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/31"
+    },
+    {
+      "id": "marquinhos-osti",
+      "nome": "Marquinhos Osti",
+      "partido": "PSD",
+      "votos2024": 846
+    },
+    {
+      "id": "anselmo-gimenes",
+      "nome": "Anselmo Gimenes",
+      "partido": "PSD",
+      "votos2024": 660
+    },
+    {
+      "id": "roberto-carosio-filho",
+      "nome": "Roberto Carósio Filho",
+      "partido": "PSB",
+      "votos2024": 581
+    },
+    {
+      "id": "paulo-de-sa",
+      "nome": "Paulo de Sá",
+      "partido": "PSD",
+      "votos2024": 563
+    },
+    {
+      "id": "calao-galeto",
+      "nome": "Calão do Carvão Galeto",
+      "partido": "PSB",
+      "votos2024": 550
+    },
+    {
+      "id": "magna-rocha",
+      "nome": "Magna Rocha",
+      "partido": "CIDADANIA",
+      "votos2024": 536
+    },
+    {
+      "id": "paulo-da-sucata",
+      "nome": "Paulo da Sucata",
+      "partido": "UNIÃO",
+      "votos2024": 476
+    }
+  ]
+}

@@ -47,8 +47,8 @@ No GitHub, também há o fluxo manual em **Actions > Testar API SAPL (manual)**.
 
 ## Publicar no GitHub Pages
 
-1. O repositório já foi criado em `AlexFerreira12/guariba-tranparente` (nome mantido conforme a URL informada).
-2. O código-fonte está versionado na branch `main`.
+1. O repositório está em `AlexFerreira12/guariba-tranparente`.
+2. O conteúdo foi enviado à branch `main`.
 3. Em **Settings > Pages**, escolha **Deploy from a branch**, branch `main` e pasta `/ (root)`.
 4. Aguarde a confirmação do próprio GitHub Pages e use a URL exibida na configuração de Pages.
 
