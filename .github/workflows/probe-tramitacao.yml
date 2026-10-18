@@ -1,0 +1,16 @@
+name: Diagnosticar vínculos legislativos
+on:
+  push:
+    branches: [main]
+    paths: ['scripts/probe_tramitacao.py','.github/workflows/probe-tramitacao.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ler endpoints públicos
+        run: python3 scripts/probe_tramitacao.py
