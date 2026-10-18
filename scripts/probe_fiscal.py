@@ -38,3 +38,16 @@ try:
         print("LINHA-DCA",json.dumps({k:x.get(k) for k in ("cod_conta","conta","coluna","valor","instituicao")},ensure_ascii=False))
 except (HTTPError,URLError,TimeoutError,OSError,ValueError) as exc:
     print("INSPEÇÃO DCA FALHOU",str(exc))
+
+print("=== ANEXOS DE RECEITA E DESPESA DCA GUARIBA ===")
+for annex in ("DCA-Anexo I-C","DCA-Anexo I-D","DCA-Anexo I-E"):
+    try:
+        url="https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca?"+urlencode({"an_exercicio":2025,"no_anexo":annex,"id_ente":3518602})
+        with urlopen(Request(url,headers={"User-Agent":"GuaribaTransparente/0.3","Accept":"application/json"}),timeout=30) as res:
+            d=json.load(res)
+        items=d.get("items",[])
+        print("ANEXO",annex,"itens",len(items),"more",d.get("hasMore"),"colunas",sorted({str(x.get("coluna")) for x in items}),"instituicoes",sorted({str(x.get("instituicao")) for x in items}))
+        for x in items[:12]:
+            print("CONTA",annex,json.dumps({k:x.get(k) for k in ("cod_conta","conta","coluna","valor","instituicao")},ensure_ascii=False)[:350])
+    except (HTTPError,URLError,TimeoutError,OSError,ValueError) as exc:
+        print("ANEXO FALHA",annex,str(exc))
