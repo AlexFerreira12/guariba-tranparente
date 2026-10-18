@@ -40,4 +40,8 @@ jobs:
           grep -q 'Execução orçamentária' /tmp/contas.html
           grep -q 'Despesas pagas por função' /tmp/contas.html
           grep -q 'Consultar receitas e despesas por rubrica' /tmp/contas.html
-          echo "TESTE DE NAVEGAÇÃO APROVADO: início, vereadores, legislativo e contas públicas."
+          "$CHROME" --headless --no-sandbox --disable-dev-shm-usage --disable-gpu --virtual-time-budget=7000 --dump-dom 'http://127.0.0.1:8765/#/licitacoes' > /tmp/licitacoes.html 2>/tmp/chrome-licitacoes.log
+          grep -q 'Licitações de Guariba' /tmp/licitacoes.html
+          grep -q 'publicações importadas' /tmp/licitacoes.html
+          grep -q 'Conferir registro no PNCP' /tmp/licitacoes.html
+          echo "TESTE DE NAVEGAÇÃO APROVADO: início, vereadores, legislativo, contas e licitações."
