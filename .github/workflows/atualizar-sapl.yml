@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/importar_sapl.py'
+      - 'scripts/enriquecer_sapl.py'
       - '.github/workflows/atualizar-sapl.yml'
 permissions:
   contents: write
@@ -16,7 +17,7 @@ concurrency:
 jobs:
   importar:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 27
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,6 +25,7 @@ jobs:
       - name: Coletar e validar dados públicos de Guariba
         run: |
           python3 scripts/importar_sapl.py
+          python3 scripts/enriquecer_sapl.py
           python3 scripts/validar_dados.py
       - name: Registrar mudanças verificadas
         run: |
