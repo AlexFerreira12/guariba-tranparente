@@ -37,4 +37,7 @@ jobs:
           grep -q 'Balanço Patrimonial' /tmp/contas.html
           grep -q 'Consultar contas contábeis' /tmp/contas.html
           grep -q 'Ativo patrimonial' /tmp/contas.html
+          grep -q 'Execução orçamentária' /tmp/contas.html
+          grep -q 'Despesas pagas por função' /tmp/contas.html
+          grep -q 'Consultar receitas e despesas por rubrica' /tmp/contas.html
           echo "TESTE DE NAVEGAÇÃO APROVADO: início, vereadores, legislativo e contas públicas."
