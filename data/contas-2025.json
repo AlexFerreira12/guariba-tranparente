@@ -1,0 +1,525 @@
+{
+  "origem": "siconfi-dca",
+  "municipio": "Guariba/SP",
+  "codigoIbge": 3518602,
+  "instituicao": "Prefeitura Municipal de Guariba - SP",
+  "exercicio": 2025,
+  "dataPosicao": "2025-12-31",
+  "anexo": "DCA-Anexo I-AB",
+  "titulo": "Balanço patrimonial da Prefeitura",
+  "nota": "Valores contábeis em reais referentes à posição de 31/12/2025. Contas hierárquicas contêm totais e subtotais: não somar todas as linhas. Não são dados de receita arrecadada nem de despesas pagas.",
+  "fonte": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca?an_exercicio=2025&no_anexo=DCA-Anexo+I-AB&id_ente=3518602",
+  "contas": [
+    {
+      "codigo": "AtivoFinanceiro",
+      "conta": "Ativo Financeiro",
+      "valor": 27088879.51
+    },
+    {
+      "codigo": "AtivoPermanente",
+      "conta": "Ativo Permanente",
+      "valor": 159084896.84
+    },
+    {
+      "codigo": "P1.0.0.0.0.00.00",
+      "conta": "1.0.0.0.0.00.00 - Ativo",
+      "valor": 186173776.35
+    },
+    {
+      "codigo": "P1.1.0.0.0.00.00",
+      "conta": "1.1.0.0.0.00.00 - Ativo Circulante",
+      "valor": 42100496.11
+    },
+    {
+      "codigo": "P1.1.0.0.0.00.00F",
+      "conta": "1.1.0.0.0.00.00 - Ativo Circulante - Financeiro",
+      "valor": 27088879.51
+    },
+    {
+      "codigo": "P1.1.0.0.0.00.00P",
+      "conta": "1.1.0.0.0.00.00 - Ativo Circulante - Permanente",
+      "valor": 15011616.6
+    },
+    {
+      "codigo": "P1.1.1.0.0.00.00",
+      "conta": "1.1.1.0.0.00.00 - Caixa e Equivalentes de Caixa",
+      "valor": 26958951.12
+    },
+    {
+      "codigo": "P1.1.1.1.0.00.00",
+      "conta": "1.1.1.1.0.00.00 - Caixa e Equivalentes de Caixa em Moeda Nacional",
+      "valor": 26958951.12
+    },
+    {
+      "codigo": "P1.1.1.1.1.00.00",
+      "conta": "1.1.1.1.1.00.00 - Caixa e Equivalentes de Caixa em Moeda Nacional - Consolidação",
+      "valor": 26958951.12
+    },
+    {
+      "codigo": "P1.1.2.0.0.00.00",
+      "conta": "1.1.2.0.0.00.00 - Créditos a Curto Prazo",
+      "valor": 11658493.4
+    },
+    {
+      "codigo": "P1.1.2.1.0.00.00",
+      "conta": "1.1.2.1.0.00.00 - Créditos Tributários a Receber",
+      "valor": 7941696.33
+    },
+    {
+      "codigo": "P1.1.2.1.1.00.00",
+      "conta": "1.1.2.1.1.00.00 - Créditos Tributários a Receber - Consolidação",
+      "valor": 7941696.33
+    },
+    {
+      "codigo": "P1.1.2.2.0.00.00",
+      "conta": "1.1.2.2.0.00.00 - Clientes",
+      "valor": 21892.2
+    },
+    {
+      "codigo": "P1.1.2.2.1.00.00",
+      "conta": "1.1.2.2.1.00.00 - Clientes - Consolidação",
+      "valor": 21892.2
+    },
+    {
+      "codigo": "P1.1.2.5.0.00.00",
+      "conta": "1.1.2.5.0.00.00 - Dívida Ativa Tributária",
+      "valor": 3682805.41
+    },
+    {
+      "codigo": "P1.1.2.5.1.00.00",
+      "conta": "1.1.2.5.1.00.00 - Dívida Ativa Tributária - Consolidação",
+      "valor": 3682805.41
+    },
+    {
+      "codigo": "P1.1.2.6.0.00.00",
+      "conta": "1.1.2.6.0.00.00 - Dívida Ativa Não Tributária",
+      "valor": 12099.46
+    },
+    {
+      "codigo": "P1.1.2.6.1.00.00",
+      "conta": "1.1.2.6.1.00.00 - Dívida Ativa Não Tributária - Consolidação",
+      "valor": 12099.46
+    },
+    {
+      "codigo": "P1.1.3.0.0.00.00",
+      "conta": "1.1.3.0.0.00.00 - Demais Créditos e Valores a Curto Prazo",
+      "valor": 203046.02
+    },
+    {
+      "codigo": "P1.1.3.1.0.00.00",
+      "conta": "1.1.3.1.0.00.00 - Adiantamentos Concedidos",
+      "valor": 68469.5
+    },
+    {
+      "codigo": "P1.1.3.1.1.00.00",
+      "conta": "1.1.3.1.1.00.00 - Adiantamentos Concedidos - Consolidação",
+      "valor": 68469.5
+    },
+    {
+      "codigo": "P1.1.3.8.0.00.00",
+      "conta": "1.1.3.8.0.00.00 - Outros Créditos a Receber e Valores a Curto Prazo",
+      "valor": 134576.52
+    },
+    {
+      "codigo": "P1.1.3.8.1.00.00",
+      "conta": "1.1.3.8.1.00.00 - Outros Créditos a Receber e Valores a Curto Prazo - Consolidação",
+      "valor": 134576.52
+    },
+    {
+      "codigo": "P1.1.5.0.0.00.00",
+      "conta": "1.1.5.0.0.00.00 - Estoques",
+      "valor": 3263020.34
+    },
+    {
+      "codigo": "P1.1.5.6.0.00.00",
+      "conta": "1.1.5.6.0.00.00 - Almoxarifado",
+      "valor": 3263020.34
+    },
+    {
+      "codigo": "P1.1.5.6.1.00.00",
+      "conta": "1.1.5.6.1.00.00 - Almoxarifado - Consolidação",
+      "valor": 3263020.34
+    },
+    {
+      "codigo": "P1.1.9.0.0.00.00",
+      "conta": "1.1.9.0.0.00.00 - Variações Patrimoniais Diminutivas Pagas Antecipadamente",
+      "valor": 16985.23
+    },
+    {
+      "codigo": "P1.1.9.1.0.00.00",
+      "conta": "1.1.9.1.0.00.00 - Prêmios de Seguros a Apropriar",
+      "valor": 5496.83
+    },
+    {
+      "codigo": "P1.1.9.1.1.00.00",
+      "conta": "1.1.9.1.1.00.00 - Prêmios de Seguros a Apropriar - Consolidação",
+      "valor": 5496.83
+    },
+    {
+      "codigo": "P1.1.9.4.0.00.00",
+      "conta": "1.1.9.4.0.00.00 - Alugueis Pagos a Apropriar",
+      "valor": 11488.4
+    },
+    {
+      "codigo": "P1.1.9.4.1.00.00",
+      "conta": "1.1.9.4.1.00.00 - Alugueis Pagos a Apropriar - Consolidação",
+      "valor": 11488.4
+    },
+    {
+      "codigo": "P1.2.0.0.0.00.00",
+      "conta": "1.2.0.0.0.00.00 - Ativo não Circulante",
+      "valor": 144073280.24
+    },
+    {
+      "codigo": "P1.2.0.0.0.00.00P",
+      "conta": "1.2.0.0.0.00.00 - Ativo Não Circulante - Permanente",
+      "valor": 144073280.24
+    },
+    {
+      "codigo": "P1.2.1.0.0.00.00",
+      "conta": "1.2.1.0.0.00.00 - Ativo Realizável a Longo Prazo",
+      "valor": 6514164.83
+    },
+    {
+      "codigo": "P1.2.1.1.0.00.00",
+      "conta": "1.2.1.1.0.00.00 - Créditos a Longo Prazo",
+      "valor": 6514164.83
+    },
+    {
+      "codigo": "P1.2.1.1.1.00.00",
+      "conta": "1.2.1.1.1.00.00 - Créditos a Longo Prazo - Consolidação",
+      "valor": 6514164.83
+    },
+    {
+      "codigo": "P1.2.1.1.1.04.00",
+      "conta": "1.2.1.1.1.04.00 - Dívida Ativa Tributária",
+      "valor": 21620253.29
+    },
+    {
+      "codigo": "P1.2.1.1.1.05.00",
+      "conta": "1.2.1.1.1.05.00 - Dívida Ativa Não Tributária",
+      "valor": 181262.41
+    },
+    {
+      "codigo": "P1.2.1.1.1.99.00",
+      "conta": "1.2.1.1.1.99.00 - (-) Ajuste de Perdas de Créditos a Longo Prazo",
+      "valor": 15287350.87
+    },
+    {
+      "codigo": "P1.2.3.0.0.00.00",
+      "conta": "1.2.3.0.0.00.00 - Imobilizado",
+      "valor": 137559115.41
+    },
+    {
+      "codigo": "P1.2.3.1.0.00.00",
+      "conta": "1.2.3.1.0.00.00 - Bens Moveis",
+      "valor": 43594732.7
+    },
+    {
+      "codigo": "P1.2.3.1.1.00.00",
+      "conta": "1.2.3.1.1.00.00 - Bens Móveis - Consolidação",
+      "valor": 43594732.7
+    },
+    {
+      "codigo": "P1.2.3.2.0.00.00",
+      "conta": "1.2.3.2.0.00.00 - Bens Imóveis",
+      "valor": 98759014.67
+    },
+    {
+      "codigo": "P1.2.3.2.1.00.00",
+      "conta": "1.2.3.2.1.00.00 - Bens Imóveis - Consolidação",
+      "valor": 98759014.67
+    },
+    {
+      "codigo": "P1.2.3.8.0.00.00",
+      "conta": "1.2.3.8.0.00.00 - (-) Depreciação, Exaustão e Amortização Acumuladas",
+      "valor": 4794631.96
+    },
+    {
+      "codigo": "P1.2.3.8.1.00.00",
+      "conta": "1.2.3.8.1.00.00 - (-) Depreciação, Exaustão e Amortização Acumuladas - Consolidação",
+      "valor": 4794631.96
+    },
+    {
+      "codigo": "P1.2.3.8.1.01.00",
+      "conta": "1.2.3.8.1.01.00 - (-) Depreciação Acumulada - Bens Móveis",
+      "valor": 4765739.35
+    },
+    {
+      "codigo": "P1.2.3.8.1.02.00",
+      "conta": "1.2.3.8.1.02.00 - (-) Depreciação Acumulada - Bens Imóveis",
+      "valor": 28892.61
+    },
+    {
+      "codigo": "P2.0.0.0.0.00.00",
+      "conta": "2.0.0.0.0.00.00 - Passivo e Patrimônio Liquido",
+      "valor": 186173776.35
+    },
+    {
+      "codigo": "P2.1.0.0.0.00.00",
+      "conta": "2.1.0.0.0.00.00 - Passivo Circulante",
+      "valor": 3876439.12
+    },
+    {
+      "codigo": "P2.1.0.0.0.00.00F",
+      "conta": "2.1.0.0.0.00.00 - Passivo Circulante - Financeiro",
+      "valor": 3876439.12
+    },
+    {
+      "codigo": "P2.1.1.0.0.00.00",
+      "conta": "2.1.1.0.0.00.00 - Obrigações Trabalhistas, Previdenciárias e Assistenciais a Pagar a Curto Prazo",
+      "valor": 1612266.18
+    },
+    {
+      "codigo": "P2.1.1.1.0.00.00",
+      "conta": "2.1.1.1.0.00.00 - Pessoal a Pagar",
+      "valor": 19489.31
+    },
+    {
+      "codigo": "P2.1.1.1.1.00.00",
+      "conta": "2.1.1.1.1.00.00 - Pessoal a Pagar - Consolidação",
+      "valor": 19489.31
+    },
+    {
+      "codigo": "P2.1.1.4.0.00.00",
+      "conta": "2.1.1.4.0.00.00 - Encargos Sociais a Pagar",
+      "valor": 1592776.87
+    },
+    {
+      "codigo": "P2.1.1.4.3.00.00",
+      "conta": "2.1.1.4.3.00.00 - Encargos Sociais a Pagar - Inter OFSS - União",
+      "valor": 1592776.87
+    },
+    {
+      "codigo": "P2.1.3.0.0.00.00",
+      "conta": "2.1.3.0.0.00.00 - Fornecedores e Contas a Pagar a Curto Prazo",
+      "valor": 317531.54
+    },
+    {
+      "codigo": "P2.1.3.1.0.00.00",
+      "conta": "2.1.3.1.0.00.00 - Fornecedores e Contas a Pagar Nacionais a Curto Prazo",
+      "valor": 317531.54
+    },
+    {
+      "codigo": "P2.1.3.1.1.00.00",
+      "conta": "2.1.3.1.1.00.00 - Fornecedores e Contas a Pagar Nacionais a Curto Prazo - Consolidação",
+      "valor": 317531.54
+    },
+    {
+      "codigo": "P2.1.5.0.0.00.00",
+      "conta": "2.1.5.0.0.00.00 - Transferências Fiscais a Curto Prazo",
+      "valor": 1250.0
+    },
+    {
+      "codigo": "P2.1.5.3.0.00.00",
+      "conta": "2.1.5.3.0.00.00 - Transferências Discricionárias a Pagar",
+      "valor": 1250.0
+    },
+    {
+      "codigo": "P2.1.5.3.1.00.00",
+      "conta": "2.1.5.3.1.00.00 - Transferências Discricionárias a Pagar - Consolidação",
+      "valor": 1250.0
+    },
+    {
+      "codigo": "P2.1.8.0.0.00.00",
+      "conta": "2.1.8.0.0.00.00 - Adiantamento de Clientes e Demais Obrigações a Curto Prazo",
+      "valor": 1945391.4
+    },
+    {
+      "codigo": "P2.1.8.8.0.00.00",
+      "conta": "2.1.8.8.0.00.00 - Valores Restituíveis",
+      "valor": 1934153.4
+    },
+    {
+      "codigo": "P2.1.8.8.1.00.00",
+      "conta": "2.1.8.8.1.00.00 - Valores Restituíveis - Consolidação",
+      "valor": 734090.27
+    },
+    {
+      "codigo": "P2.1.8.8.3.00.00",
+      "conta": "2.1.8.8.3.00.00 - Valores Restituíveis - Inter OFSS - União",
+      "valor": 668268.59
+    },
+    {
+      "codigo": "P2.1.8.8.5.00.00",
+      "conta": "2.1.8.8.5.00.00 - Valores Restituíveis - Inter OFSS - Município",
+      "valor": 531794.54
+    },
+    {
+      "codigo": "P2.1.8.9.0.00.00",
+      "conta": "2.1.8.9.0.00.00 - Outras Obrigações a Curto Prazo",
+      "valor": 11238.0
+    },
+    {
+      "codigo": "P2.1.8.9.1.00.00",
+      "conta": "2.1.8.9.1.00.00 - Outras Obrigações a Curto Prazo - Consolidação",
+      "valor": 11238.0
+    },
+    {
+      "codigo": "P2.2.0.0.0.00.00",
+      "conta": "2.2.0.0.0.00.00 - Passivo Não-Circulante",
+      "valor": 4962957.64
+    },
+    {
+      "codigo": "P2.2.0.0.0.00.00F",
+      "conta": "2.2.0.0.0.00.00 - Passivo Não Circulante - Financeiro",
+      "valor": 53200.28
+    },
+    {
+      "codigo": "P2.2.0.0.0.00.00P",
+      "conta": "2.2.0.0.0.00.00 - Passivo Não Circulante - Permanente",
+      "valor": 4909757.36
+    },
+    {
+      "codigo": "P2.2.1.0.0.00.00",
+      "conta": "2.2.1.0.0.00.00 - Obrigações Trabalhistas, Previdenciárias e Assistenciais a Pagar a Longo Prazo",
+      "valor": 4671803.73
+    },
+    {
+      "codigo": "P2.2.1.1.0.00.00",
+      "conta": "2.2.1.1.0.00.00 - Pessoal a Pagar",
+      "valor": 4671803.73
+    },
+    {
+      "codigo": "P2.2.1.1.1.00.00",
+      "conta": "2.2.1.1.1.00.00 - Pessoal a Pagar - Consolidação",
+      "valor": 4671803.73
+    },
+    {
+      "codigo": "P2.2.3.0.0.00.00",
+      "conta": "2.2.3.0.0.00.00 - Fornecedores e Contas a Pagar a Longo Prazo",
+      "valor": 237950.63
+    },
+    {
+      "codigo": "P2.2.3.1.0.00.00",
+      "conta": "2.2.3.1.0.00.00 - Fornecedores e Contas a Pagar Nacionais a Longo Prazo",
+      "valor": 237950.63
+    },
+    {
+      "codigo": "P2.2.3.1.1.00.00",
+      "conta": "2.2.3.1.1.00.00 - Fornecedores e Contas a Pagar Nacionais a Longo Prazo - Consolidação",
+      "valor": 237950.63
+    },
+    {
+      "codigo": "P2.2.8.0.0.00.00",
+      "conta": "2.2.8.0.0.00.00 - Demais Obrigações a Longo Prazo",
+      "valor": 53200.28
+    },
+    {
+      "codigo": "P2.2.8.9.0.00.00",
+      "conta": "2.2.8.9.0.00.00 - Outras Obrigações a Longo Prazo",
+      "valor": 53200.28
+    },
+    {
+      "codigo": "P2.2.8.9.1.00.00",
+      "conta": "2.2.8.9.1.00.00 - Outras Obrigações a Longo Prazo - Consolidação",
+      "valor": 53200.28
+    },
+    {
+      "codigo": "P2.2.9.0.0.00.00",
+      "conta": "2.2.9.0.0.00.00 - Resultado Diferido",
+      "valor": 3.0
+    },
+    {
+      "codigo": "P2.2.9.1.0.00.00",
+      "conta": "2.2.9.1.0.00.00 - Variação Patrimonial Aumentativa (VPA) Diferida",
+      "valor": 3.0
+    },
+    {
+      "codigo": "P2.2.9.1.1.00.00",
+      "conta": "2.2.9.1.1.00.00 - Variação Patrimonial Aumentativa Diferida - Consolidação",
+      "valor": 3.0
+    },
+    {
+      "codigo": "P2.3.0.0.0.00.00",
+      "conta": "2.3.0.0.0.00.00 - Patrimônio Liquido",
+      "valor": 177334379.59
+    },
+    {
+      "codigo": "P2.3.7.0.0.00.00",
+      "conta": "2.3.7.0.0.00.00 - Resultados Acumulados",
+      "valor": 177334379.59
+    },
+    {
+      "codigo": "P2.3.7.1.0.00.00",
+      "conta": "2.3.7.1.0.00.00 - Superávits ou Déficits Acumulados",
+      "valor": 177334379.59
+    },
+    {
+      "codigo": "P2.3.7.1.1.00.00",
+      "conta": "2.3.7.1.1.00.00 - Superávits ou Déficits Acumulados - Consolidação",
+      "valor": -294785543.29
+    },
+    {
+      "codigo": "P2.3.7.1.1.01.00",
+      "conta": "2.3.7.1.1.01.00 - Superávits ou Déficits do Exercício",
+      "valor": -2897739.53
+    },
+    {
+      "codigo": "P2.3.7.1.1.02.00",
+      "conta": "2.3.7.1.1.02.00 - Superávits ou Déficits de Exercícios Anteriores",
+      "valor": -291887803.76
+    },
+    {
+      "codigo": "P2.3.7.1.2.00.00",
+      "conta": "2.3.7.1.2.00.00 - Superávits ou Déficits Acumulados - Intra OFSS",
+      "valor": -10519075.5
+    },
+    {
+      "codigo": "P2.3.7.1.2.02.00",
+      "conta": "2.3.7.1.2.02.00 - Superávits ou Déficits de Exercícios Anteriores",
+      "valor": -10519075.5
+    },
+    {
+      "codigo": "P2.3.7.1.3.00.00",
+      "conta": "2.3.7.1.3.00.00 - Superávits ou Déficits Acumulados - Inter OFSS - União",
+      "valor": 193279001.7
+    },
+    {
+      "codigo": "P2.3.7.1.3.02.00",
+      "conta": "2.3.7.1.3.02.00 - Superávits ou Déficits de Exercícios Anteriores",
+      "valor": 193279001.7
+    },
+    {
+      "codigo": "P2.3.7.1.4.00.00",
+      "conta": "2.3.7.1.4.00.00 - Superávits ou Déficits Acumulados - Inter OFSS - Estado",
+      "valor": 294377835.4
+    },
+    {
+      "codigo": "P2.3.7.1.4.02.00",
+      "conta": "2.3.7.1.4.02.00 - Superávits ou Déficits de Exercícios Anteriores",
+      "valor": 294377835.4
+    },
+    {
+      "codigo": "P2.3.7.1.5.00.00",
+      "conta": "2.3.7.1.5.00.00 - Superávits ou Déficits Acumulados - Inter OFSS - Município",
+      "valor": -5017838.72
+    },
+    {
+      "codigo": "P2.3.7.1.5.02.00",
+      "conta": "2.3.7.1.5.02.00 - Superávits ou Déficits de Exercícios Anteriores",
+      "valor": -5017838.72
+    },
+    {
+      "codigo": "P6.3.1.1.0.00.00BP",
+      "conta": "6.3.1.1.0.00.00 - RP Não Processados a Liquidar",
+      "valor": 6437480.25
+    },
+    {
+      "codigo": "PassivoFinanceiro",
+      "conta": "Passivo Financeiro",
+      "valor": 10367119.65
+    },
+    {
+      "codigo": "PassivoPermanente",
+      "conta": "Passivo Permanente",
+      "valor": 4909757.36
+    },
+    {
+      "codigo": "SaldoPatrimonial",
+      "conta": "Saldo Patrimonial",
+      "valor": 170896899.34
+    }
+  ],
+  "coletadoEm": "2026-10-17"
+}
