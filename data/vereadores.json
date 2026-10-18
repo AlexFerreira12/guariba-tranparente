@@ -13,13 +13,15 @@
       "id": "fabiano-da-bocha",
       "nome": "Fabiano da Bocha",
       "partido": "MDB",
-      "votos2024": 981
+      "votos2024": 981,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/34"
     },
     {
       "id": "marcia-alves",
       "nome": "Márcia Alves",
       "partido": "MDB",
-      "votos2024": 913
+      "votos2024": 913,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/23"
     },
     {
       "id": "andinho",
@@ -32,43 +34,50 @@
       "id": "marquinhos-osti",
       "nome": "Marquinhos Osti",
       "partido": "PSD",
-      "votos2024": 846
+      "votos2024": 846,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/2"
     },
     {
       "id": "anselmo-gimenes",
       "nome": "Anselmo Gimenes",
       "partido": "PSD",
-      "votos2024": 660
+      "votos2024": 660,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/38"
     },
     {
       "id": "roberto-carosio-filho",
       "nome": "Roberto Carósio Filho",
       "partido": "PSB",
-      "votos2024": 581
+      "votos2024": 581,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/36"
     },
     {
       "id": "paulo-de-sa",
       "nome": "Paulo de Sá",
       "partido": "PSD",
-      "votos2024": 563
+      "votos2024": 563,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/8"
     },
     {
       "id": "calao-galeto",
       "nome": "Calão do Carvão Galeto",
       "partido": "PSB",
-      "votos2024": 550
+      "votos2024": 550,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/22"
     },
     {
       "id": "magna-rocha",
       "nome": "Magna Rocha",
       "partido": "CIDADANIA",
-      "votos2024": 536
+      "votos2024": 536,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/26"
     },
     {
       "id": "paulo-da-sucata",
       "nome": "Paulo da Sucata",
       "partido": "UNIÃO",
-      "votos2024": 476
+      "votos2024": 476,
+      "url": "https://sapl.guariba.sp.leg.br/parlamentar/33"
     }
   ]
 }

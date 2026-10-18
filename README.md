@@ -1,76 +1,74 @@
 # Guariba Transparente
 
-Portal cívico independente de Guariba/SP que facilita o acesso a dados oficiais sobre vereadores, proposições legislativas e contas públicas.
+Portal cívico **independente**, gratuito e dedicado **exclusivamente à cidade de Guariba/SP** nesta primeira etapa. Organiza dados oficiais sobre os vereadores e prepara os módulos de contas públicas, obras e emendas.
 
-> **Versão 0.1 (MVP):** interface navegável e responsiva, 11 perfis dos vereadores eleitos em 2024 e uma **amostra de matérias legislativas com fontes oficiais**. As bases de contas públicas e emendas ainda não estão integradas. Nenhum valor financeiro é simulado como real.
+**Portal de testes:** https://alexferreira12.github.io/guariba-tranparente/
 
-## Como executar
+## Estado atual — MVP legislativo v0.2
 
-Não há dependências externas para rodar o site.
+- Interface responsiva para celular e computador.
+- Perfis dos **11 eleitos em 2024** com links para as páginas oficiais do SAPL.
+- **571 matérias legislativas** (371 de 2025, 200 de 2026) na primeira coleta de 17/10/2026.
+- Dessas, **409 matérias** estão vinculadas a pelo menos um dos 11 eleitos, conforme os IDs oficiais de autoria da API. Matérias conjuntas podem aparecer em mais de um perfil.
+- Pesquisa por tipo, assunto, ano e situação, com paginação na listagem principal.
+- Atualização automatizada por GitHub Actions, diariamente ou por execução manual.
+- Links para consulta das bases de contas públicas. **Valores financeiros ainda não foram importados.**
+
+### Limites e compromisso editorial
+
+**A importação é factual, não uma auditoria de resultados.** O SAPL fornece registros, ementas, autorias, tipos e datas. A situação **“Solicitado”** aparece nas indicações; **“A verificar”** significa que ainda não conferimos votação, sanção, veto e norma vinculada.
+
+**Não** deduzimos que uma matéria virou lei apenas porque foi arquivada ou porque `em_tramitacao` é falso. Da mesma forma, não presumimos execução de obras, pagamentos ou emendas sem documento de comprovação.
+
+Os registros com autoria da Prefeitura, comissões ou outros agentes também integram a base pública; **não** são atribuídos indevidamente aos 11 perfis. A lista dos eleitos em 2024 não substitui a composição atual em exercício, que pode variar por licenças ou suplência.
+
+Este site **não é um portal oficial**, nem contém rankings ou pontuações de vereadores.
+
+## Como executar localmente
+
+Requer Python 3 e navegador moderno. O frontend é HTML, CSS e JavaScript sem dependências de produção.
 
 ```bash
 python3 -m http.server 8080
 ```
 
-Abra `http://localhost:8080`. Não use `file://`, porque o navegador bloqueia `fetch` dos arquivos JSON locais.
+Abra `http://localhost:8080`. Não abra diretamente via `file://`, pois o navegador precisa buscar os arquivos JSON.
 
-## Páginas
+## Organização
 
-- **Início:** apresentação e panorama dos registros disponíveis na amostra.
-- **Vereadores:** perfis dos 11 eleitos em 2024, pesquisa e filtro por partido.
-- **Atividade legislativa:** projetos e indicações com filtro por ano, tipo e status; registros com fonte oficial.
-- **Contas públicas:** links verificados para consulta nos portais municipais (importação financeira pendente).
-- **Obras e emendas:** fontes de dados públicos e status de integração.
-- **Fontes e método:** origem e limites das informações.
+- `index.html` e `assets/`: interface.
+- `data/vereadores.json`: perfis de eleitos de 2024 e IDs oficiais.
+- `data/materias.json`: registros obtidos automaticamente do SAPL.
+- `scripts/importar_sapl.py`: importação paginada e associação conservadora de autoria.
+- `scripts/validar_dados.py`: integridade dos dados e checagem de fontes.
+- `scripts/probe_sapl.py`: diagnóstico técnico de endpoints.
+- `.github/workflows/atualizar-sapl.yml`: sincronização diária e publicação no repositório, com validação antes do commit.
+- `.github/workflows/validar.yml`: testes automáticos em cada atualização do código.
 
-## Integridade e transparência
-
-1. Dados em `data/vereadores.json` e `data/materias.json` são uma amostra inicial editada a partir de fontes públicas oficiais.
-2. Uma matéria aprovada pela Câmara não será classificada como lei sem comprovação da norma vinculada.
-3. Uma indicação não comprova a execução de uma obra ou serviço.
-4. Um repasse não comprova a execução de um gasto ou conclusão da obra.
-5. A ausência de matéria no site não significa ausência de atuação parlamentar.
-6. O projeto não tem ligação institucional com a Câmara ou Prefeitura de Guariba.
-7. Para novas matérias, atualizar o JSON com a fonte, o autor, a situação e a data após conferência.
-
-## Atualização automática — próximo passo
-
-**Acesso à API confirmado em 17/10/2026 (horário de Brasília):** a rotina do GitHub Actions consultou com sucesso os endpoints públicos de matérias legislativas e de parlamentares do SAPL de Guariba; ambos retornaram HTTP 200 e JSON. [Relatório técnico do teste](https://github.com/AlexFerreira12/guariba-tranparente/actions/runs/39084434379). A sincronização e importação integral ainda não estão funcionando: precisamos implementar paginação, vínculo entre autoria/parlamentar, tramitação, votação e normas vinculadas, com revisão e rastreabilidade.
-
-Para testar os endpoints antes de programar uma importação:
+Para executar a importação:
 
 ```bash
-python3 scripts/probe_sapl.py
-```
-
-No GitHub, há o fluxo em **Actions > Diagnosticar API SAPL**, que roda manualmente ou quando seu script ou workflow é atualizado. Ele apenas diagnostica a disponibilidade e os campos básicos retornados. Não muda a base editorial. Se o teste validar acesso, o passo seguinte será um importador paginado de matérias, autores, tramitações e normas com critérios de verificação, deduplicação, trilha de auditoria e alerta de falhas.
-
-## Publicar no GitHub Pages
-
-1. O repositório está em `AlexFerreira12/guariba-tranparente`.
-2. O conteúdo foi enviado à branch `main`.
-3. Em **Settings > Pages**, escolha **Deploy from a branch**, branch `main` e pasta `/ (root)`.
-4. Aguarde a confirmação do próprio GitHub Pages e use a URL exibida na configuração de Pages.
-
-O site pode ser publicado sem custo de hospedagem em um repositório público. GitHub Pages é hospedagem de conteúdo estático; não fornece sozinho um banco de dados privado ou consultas seguras a serviços que exijam segredos de API.
-
-## Testes
-
-```bash
-node --check assets/app.js
+python3 scripts/importar_sapl.py
 python3 scripts/validar_dados.py
+node --check assets/app.js
 ```
 
-## Próximas entregas técnicas
+A rotina de importação **interrompe o processo** se houver erro de conexão, inconsistência da paginação, duplicação de IDs, mudança no cadastro dos autores ou formato inesperado. A última versão previamente validada permanece disponível no site se houver falha na coleta. O GitHub registra o histórico das alterações.
 
-- Testar contratos e disponibilidade real da API SAPL de Guariba.
-- Implementar importação completa de parlamentares, autoria, matérias, tramitações, normas e votações.
-- Tratar substituições de mandato e autores conjuntos.
-- Conectar receitas e despesas oficiais com definição clara de empenhado, liquidado e pago.
-- Importar contratos, obras e emendas com links e trilha de fontes.
-- Acrescentar governança editorial, rotina de revisão, log e monitoramento de erros.
-- Avaliar backend quando as fontes exigirem tratamento de PDFs, autenticação ou grande volume de dados.
+**Não edite manualmente `data/materias.json` para atribuir situação legislativa**, porque a próxima sincronização automática substitui o arquivo. A próxima fase implementará uma base separada de decisões confirmadas, sem misturar registros automáticos e revisão documental.
 
-## Aviso
+## Fontes
 
-Dados públicos e explicações informativas. Não é um órgão oficial nem substitui as bases originais.
+- [SAPL — Câmara de Guariba](https://sapl.guariba.sp.leg.br/)
+- [Portal da Transparência — Prefeitura](https://www.guariba.sp.gov.br/portal-da-transparencia)
+- [Portal do Tribunal de Contas do Estado de SP](https://www.transparencia.tce.sp.gov.br/conjunto-de-dados)
+- [TSE — dados eleitorais](https://dadosabertos.tse.jus.br/)
+
+## Próximos passos
+
+1. Ligar tramitações, votações e normas jurídicas aos registros e verificar seus resultados.
+2. Conferir situação de indicações, requerimentos, autores coletivos e substituições de mandato.
+3. Importar receitas, despesas, contratos, obras e emendas sem misturar valores empenhados, liquidados e pagos.
+4. Testar acessibilidade, desempenho e confiabilidade editorial antes de divulgação pública ampla.
+
+**Sem monetização na fase atual.**
