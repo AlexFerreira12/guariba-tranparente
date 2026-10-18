@@ -1,46 +1,34 @@
 #!/usr/bin/env python3
-"""Prova técnica da API pública do SAPL.
-
-Não modifica a base editorial, pois schemas, resultados de votação e
-vínculos de autoria precisam ser auditados antes de publicar status.
-"""
+"""Diagnóstico SOMENTE LEITURA dos endpoints públicos do SAPL de Guariba."""
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 import json
-import sys
+from urllib.parse import urlencode
 
-URLS = [
-    'https://sapl.guariba.sp.leg.br/api/materia/materialegislativa/?page=1',
-    'https://sapl.guariba.sp.leg.br/api/parlamentares/parlamentar/?page=1',
+BASE="https://sapl.guariba.sp.leg.br/api/"
+PATHS=[
+    ("materias-2025","materia/materialegislativa/",{"ano":2025,"page":1}),
+    ("materias-2026","materia/materialegislativa/",{"ano":2026,"page":1}),
+    ("parlamentares","parlamentares/parlamentar/",{"page":1}),
+    ("autoria","materia/autoria/",{"page":1}),
+    ("tramitacao","materia/tramitacao/",{"page":1}),
+    ("tipomateria","materia/tipomaterialegislativa/",{"page":1}),
+    ("norma","norma/normajuridica/",{"page":1}),
 ]
-
-def run():
-    success = 0
-    for url in URLS:
-        print('Testando', url)
-        try:
-            with urlopen(Request(url, headers={'User-Agent':'GuaribaTransparente/0.1 (+pesquisa de dados publicos)','Accept':'application/json'}), timeout=18) as response:
-                raw = response.read(500_000)
-                content_type = response.headers.get('Content-Type', '')
-                print('HTTP', response.status, 'Content-Type:', content_type, 'Bytes:', len(raw))
-                if 'json' not in content_type:
-                    print('Resposta não identificada como JSON; endpoint não validado.')
-                    continue
-                data = json.loads(raw)
-                if isinstance(data, dict):
-                    print('Campos:', ', '.join(sorted(data.keys())[:20]))
-                    rows = data.get('results') or []
-                elif isinstance(data, list):
-                    rows = data
-                else:
-                    rows = []
-                if rows and isinstance(rows[0], dict):
-                    print('Campos do primeiro registro:', ', '.join(sorted(rows[0].keys())[:30]))
-                success += 1
-        except (HTTPError, URLError, TimeoutError, ValueError, OSError) as exc:
-            print('Falhou:', str(exc))
-    print(f'Endpoints JSON acessíveis: {success}/{len(URLS)}')
-    return 0 if success == len(URLS) else 1
-
-if __name__ == '__main__':
-    sys.exit(run())
+def sample(label, endpoint, query):
+    url=BASE+endpoint+"?"+urlencode(query)
+    try:
+        with urlopen(Request(url,headers={"User-Agent":"GuaribaTransparente/0.2 dados-publicos","Accept":"application/json"}), timeout=18) as response:
+            payload=json.load(response)
+            assert isinstance(payload,dict) and isinstance(payload.get("results"),list), "JSON com formato inesperado"
+            rows=payload["results"]
+            print(label,"HTTP",response.status,"pagination",json.dumps(payload.get("pagination"),ensure_ascii=False)[:500],"rows",len(rows))
+            for row in rows[:2]:
+                wanted=["id","ano","numero","tipo","ementa","autores","autor","parlamentar","materia","data_apresentacao","data_tramitacao","status","status_id","unidade_tramitacao_local","descricao","sigla","descricao_original","texto","norma","resultado","em_tramitacao","link_detail_backend","nome_parlamentar"]
+                obj={k:row[k] for k in wanted if k in row}
+                print(label,"sample",json.dumps(obj,ensure_ascii=False,default=str)[:1600])
+    except (HTTPError,URLError,TimeoutError,ValueError,TypeError,AssertionError,OSError) as err:
+        print(label,"ERRO",str(err)[:250])
+if __name__=="__main__":
+    for args in PATHS:
+        sample(*args)
