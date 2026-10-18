@@ -1,0 +1,16 @@
+name: Diagnosticar PNCP de Guariba
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/probe_pncp.py','.github/workflows/probe-pncp.yml']
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Consultar PNCP de Guariba sem modificar a base
+        run: python3 scripts/probe_pncp.py
