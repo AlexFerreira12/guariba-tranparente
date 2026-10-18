@@ -35,7 +35,7 @@ Abra `http://localhost:8080`. Não use `file://`, porque o navegador bloqueia `f
 
 ## Atualização automática — próximo passo
 
-O SAPL possui interface pública de consulta. **Ainda não confirmamos que sua API permite a coleta esperada**, então não afirmamos que a sincronização automática esteja funcionando.
+**Acesso à API confirmado em 17/10/2026 (horário de Brasília):** a rotina do GitHub Actions consultou com sucesso os endpoints públicos de matérias legislativas e de parlamentares do SAPL de Guariba; ambos retornaram HTTP 200 e JSON. [Relatório técnico do teste](https://github.com/AlexFerreira12/guariba-tranparente/actions/runs/39084434379). A sincronização e importação integral ainda não estão funcionando: precisamos implementar paginação, vínculo entre autoria/parlamentar, tramitação, votação e normas vinculadas, com revisão e rastreabilidade.
 
 Para testar os endpoints antes de programar uma importação:
 
@@ -43,7 +43,7 @@ Para testar os endpoints antes de programar uma importação:
 python3 scripts/probe_sapl.py
 ```
 
-No GitHub, também há o fluxo manual em **Actions > Testar API SAPL (manual)**. Ele apenas diagnostica a disponibilidade e os campos básicos retornados. Não muda a base editorial. Se o teste validar acesso, o passo seguinte será um importador paginado de matérias, autores, tramitações e normas com critérios de verificação, deduplicação, trilha de auditoria e alerta de falhas.
+No GitHub, há o fluxo em **Actions > Diagnosticar API SAPL**, que roda manualmente ou quando seu script ou workflow é atualizado. Ele apenas diagnostica a disponibilidade e os campos básicos retornados. Não muda a base editorial. Se o teste validar acesso, o passo seguinte será um importador paginado de matérias, autores, tramitações e normas com critérios de verificação, deduplicação, trilha de auditoria e alerta de falhas.
 
 ## Publicar no GitHub Pages
 
