@@ -14,6 +14,11 @@ URLS=[
  ("normas-2025","norma/normajuridica/",{"ano":2025,"page":1}),
  ("tram-ind","materia/tramitacao/",{"materia":11461,"page":1}),
  ("tram-subs","materia/tramitacao/",{"materia":11215,"page":1}),
+ ("votacoes-filtradas","sessao/registrovotacao/",{"materia":11215,"page":1}),
+ ("votacoes-ind","sessao/registrovotacao/",{"materia":11461,"page":1}),
+ ("normas-2026","norma/normajuridica/",{"ano":2026,"page":1}),
+ ("tipos-normas","norma/tiponormajuridica/",{"page":1}),
+ ("tipos-resultado-votacao","sessao/tiporesultadovotacao/",{"page":1}),
 ]
 for label,path,params in URLS:
     url=BASE+path+"?"+urlencode(params)
@@ -22,7 +27,7 @@ for label,path,params in URLS:
             data=json.load(res)
         rows=data.get("results",[]) if isinstance(data,dict) else []
         print(label,"TOTAL",data.get("pagination",{}).get("total_entries"),"fields",sorted(rows[0]) if rows else [])
-        if label.startswith("status"):
+        if label.startswith("status") or label.startswith("tipos-"):
             for x in rows[:12]:print(label,"status",json.dumps(x,ensure_ascii=False,default=str)[:600])
         else:
             for x in rows[:3]:
