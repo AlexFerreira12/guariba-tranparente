@@ -46,6 +46,10 @@ def run():
             assert m.get('normas'), f'Norma oficial vinculada ausente: {m["id"]}'
             if m['status'] == 'virou-lei':
                 assert any(n['sigla'] in ('LEI','LC') for n in m['normas']), 'Lei sem prova de vínculo'
+        if m.get('historico'):
+            assert all(h['fonte'] == m['fonte'] for h in m['historico'])
+            assert m['totalTramitacoes'] >= len(m['historico'])
+            assert m['andamento'] == m['historico'][0]
         if m.get('votacoes'):
             assert all(v['resultado'] in ('Aprovado','Rejeitado','Desconhecido') for v in m['votacoes'])
     print(f'OK: {len(people)} vereadores, {len(matters)} matérias, IDs e URLs válidos.')

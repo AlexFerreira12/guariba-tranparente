@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/importar_sapl.py'
       - 'scripts/enriquecer_sapl.py'
+      - 'scripts/enriquecer_tramitacao.py'
       - '.github/workflows/atualizar-sapl.yml'
 permissions:
   contents: write
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   importar:
     runs-on: ubuntu-latest
-    timeout-minutes: 27
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,6 +27,7 @@ jobs:
         run: |
           python3 scripts/importar_sapl.py
           python3 scripts/enriquecer_sapl.py
+          python3 scripts/enriquecer_tramitacao.py
           python3 scripts/validar_dados.py
       - name: Registrar mudanças verificadas
         run: |
