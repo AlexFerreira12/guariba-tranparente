@@ -57,11 +57,15 @@ def main():
     for year in range(START_YEAR,now.year+1):
         for mode in MODES:
             items=collect(year,mode,now)
+            rejected=0
+            eligible=0
             for p in items:
                 city=p.get("unidadeOrgao") or {}
                 org=p.get("orgaoEntidade") or {}
                 if str(city.get("codigoIbge"))!=IBGE or org.get("esferaId")!="M":
-                    raise RuntimeError("Registro não municipal ou de cidade diferente dentro da consulta filtrada")
+                    rejected+=1
+                    continue
+                eligible+=1
                 ident=p.get("numeroControlePNCP")
                 if not ident or ident in seen:
                     raise RuntimeError(f"ID ausente/duplicado no PNCP: {ident}")
@@ -86,6 +90,9 @@ def main():
                     "cnpj":str(org.get("cnpj") or ""),
                     "fonte":"https://pncp.gov.br/app/editais",
                 })
+            print("PNCP FILTRO",year,mode,"consultados",len(items),"Guariba",eligible,"fora da cidade",rejected)
+            if len(items)>0 and eligible/len(items)<0.5:
+                raise RuntimeError("Filtro municipal pouco confiável: mais da metade de registros fora de Guariba")
     if len(rows)<100:
         raise RuntimeError(f"Base PNCP pequena demais para este escopo: {len(rows)}")
     rows.sort(key=lambda r:(r["publicadoEm"],r["id"]),reverse=True)
