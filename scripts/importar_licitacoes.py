@@ -10,7 +10,7 @@ from urllib.request import urlopen,Request
 from urllib.parse import urlencode
 from urllib.error import HTTPError,URLError
 from zoneinfo import ZoneInfo
-import json,time,sys
+import json,time,sys,random
 ROOT=Path(__file__).resolve().parents[1]
 DEST=ROOT/"data"/"licitacoes.json"
 BASE="https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao"
@@ -19,7 +19,7 @@ START_YEAR=2025
 IBGE="3518602"
 def get(params):
     url=BASE+"?"+urlencode(params)
-    for attempt in range(3):
+    for attempt in range(6):
         try:
             with urlopen(Request(url,headers={"Accept":"application/json","User-Agent":"GuaribaTransparente/0.5"}),timeout=40) as res:
                 data=json.load(res)
@@ -27,12 +27,15 @@ def get(params):
                 raise ValueError("Formato de resposta inesperado")
             return data
         except (HTTPError,URLError,ValueError,TimeoutError,OSError) as exc:
-            if attempt==2:raise RuntimeError(f"Falha no PNCP {url}: {exc}") from exc
-            time.sleep(2*(attempt+1))
+            if attempt==5:raise RuntimeError(f"Falha no PNCP {url}: {exc}") from exc
+            wait=(min(40,8*(attempt+1)) if isinstance(exc,HTTPError) and exc.code==429
+                  else min(20,2*(attempt+1)))
+            print("PNCP AGUARDANDO NOVA TENTATIVA",wait,"segundos",type(exc).__name__)
+            time.sleep(wait)
 def collect(year,mode,until):
     end=f"{year}1231" if year<until.year else until.strftime("%Y%m%d")
     common={"dataInicial":f"{year}0101","dataFinal":end,"codigoModalidadeContratacao":mode,
-            "codigoMunicipioIbge":IBGE,"tamanhoPagina":50}
+            "codigoMunicipioIbge":IBGE,"tamanhoPagina":100}
     first=get({**common,"pagina":1})
     total=first.get("totalRegistros",0)
     pages=first.get("totalPaginas",0)
@@ -46,7 +49,7 @@ def collect(year,mode,until):
         if p.get("totalPaginas")!=pages:
             raise RuntimeError("PNCP alterou contagem de páginas durante a coleta")
         all_rows.extend(p["data"])
-        time.sleep(0.15)
+        time.sleep(1.2)
     if len(all_rows)!=total:
         raise RuntimeError(f"PNCP incompleto, {len(all_rows)} de {total}")
     return all_rows
