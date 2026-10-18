@@ -1,0 +1,33 @@
+name: Atualizar balanço patrimonial oficial
+on:
+  schedule:
+    - cron: '23 7 5 * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/importar_financas.py'
+      - '.github/workflows/atualizar-financas.yml'
+permissions:
+  contents: write
+concurrency:
+  group: atualizar-financas
+  cancel-in-progress: false
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Importar DCA de Guariba/SP
+        run: python3 scripts/importar_financas.py
+      - name: Enviar apenas registros validados
+        run: |
+          git add data/contas-2025.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: atualizar balanço patrimonial DCA Guariba 2025"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
