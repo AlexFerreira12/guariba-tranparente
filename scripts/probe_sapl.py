@@ -36,3 +36,14 @@ def sample(label, endpoint, query):
 if __name__=="__main__":
     for args in PATHS:
         sample(*args)
+
+print("CATALOGOS COMPLETOS (IDs E NOMES)")
+for label,path,keys in [("AUTORES","base/autor/",["id","nome","tipo"]),("TIPOS","materia/tipomaterialegislativa/",["id","descricao","sigla"]),("PARLAMENTARES","parlamentares/parlamentar/",["id","nome_parlamentar"])]:
+    page=1
+    while True:
+        with urlopen(Request(BASE+path+"?"+urlencode({"page":page}),headers={"User-Agent":"GuaribaTransparente/0.2","Accept":"application/json"}),timeout=20) as res:
+            obj=json.load(res)
+        for row in obj.get("results",[]):
+            print(label,json.dumps({k:row.get(k) for k in keys},ensure_ascii=False))
+        if not obj.get("pagination",{}).get("next_page"): break
+        page+=1
