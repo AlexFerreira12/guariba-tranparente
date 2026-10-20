@@ -1,6 +1,6 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-10-19",
+  "atualizadoEm": "2026-10-20",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
@@ -478,7 +478,7 @@
           "id": 31916,
           "data": "2026-10-16",
           "status": "Proposição inclusa no Expediente",
-          "descricao": "INCLUSO PARA LEITURA E DISCUSSÃO NA 8ª AUDIÊNCIA PÚBLICA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "descricao": "INCLUSO PARA LEITURA E DISCUSSÃO NA 9ª AUDIÊNCIA PÚBLICA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11662"
         },
         {
