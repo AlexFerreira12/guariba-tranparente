@@ -12,6 +12,20 @@
   "anoFinal": 2026,
   "registros": [
     {
+      "id": "48664304000180-1-000267/2026",
+      "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS DE CONTROLE INTEGRADO DE VETORES E PRAGAS URBANAS.",
+      "modalidade": "Pregão - Eletrônico",
+      "modalidadeId": 6,
+      "publicadoEm": "2026-10-22",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": null,
+      "valorHomologado": null,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
       "id": "48664304000180-1-000266/2026",
       "objeto": "Contratacao emergencial  em regime de diarias  de locacao de caminhoes basculantes  com capacidade minima de 10 metros cubicos  com motorista  para o transporte de entulhos e escombros resultantes do vendaval  destinados as acoes de resposta ao desastre decorrente do vendaval de grande intensidade  acompanhado de chuva de granizo e ventos superiores a 120 km h  classificado pela Codificacao Brasileira de Desastres  COBRADE 1.3.2.1.5   ocorrido em 24 de julho de 2026  no Municipio de Guariba SP.",
       "modalidade": "Dispensa",
@@ -118,7 +132,7 @@
       "anoCompra": 2026,
       "situacao": "Divulgada no PNCP",
       "valorEstimado": 294990.0,
-      "valorHomologado": null,
+      "valorHomologado": 294990.0,
       "orgao": "MUNICIPIO DE GUARIBA",
       "cnpj": "48664304000180",
       "fonte": "https://pncp.gov.br/app/editais"
@@ -7222,5 +7236,5 @@
       "fonte": "https://pncp.gov.br/app/editais"
     }
   ],
-  "atualizadoEm": "2026-10-22"
+  "atualizadoEm": "2026-10-23"
 }
