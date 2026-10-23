@@ -1,13 +1,66 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-10-22",
+  "atualizadoEm": "2026-10-23",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
-    "2026": 200
+    "2026": 201
   },
   "fonte": "https://sapl.guariba.sp.leg.br/",
   "materias": [
+    {
+      "id": "sapl-11672",
+      "saplId": 11672,
+      "tipo": "Projeto de Resolução",
+      "sigla": "PRE",
+      "numero": "3/2026",
+      "ano": 2026,
+      "titulo": "DISPÕE SOBRE A RATIFICAÇÃO DA ELEIÇÃO DA MESA DIRETORA DA CÂMARA MUNICIPAL DE GUARIBA PARA O BIÊNIO 2027/2028 E ESTABELECE PROVIDÊNCIAS PARA ADEQ…",
+      "resumo": "DISPÕE SOBRE A RATIFICAÇÃO DA ELEIÇÃO DA MESA DIRETORA DA CÂMARA MUNICIPAL DE GUARIBA PARA O BIÊNIO 2027/2028 E ESTABELECE PROVIDÊNCIAS PARA ADEQUAÇÃO DA LEI ORGÂNICA DO MUNÍCIPIO E DO REGIMENTO INTERNO.",
+      "autores": [],
+      "autoresOficiais": [
+        "Mesa Diretora"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-22",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11672",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 3,
+      "andamento": {
+        "id": 31921,
+        "data": "2026-10-22",
+        "status": "Proposição inclusa na Ordem do Dia",
+        "descricao": "INCLUSO PARA LEITURA, DISCUSSÃO E VOTAÇÃO NA 19ª SESSÃO EXTRAORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11672"
+      },
+      "historico": [
+        {
+          "id": 31921,
+          "data": "2026-10-22",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSO PARA LEITURA, DISCUSSÃO E VOTAÇÃO NA 19ª SESSÃO EXTRAORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11672"
+        },
+        {
+          "id": 31920,
+          "data": "2026-10-22",
+          "status": "Aguardando emissão de pareceres",
+          "descricao": "Matéria enviada para emissão dos pareceres.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11672"
+        },
+        {
+          "id": 31919,
+          "data": "2026-10-22",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "Inclusa para discussões preliminares.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11672"
+        }
+      ]
+    },
     {
       "id": "sapl-11671",
       "saplId": 11671,
