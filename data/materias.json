@@ -1,6 +1,6 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-10-24",
+  "atualizadoEm": "2026-10-25",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
