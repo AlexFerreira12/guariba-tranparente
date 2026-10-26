@@ -1,10 +1,10 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-10-25",
+  "atualizadoEm": "2026-10-26",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
-    "2026": 201
+    "2026": 202
   },
   "fonte": "https://sapl.guariba.sp.leg.br/",
   "materias": [
@@ -29,15 +29,22 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 3,
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31921,
-        "data": "2026-10-22",
-        "status": "Proposição inclusa na Ordem do Dia",
-        "descricao": "INCLUSO PARA LEITURA, DISCUSSÃO E VOTAÇÃO NA 19ª SESSÃO EXTRAORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31928,
+        "data": "2026-10-23",
+        "status": "Proposição retirada da Ordem do Dia",
+        "descricao": "RETIRADA DA ORDEM DO DIA PELO PLENÁRIO. NÃO VOTADO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11672"
       },
       "historico": [
+        {
+          "id": 31928,
+          "data": "2026-10-23",
+          "status": "Proposição retirada da Ordem do Dia",
+          "descricao": "RETIRADA DA ORDEM DO DIA PELO PLENÁRIO. NÃO VOTADO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11672"
+        },
         {
           "id": 31921,
           "data": "2026-10-22",
@@ -58,6 +65,52 @@
           "status": "Matéria apresenta para discussão preliminar",
           "descricao": "Inclusa para discussões preliminares.",
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11672"
+        }
+      ]
+    },
+    {
+      "id": "sapl-11673",
+      "saplId": 11673,
+      "tipo": "Projeto de Resolução",
+      "sigla": "PRE",
+      "numero": "4/2026",
+      "ano": 2026,
+      "titulo": "AUTORIZA O PAGAMENTO EM CARÁTER EXTRAORDINÁRIO, SOMENTE NO MÊS DE DEZEMBRO DE 2026, O VALOR ÚNICO DE R$.950,00, (NOVECENTOS E CINQUENTA REAIS), Q…",
+      "resumo": "AUTORIZA O PAGAMENTO EM CARÁTER EXTRAORDINÁRIO, SOMENTE NO MÊS DE DEZEMBRO DE 2026, O VALOR ÚNICO DE R$.950,00, (NOVECENTOS E CINQUENTA REAIS), QUE SERÁ ACRESCIDO NO “AUXILIO ALIMENTAÇÃO” EM PECÚNIA, AOS SERVIDORES PÚBLICOS DA CÂMARA MUNICIPAL DE GUARIBA.",
+      "autores": [],
+      "autoresOficiais": [
+        "Mesa Diretora"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-21",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11673",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 31930,
+        "data": "2026-10-26",
+        "status": "Aguardando emissão de pareceres",
+        "descricao": "Matéria enviada para emissão dos pareceres.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11673"
+      },
+      "historico": [
+        {
+          "id": 31930,
+          "data": "2026-10-26",
+          "status": "Aguardando emissão de pareceres",
+          "descricao": "Matéria enviada para emissão dos pareceres.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11673"
+        },
+        {
+          "id": 31929,
+          "data": "2026-10-26",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "Inclusa para discussões preliminares.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11673"
         }
       ]
     },
@@ -84,15 +137,29 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 2,
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31912,
-        "data": "2026-10-13",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "MATÉRIA INCLUSA PARA LEITURA NO EXPEDIENTE DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31932,
+        "data": "2026-10-14",
+        "status": "Para providências cabíveis",
+        "descricao": "MATÉRIA ENCAMINHADA PARA O PODER EXECUTIVO PARA AÇÕES CABÍVEIS.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11671"
       },
       "historico": [
+        {
+          "id": 31932,
+          "data": "2026-10-14",
+          "status": "Para providências cabíveis",
+          "descricao": "MATÉRIA ENCAMINHADA PARA O PODER EXECUTIVO PARA AÇÕES CABÍVEIS.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11671"
+        },
+        {
+          "id": 31931,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11671"
+        },
         {
           "id": 31912,
           "data": "2026-10-13",
@@ -123,22 +190,54 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-10-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11670",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 6,
+      "votacoes": [
+        {
+          "id": 2244,
+          "resultado": "Aprovado",
+          "sim": 7,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T08:35:29.836868-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11670"
+        }
+      ],
+      "totalTramitacoes": 9,
       "andamento": {
-        "id": 31918,
-        "data": "2026-10-16",
-        "status": "Proposição inclusa na Ordem do Dia",
-        "descricao": "INCLUSO PARA DISCUSSÃO E VOTAÇÃO NA 18ª SESSÃO EXTRAORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31926,
+        "data": "2026-10-20",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11670"
       },
       "historico": [
+        {
+          "id": 31926,
+          "data": "2026-10-20",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11670"
+        },
+        {
+          "id": 31924,
+          "data": "2026-10-19",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA POR UNANIMIDADE DOS VEREADORES PRESENTES NA 18ª SESSÃO EXTRAORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11670"
+        },
+        {
+          "id": 31922,
+          "data": "2026-10-19",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM AUDIENCIA PÚBLICA PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11670"
+        },
         {
           "id": 31918,
           "data": "2026-10-16",
@@ -197,22 +296,40 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-10-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11669",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 3,
+      "votacoes": [
+        {
+          "id": 2254,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:48:54.512087-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
+        }
+      ],
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31896,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E PRIMEIRA DISCUSSÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31939,
+        "data": "2026-10-13",
+        "status": "Proposição apresentada em Plenário",
+        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
       },
       "historico": [
+        {
+          "id": 31939,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
+        },
         {
           "id": 31896,
           "data": "2026-10-09",
@@ -401,22 +518,40 @@
         "Cassio Santa Cruz"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-10-02",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11668",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 3,
+      "votacoes": [
+        {
+          "id": 2255,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:48:54.522273-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11668"
+        }
+      ],
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31899,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E PRIMEIRA DISCUSSÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31940,
+        "data": "2026-10-13",
+        "status": "Proposição apresentada em Plenário",
+        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11668"
       },
       "historico": [
+        {
+          "id": 31940,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11668"
+        },
         {
           "id": 31899,
           "data": "2026-10-09",
@@ -504,22 +639,54 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-09-23",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11662",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 6,
+      "votacoes": [
+        {
+          "id": 2245,
+          "resultado": "Aprovado",
+          "sim": 7,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T08:35:29.865176-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11662"
+        }
+      ],
+      "totalTramitacoes": 9,
       "andamento": {
-        "id": 31917,
-        "data": "2026-10-16",
-        "status": "Proposição inclusa na Ordem do Dia",
-        "descricao": "INCLUSO PARA DISCUSSÃO E VOTAÇÃO NA 18ª SESSÃO EXTRAORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31927,
+        "data": "2026-10-20",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11662"
       },
       "historico": [
+        {
+          "id": 31927,
+          "data": "2026-10-20",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11662"
+        },
+        {
+          "id": 31925,
+          "data": "2026-10-19",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA POR UNANIMIDADE DOS VEREADORES PRESENTES NA 18ª SESSÃO EXTRAORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11662"
+        },
+        {
+          "id": 31923,
+          "data": "2026-10-19",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM AUDIENCIA PÚBLICA PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11662"
+        },
         {
           "id": 31917,
           "data": "2026-10-16",
@@ -578,22 +745,40 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-09-17",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11661",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 3,
+      "votacoes": [
+        {
+          "id": 2253,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:48:54.501808-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
+        }
+      ],
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31895,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E PRIMEIRA DISCUSSÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31938,
+        "data": "2026-10-13",
+        "status": "Proposição apresentada em Plenário",
+        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
       },
       "historico": [
+        {
+          "id": 31938,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
+        },
         {
           "id": 31895,
           "data": "2026-10-09",
@@ -631,22 +816,40 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-09-15",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11660",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 3,
+      "votacoes": [
+        {
+          "id": 2252,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:48:54.491020-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
+        }
+      ],
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31901,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E PRIMEIRA DISCUSSÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31937,
+        "data": "2026-10-13",
+        "status": "Proposição apresentada em Plenário",
+        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
       },
       "historico": [
+        {
+          "id": 31937,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
+        },
         {
           "id": 31901,
           "data": "2026-10-09",
@@ -684,22 +887,40 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-09-11",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11659",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 3,
+      "votacoes": [
+        {
+          "id": 2251,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:48:54.479649-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
+        }
+      ],
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31894,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E PRIMEIRA DISCUSSÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31936,
+        "data": "2026-10-13",
+        "status": "Proposição apresentada em Plenário",
+        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
       },
       "historico": [
+        {
+          "id": 31936,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
+        },
         {
           "id": 31894,
           "data": "2026-10-09",
@@ -775,17 +996,34 @@
           "data": "2026-10-12T09:26:55.899830-03:00",
           "observacao": "",
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11658"
+        },
+        {
+          "id": 2247,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:45:35.494580-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11658"
         }
       ],
-      "totalTramitacoes": 5,
+      "totalTramitacoes": 6,
       "andamento": {
-        "id": 31905,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa na Ordem do Dia",
-        "descricao": "INCLUSO PARA SEGUNDA DISCUSSÃO E SEGUNDA VOTAÇÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31941,
+        "data": "2026-10-13",
+        "status": "Proposição aprovada em 2º turno",
+        "descricao": "MATÉRIA APROVADA EM SEGUNDO TURNO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11658"
       },
       "historico": [
+        {
+          "id": 31941,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada em 2º turno",
+          "descricao": "MATÉRIA APROVADA EM SEGUNDO TURNO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11658"
+        },
         {
           "id": 31905,
           "data": "2026-10-09",
@@ -837,22 +1075,40 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-09-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11657",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 3,
+      "votacoes": [
+        {
+          "id": 2250,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:48:54.467991-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
+        }
+      ],
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31893,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E PRIMEIRA DISCUSSÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31935,
+        "data": "2026-10-13",
+        "status": "Proposição apresentada em Plenário",
+        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
       },
       "historico": [
+        {
+          "id": 31935,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
+        },
         {
           "id": 31893,
           "data": "2026-10-09",
@@ -890,22 +1146,40 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-09-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11656",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 3,
+      "votacoes": [
+        {
+          "id": 2249,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:48:54.455439-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
+        }
+      ],
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31892,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E PRIMEIRA DISCUSSÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31934,
+        "data": "2026-10-13",
+        "status": "Proposição apresentada em Plenário",
+        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
       },
       "historico": [
+        {
+          "id": 31934,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
+        },
         {
           "id": 31892,
           "data": "2026-10-09",
@@ -943,22 +1217,40 @@
         "Prefeito Municipal"
       ],
       "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
       "data": "2026-09-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11654",
       "origem": "sapl-api",
       "normas": [],
-      "votacoes": [],
-      "totalTramitacoes": 3,
+      "votacoes": [
+        {
+          "id": 2248,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:48:54.442088-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
+        }
+      ],
+      "totalTramitacoes": 4,
       "andamento": {
-        "id": 31891,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E PRIMEIRA DISCUSSÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31933,
+        "data": "2026-10-13",
+        "status": "Proposição apresentada em Plenário",
+        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
       },
       "historico": [
+        {
+          "id": 31933,
+          "data": "2026-10-13",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
+        },
         {
           "id": 31891,
           "data": "2026-10-09",
@@ -10672,17 +10964,34 @@
           "data": "2026-10-12T09:26:55.874642-03:00",
           "observacao": "",
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11514"
+        },
+        {
+          "id": 2246,
+          "resultado": "Aprovado",
+          "sim": 10,
+          "nao": 0,
+          "abstencoes": 0,
+          "data": "2026-10-26T10:45:26.752741-03:00",
+          "observacao": "",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11514"
         }
       ],
-      "totalTramitacoes": 8,
+      "totalTramitacoes": 9,
       "andamento": {
-        "id": 31904,
-        "data": "2026-10-09",
-        "status": "Proposição inclusa na Ordem do Dia",
-        "descricao": "INCLUSO PARA SEGUNDA DISCUSSÃO E SEGUNDA VOTAÇÃO NA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 31942,
+        "data": "2026-10-13",
+        "status": "Proposição aprovada em 2º turno",
+        "descricao": "MATÉRIA APROVADA EM SEGUNDO TURNO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11514"
       },
       "historico": [
+        {
+          "id": 31942,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada em 2º turno",
+          "descricao": "MATÉRIA APROVADA EM SEGUNDO TURNO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11514"
+        },
         {
           "id": 31904,
           "data": "2026-10-09",
@@ -46336,7 +46645,7 @@
   "contagensApuracao": {
     "materiasComLeiVinculada": 132,
     "materiasComOutraNormaVinculada": 31,
-    "materiasComVotacao": 263
+    "materiasComVotacao": 273
   },
   "apuracaoTramitacao": "api-sapl",
   "detalhesTramitacao": "Histórico informado pelo SAPL; a última movimentação não equivale automaticamente à decisão final nem comprova execução administrativa."
