@@ -1,6 +1,6 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-10-26",
+  "atualizadoEm": "2026-10-27",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
@@ -314,15 +314,36 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
         }
       ],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 31939,
-        "data": "2026-10-13",
-        "status": "Proposição apresentada em Plenário",
-        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+        "id": 31974,
+        "data": "2026-10-14",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
       },
       "historico": [
+        {
+          "id": 31974,
+          "data": "2026-10-14",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
+        },
+        {
+          "id": 31965,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
+        },
+        {
+          "id": 31958,
+          "data": "2026-10-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSA PARA VOTAÇÃO NA ORDEM DO DIA DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA MEDIANTE REQUERIMENTO DE URGÊNCIA APRESENTADO E APROVADO EM SESSÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
+        },
         {
           "id": 31939,
           "data": "2026-10-13",
@@ -536,15 +557,36 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11668"
         }
       ],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 31940,
-        "data": "2026-10-13",
-        "status": "Proposição apresentada em Plenário",
-        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+        "id": 31967,
+        "data": "2026-10-14",
+        "status": "Aguardando promulgação do Decreto",
+        "descricao": "MATÉRIA ENVIADA PARA A MESA DIRETORA PARA PROMULGAÇÃO DO DECRETO LEGISLATIVO.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11668"
       },
       "historico": [
+        {
+          "id": 31967,
+          "data": "2026-10-14",
+          "status": "Aguardando promulgação do Decreto",
+          "descricao": "MATÉRIA ENVIADA PARA A MESA DIRETORA PARA PROMULGAÇÃO DO DECRETO LEGISLATIVO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11668"
+        },
+        {
+          "id": 31966,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11668"
+        },
+        {
+          "id": 31951,
+          "data": "2026-10-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSA PARA VOTAÇÃO NA ORDEM DO DIA DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA MEDIANTE REQUERIMENTO DE URGÊNCIA APRESENTADO E APROVADO EM SESSÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11668"
+        },
         {
           "id": 31940,
           "data": "2026-10-13",
@@ -763,15 +805,36 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
         }
       ],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 31938,
-        "data": "2026-10-13",
-        "status": "Proposição apresentada em Plenário",
-        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+        "id": 31973,
+        "data": "2026-10-14",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
       },
       "historico": [
+        {
+          "id": 31973,
+          "data": "2026-10-14",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
+        },
+        {
+          "id": 31964,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
+        },
+        {
+          "id": 31957,
+          "data": "2026-10-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSA PARA VOTAÇÃO NA ORDEM DO DIA DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA MEDIANTE REQUERIMENTO DE URGÊNCIA APRESENTADO E APROVADO EM SESSÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
+        },
         {
           "id": 31938,
           "data": "2026-10-13",
@@ -834,15 +897,36 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
         }
       ],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 31937,
-        "data": "2026-10-13",
-        "status": "Proposição apresentada em Plenário",
-        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+        "id": 31972,
+        "data": "2026-10-14",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
       },
       "historico": [
+        {
+          "id": 31972,
+          "data": "2026-10-14",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
+        },
+        {
+          "id": 31963,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
+        },
+        {
+          "id": 31956,
+          "data": "2026-10-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSA PARA VOTAÇÃO NA ORDEM DO DIA DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA MEDIANTE REQUERIMENTO DE URGÊNCIA APRESENTADO E APROVADO EM SESSÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
+        },
         {
           "id": 31937,
           "data": "2026-10-13",
@@ -905,15 +989,36 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
         }
       ],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 31936,
-        "data": "2026-10-13",
-        "status": "Proposição apresentada em Plenário",
-        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+        "id": 31971,
+        "data": "2026-10-14",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
       },
       "historico": [
+        {
+          "id": 31971,
+          "data": "2026-10-14",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
+        },
+        {
+          "id": 31962,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
+        },
+        {
+          "id": 31955,
+          "data": "2026-10-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSA PARA VOTAÇÃO NA ORDEM DO DIA DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA MEDIANTE REQUERIMENTO DE URGÊNCIA APRESENTADO E APROVADO EM SESSÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
+        },
         {
           "id": 31936,
           "data": "2026-10-13",
@@ -1093,15 +1198,36 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
         }
       ],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 31935,
-        "data": "2026-10-13",
-        "status": "Proposição apresentada em Plenário",
-        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+        "id": 31970,
+        "data": "2026-10-14",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
       },
       "historico": [
+        {
+          "id": 31970,
+          "data": "2026-10-14",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
+        },
+        {
+          "id": 31961,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
+        },
+        {
+          "id": 31954,
+          "data": "2026-10-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSA PARA VOTAÇÃO NA ORDEM DO DIA DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA MEDIANTE REQUERIMENTO DE URGÊNCIA APRESENTADO E APROVADO EM SESSÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
+        },
         {
           "id": 31935,
           "data": "2026-10-13",
@@ -1164,15 +1290,36 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
         }
       ],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 31934,
-        "data": "2026-10-13",
-        "status": "Proposição apresentada em Plenário",
-        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+        "id": 31969,
+        "data": "2026-10-14",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
       },
       "historico": [
+        {
+          "id": 31969,
+          "data": "2026-10-14",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
+        },
+        {
+          "id": 31960,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
+        },
+        {
+          "id": 31953,
+          "data": "2026-10-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSA PARA VOTAÇÃO NA ORDEM DO DIA DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA MEDIANTE REQUERIMENTO DE URGÊNCIA APRESENTADO E APROVADO EM SESSÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
+        },
         {
           "id": 31934,
           "data": "2026-10-13",
@@ -1235,15 +1382,36 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
         }
       ],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 31933,
-        "data": "2026-10-13",
-        "status": "Proposição apresentada em Plenário",
-        "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+        "id": 31968,
+        "data": "2026-10-14",
+        "status": "Aguardando promulgação da lei",
+        "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
       },
       "historico": [
+        {
+          "id": 31968,
+          "data": "2026-10-14",
+          "status": "Aguardando promulgação da lei",
+          "descricao": "MATÉRIA ENVIADA PARA O PODER EXECUTIVO PARA PROMULGAÇÃO DA LEI.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
+        },
+        {
+          "id": 31959,
+          "data": "2026-10-13",
+          "status": "Proposição aprovada",
+          "descricao": "MATÉRIA APROVADA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
+        },
+        {
+          "id": 31952,
+          "data": "2026-10-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSA PARA VOTAÇÃO NA ORDEM DO DIA DA 35ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA MEDIANTE REQUERIMENTO DE URGÊNCIA APRESENTADO E APROVADO EM SESSÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
+        },
         {
           "id": 31933,
           "data": "2026-10-13",
