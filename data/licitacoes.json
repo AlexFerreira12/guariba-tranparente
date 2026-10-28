@@ -971,8 +971,8 @@
       "publicadoEm": "2026-08-20",
       "anoCompra": 2026,
       "situacao": "Divulgada no PNCP",
-      "valorEstimado": null,
-      "valorHomologado": null,
+      "valorEstimado": 325055.68,
+      "valorHomologado": 197654.62,
       "orgao": "MUNICIPIO DE GUARIBA",
       "cnpj": "48664304000180",
       "fonte": "https://pncp.gov.br/app/editais"
@@ -7236,5 +7236,5 @@
       "fonte": "https://pncp.gov.br/app/editais"
     }
   ],
-  "atualizadoEm": "2026-10-23"
+  "atualizadoEm": "2026-10-28"
 }
