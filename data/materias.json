@@ -1,13 +1,113 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-10-27",
+  "atualizadoEm": "2026-10-28",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
-    "2026": 202
+    "2026": 206
   },
   "fonte": "https://sapl.guariba.sp.leg.br/",
   "materias": [
+    {
+      "id": "sapl-11677",
+      "saplId": 11677,
+      "tipo": "Projeto de Lei",
+      "sigla": "PL",
+      "numero": "58/2026",
+      "ano": 2026,
+      "titulo": "ALTERA OS DISPOSITIVOS DA LEI Nº 2.429, DE 07 DE MAIO DE 2010, QUE CRIA O FUNDO MUNICIPAL DE CULTURA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "resumo": "ALTERA OS DISPOSITIVOS DA LEI Nº 2.429, DE 07 DE MAIO DE 2010, QUE CRIA O FUNDO MUNICIPAL DE CULTURA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "autores": [],
+      "autoresOficiais": [
+        "Prefeito Municipal"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-28",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11677",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 0,
+      "andamento": null,
+      "historico": []
+    },
+    {
+      "id": "sapl-11676",
+      "saplId": 11676,
+      "tipo": "Projeto de Lei",
+      "sigla": "PL",
+      "numero": "57/2026",
+      "ano": 2026,
+      "titulo": "DISPÕE SOBRE A INSTITUIÇÃO DO SISTEMA MUNICIPAL DE CULTURA DO MUNICÍPIO DE GUARIBA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "resumo": "DISPÕE SOBRE A INSTITUIÇÃO DO SISTEMA MUNICIPAL DE CULTURA DO MUNICÍPIO DE GUARIBA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "autores": [],
+      "autoresOficiais": [
+        "Prefeito Municipal"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-28",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11676",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 0,
+      "andamento": null,
+      "historico": []
+    },
+    {
+      "id": "sapl-11675",
+      "saplId": 11675,
+      "tipo": "Projeto de Lei",
+      "sigla": "PL",
+      "numero": "56/2026",
+      "ano": 2026,
+      "titulo": "AUTORIZA A ABERTURA DE CRÉDITOS ADICIONAIS NO ORÇAMENTO GERAL DO MUNICÍPIO, NO VALOR DE R$ R$ 552.978,39 (QUINHENTOS E CINQUENTA E DOIS MIL, NOVE…",
+      "resumo": "AUTORIZA A ABERTURA DE CRÉDITOS ADICIONAIS NO ORÇAMENTO GERAL DO MUNICÍPIO, NO VALOR DE R$ R$ 552.978,39 (QUINHENTOS E CINQUENTA E DOIS MIL, NOVECENTOS E SETENTA E OITO REAIS E TRINTA E NOVE CENTAVOS) VISANDO AO ATENDIMENTO DE DESPESAS CORRENTES.",
+      "autores": [],
+      "autoresOficiais": [
+        "Prefeito Municipal"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-28",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11675",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 0,
+      "andamento": null,
+      "historico": []
+    },
+    {
+      "id": "sapl-11674",
+      "saplId": 11674,
+      "tipo": "Projeto de Lei",
+      "sigla": "PL",
+      "numero": "55/2026",
+      "ano": 2026,
+      "titulo": "DISPÕE ACERCA DA RATIFICAÇÃO DO PROTOCOLO DE INTENÇÕES DO CONSÓRCIO NACIONAL PARA GESTÃO CLIMÁTICA E PREVENÇÃO DE DESASTRES (CONCLIMA) E DÁ OUTRA…",
+      "resumo": "DISPÕE ACERCA DA RATIFICAÇÃO DO PROTOCOLO DE INTENÇÕES DO CONSÓRCIO NACIONAL PARA GESTÃO CLIMÁTICA E PREVENÇÃO DE DESASTRES (CONCLIMA) E DÁ OUTRAS PROVIDÊNCIAS.",
+      "autores": [],
+      "autoresOficiais": [
+        "Prefeito Municipal"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-28",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11674",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 0,
+      "andamento": null,
+      "historico": []
+    },
     {
       "id": "sapl-11672",
       "saplId": 11672,
