@@ -12,6 +12,20 @@
   "anoFinal": 2026,
   "registros": [
     {
+      "id": "48664304000180-1-000268/2026",
+      "objeto": "AQUISICAO DE CLORO DESTINADO AO TRATAMENTO DE QUATRO PISCINAS DAS UNIDADES ESCOLARES DA REDE MUNICIPAL DE ENSINO.",
+      "modalidade": "Dispensa",
+      "modalidadeId": 8,
+      "publicadoEm": "2026-10-29",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": 29850.0,
+      "valorHomologado": null,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
       "id": "48664304000180-1-000267/2026",
       "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS DE CONTROLE INTEGRADO DE VETORES E PRAGAS URBANAS.",
       "modalidade": "Pregão - Eletrônico",
@@ -775,8 +789,8 @@
       "publicadoEm": "2026-09-01",
       "anoCompra": 2026,
       "situacao": "Divulgada no PNCP",
-      "valorEstimado": null,
-      "valorHomologado": null,
+      "valorEstimado": 74894.2,
+      "valorHomologado": 51663.0,
       "orgao": "MUNICIPIO DE GUARIBA",
       "cnpj": "48664304000180",
       "fonte": "https://pncp.gov.br/app/editais"
@@ -817,8 +831,8 @@
       "publicadoEm": "2026-08-31",
       "anoCompra": 2026,
       "situacao": "Divulgada no PNCP",
-      "valorEstimado": null,
-      "valorHomologado": null,
+      "valorEstimado": 209200.0,
+      "valorHomologado": 173380.0,
       "orgao": "MUNICIPIO DE GUARIBA",
       "cnpj": "48664304000180",
       "fonte": "https://pncp.gov.br/app/editais"
@@ -1237,8 +1251,8 @@
       "publicadoEm": "2026-08-05",
       "anoCompra": 2026,
       "situacao": "Divulgada no PNCP",
-      "valorEstimado": null,
-      "valorHomologado": null,
+      "valorEstimado": 93024.0,
+      "valorHomologado": 60111.36,
       "orgao": "MUNICIPIO DE GUARIBA",
       "cnpj": "48664304000180",
       "fonte": "https://pncp.gov.br/app/editais"
@@ -7236,5 +7250,5 @@
       "fonte": "https://pncp.gov.br/app/editais"
     }
   ],
-  "atualizadoEm": "2026-10-28"
+  "atualizadoEm": "2026-10-29"
 }
