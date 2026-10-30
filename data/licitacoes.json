@@ -12,6 +12,20 @@
   "anoFinal": 2026,
   "registros": [
     {
+      "id": "48664304000180-1-000269/2026",
+      "objeto": "CONTRATACAO EMERGENCIAL  EM REGIME DE DIARIAS  DE LOCACAO DE CARREGADEIRA DE CANA DE ACUCAR COM GARRAS E MANDIBULAS ADAPTADAS  POTENCIA MINIMA DE 99 HP  COM OPERADOR  PARA O CARREGAMENTO DE MASSA VERDE E RESIDUOS VEGETAIS  GALHOS  TRONCOS E DEMAIS RESTOS DE PODA E SUPRESSAO   DESTINADOS AS ACOES DE RESPOSTA AO DESASTRE DECORRENTE DO VENDAVAL DE GRANDE INTENSIDADE  ACOMPANHADO DE CHUVA DE GRANIZO E VENTOS SUPERIORES A 120 KM H  CLASSIFICADO PELA CODIFICACAO BRASILEIRA DE DESASTRES  COBRADE 1.3.2.1.5   OCORRIDO EM 24 DE JULHO DE 2026  NO MUNICIPIO DE GUARIBA SP.",
+      "modalidade": "Dispensa",
+      "modalidadeId": 8,
+      "publicadoEm": "2026-10-29",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": 167200.0,
+      "valorHomologado": 167200.0,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
       "id": "48664304000180-1-000268/2026",
       "objeto": "AQUISICAO DE CLORO DESTINADO AO TRATAMENTO DE QUATRO PISCINAS DAS UNIDADES ESCOLARES DA REDE MUNICIPAL DE ENSINO.",
       "modalidade": "Dispensa",
@@ -1027,8 +1041,8 @@
       "publicadoEm": "2026-08-20",
       "anoCompra": 2026,
       "situacao": "Divulgada no PNCP",
-      "valorEstimado": null,
-      "valorHomologado": null,
+      "valorEstimado": 958399.7,
+      "valorHomologado": 687099.3,
       "orgao": "MUNICIPIO DE GUARIBA",
       "cnpj": "48664304000180",
       "fonte": "https://pncp.gov.br/app/editais"
@@ -7250,5 +7264,5 @@
       "fonte": "https://pncp.gov.br/app/editais"
     }
   ],
-  "atualizadoEm": "2026-10-29"
+  "atualizadoEm": "2026-10-30"
 }
