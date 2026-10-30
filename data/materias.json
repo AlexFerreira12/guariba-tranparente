@@ -1,13 +1,38 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-10-29",
+  "atualizadoEm": "2026-10-30",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
-    "2026": 206
+    "2026": 207
   },
   "fonte": "https://sapl.guariba.sp.leg.br/",
   "materias": [
+    {
+      "id": "sapl-11678",
+      "saplId": 11678,
+      "tipo": "Projeto de Lei",
+      "sigla": "PL",
+      "numero": "59/2026",
+      "ano": 2026,
+      "titulo": "ESTIMA A RECEITA E FIXA A DESPESA DO MUNICÍPIO DE GUARIBA, PARA O EXERCÍCIO FINANCEIRO DE 2027, NO VALOR TOTAL DE R$ 224.587.000,00 (DUZENTOS E V…",
+      "resumo": "ESTIMA A RECEITA E FIXA A DESPESA DO MUNICÍPIO DE GUARIBA, PARA O EXERCÍCIO FINANCEIRO DE 2027, NO VALOR TOTAL DE R$ 224.587.000,00 (DUZENTOS E VINTE E QUATRO MILHÕES, QUINHENTOS E OITENTA E SETE MIL REAIS), E DÁ OUTRAS PROVIDÊNCIAS.",
+      "autores": [],
+      "autoresOficiais": [
+        "Prefeito Municipal"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-29",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11678",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 0,
+      "andamento": null,
+      "historico": []
+    },
     {
       "id": "sapl-11677",
       "saplId": 11677,
