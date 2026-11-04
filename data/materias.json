@@ -1,6 +1,6 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-11-03",
+  "atualizadoEm": "2026-11-04",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
@@ -314,13 +314,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3920/2026. Consulte a norma original.",
       "data": "2026-10-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11670",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5024,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3920",
+          "ano": 2026,
+          "data": "2026-10-20",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5024"
+        }
+      ],
       "votacoes": [
         {
           "id": 2244,
@@ -333,6 +343,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11670"
         }
       ],
+      "documento": "Lei nº 3920/2026",
       "totalTramitacoes": 9,
       "andamento": {
         "id": 31926,
@@ -420,13 +431,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3919/2026. Consulte a norma original.",
       "data": "2026-10-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11669",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5023,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3919",
+          "ano": 2026,
+          "data": "2026-10-15",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5023"
+        }
+      ],
       "votacoes": [
         {
           "id": 2254,
@@ -439,6 +460,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11669"
         }
       ],
+      "documento": "Lei nº 3919/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31974,
@@ -512,14 +534,25 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei Complementar nº 3912/2026. Consulte a norma original.",
       "data": "2026-10-06",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11667",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5026,
+          "tipo": "Lei Complementar",
+          "sigla": "LC",
+          "numero": "3912",
+          "ano": 2026,
+          "data": "2026-10-07",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5026"
+        }
+      ],
       "votacoes": [],
+      "documento": "Lei Complementar nº 3912/2026",
       "totalTramitacoes": 0,
       "andamento": null,
       "historico": []
@@ -755,14 +788,25 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei Complementar nº 3911/2026. Consulte a norma original.",
       "data": "2026-10-01",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11664",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5025,
+          "tipo": "Lei Complementar",
+          "sigla": "LC",
+          "numero": "3911",
+          "ano": 2026,
+          "data": "2026-10-07",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5025"
+        }
+      ],
       "votacoes": [],
+      "documento": "Lei Complementar nº 3911/2026",
       "totalTramitacoes": 0,
       "andamento": null,
       "historico": []
@@ -805,13 +849,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei Complementar nº 3921/2026. Consulte a norma original.",
       "data": "2026-09-23",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11662",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5027,
+          "tipo": "Lei Complementar",
+          "sigla": "LC",
+          "numero": "3921",
+          "ano": 2026,
+          "data": "2026-10-20",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5027"
+        }
+      ],
       "votacoes": [
         {
           "id": 2245,
@@ -824,6 +878,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11662"
         }
       ],
+      "documento": "Lei Complementar nº 3921/2026",
       "totalTramitacoes": 9,
       "andamento": {
         "id": 31927,
@@ -911,13 +966,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3918/2026. Consulte a norma original.",
       "data": "2026-09-17",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11661",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5022,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3918",
+          "ano": 2026,
+          "data": "2026-10-15",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5022"
+        }
+      ],
       "votacoes": [
         {
           "id": 2253,
@@ -930,6 +995,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11661"
         }
       ],
+      "documento": "Lei nº 3918/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31973,
@@ -1003,13 +1069,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3917/2026. Consulte a norma original.",
       "data": "2026-09-15",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11660",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5021,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3917",
+          "ano": 2026,
+          "data": "2026-10-15",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5021"
+        }
+      ],
       "votacoes": [
         {
           "id": 2252,
@@ -1022,6 +1098,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11660"
         }
       ],
+      "documento": "Lei nº 3917/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31972,
@@ -1095,13 +1172,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3914/2026. Consulte a norma original.",
       "data": "2026-09-11",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11659",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5018,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3914",
+          "ano": 2026,
+          "data": "2026-10-15",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5018"
+        }
+      ],
       "votacoes": [
         {
           "id": 2251,
@@ -1114,6 +1201,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11659"
         }
       ],
+      "documento": "Lei nº 3914/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31971,
@@ -1304,13 +1392,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3916/2026. Consulte a norma original.",
       "data": "2026-09-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11657",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5020,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3916",
+          "ano": 2026,
+          "data": "2026-10-15",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5020"
+        }
+      ],
       "votacoes": [
         {
           "id": 2250,
@@ -1323,6 +1421,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11657"
         }
       ],
+      "documento": "Lei nº 3916/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31970,
@@ -1396,13 +1495,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3915/2026. Consulte a norma original.",
       "data": "2026-09-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11656",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5019,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3915",
+          "ano": 2026,
+          "data": "2026-10-15",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5019"
+        }
+      ],
       "votacoes": [
         {
           "id": 2249,
@@ -1415,6 +1524,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11656"
         }
       ],
+      "documento": "Lei nº 3915/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31969,
@@ -1488,13 +1598,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3913/2026. Consulte a norma original.",
       "data": "2026-09-08",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11654",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5017,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3913",
+          "ano": 2026,
+          "data": "2026-10-15",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5017"
+        }
+      ],
       "votacoes": [
         {
           "id": 2248,
@@ -1507,6 +1627,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11654"
         }
       ],
+      "documento": "Lei nº 3913/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31968,
@@ -1828,14 +1949,25 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3907/2026. Consulte a norma original.",
       "data": "2026-09-02",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11649",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5013,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3907",
+          "ano": 2026,
+          "data": "2026-09-03",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5013"
+        }
+      ],
       "votacoes": [],
+      "documento": "Lei nº 3907/2026",
       "totalTramitacoes": 1,
       "andamento": {
         "id": 31851,
@@ -2270,13 +2402,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3910/2026. Consulte a norma original.",
       "data": "2026-08-19",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11642",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5016,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3910",
+          "ano": 2026,
+          "data": "2026-09-04",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5016"
+        }
+      ],
       "votacoes": [
         {
           "id": 2241,
@@ -2289,6 +2431,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11642"
         }
       ],
+      "documento": "Lei nº 3910/2026",
       "totalTramitacoes": 6,
       "andamento": {
         "id": 31842,
@@ -2355,13 +2498,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3909/2026. Consulte a norma original.",
       "data": "2026-08-14",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11641",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5015,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3909",
+          "ano": 2026,
+          "data": "2026-09-04",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5015"
+        }
+      ],
       "votacoes": [
         {
           "id": 2240,
@@ -2374,6 +2527,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11641"
         }
       ],
+      "documento": "Lei nº 3909/2026",
       "totalTramitacoes": 6,
       "andamento": {
         "id": 31841,
@@ -2440,13 +2594,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3908/2026. Consulte a norma original.",
       "data": "2026-08-13",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11640",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5014,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3908",
+          "ano": 2026,
+          "data": "2026-09-04",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5014"
+        }
+      ],
       "votacoes": [
         {
           "id": 2239,
@@ -2459,6 +2623,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11640"
         }
       ],
+      "documento": "Lei nº 3908/2026",
       "totalTramitacoes": 6,
       "andamento": {
         "id": 31840,
@@ -2525,13 +2690,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3905/2026. Consulte a norma original.",
       "data": "2026-08-06",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11639",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5012,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3905",
+          "ano": 2026,
+          "data": "2026-08-25",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5012"
+        }
+      ],
       "votacoes": [
         {
           "id": 2237,
@@ -2544,6 +2719,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11639"
         }
       ],
+      "documento": "Lei nº 3905/2026",
       "totalTramitacoes": 5,
       "andamento": {
         "id": 31800,
@@ -2877,13 +3053,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3903/2026. Consulte a norma original.",
       "data": "2026-07-30",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11628",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5010,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3903",
+          "ano": 2026,
+          "data": "2026-08-04",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5010"
+        }
+      ],
       "votacoes": [
         {
           "id": 2233,
@@ -2896,6 +3082,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11628"
         }
       ],
+      "documento": "Lei nº 3903/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31776,
@@ -3197,14 +3384,25 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3901/2026. Consulte a norma original.",
       "data": "2026-07-29",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11627",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5008,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3901",
+          "ano": 2026,
+          "data": "2026-07-30",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5008"
+        }
+      ],
       "votacoes": [],
+      "documento": "Lei nº 3901/2026",
       "totalTramitacoes": 0,
       "andamento": null,
       "historico": []
@@ -3222,13 +3420,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3902/2026. Consulte a norma original.",
       "data": "2026-07-22",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11626",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5009,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3902",
+          "ano": 2026,
+          "data": "2026-08-04",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5009"
+        }
+      ],
       "votacoes": [
         {
           "id": 2232,
@@ -3241,6 +3449,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11626"
         }
       ],
+      "documento": "Lei nº 3902/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31775,
@@ -3386,13 +3595,23 @@
       "autoresOficiais": [
         "Prefeito Municipal"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3906/2026. Consulte a norma original.",
       "data": "2026-07-03",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11622",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5028,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3906",
+          "ano": 2026,
+          "data": "2026-08-25",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5028"
+        }
+      ],
       "votacoes": [
         {
           "id": 2236,
@@ -3405,6 +3624,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11622"
         }
       ],
+      "documento": "Lei nº 3906/2026",
       "totalTramitacoes": 8,
       "andamento": {
         "id": 31799,
@@ -3595,13 +3815,23 @@
       "autoresOficiais": [
         "Anselmo Gimenes"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "virou-lei",
+      "situacao": "Norma jurídica do tipo lei vinculada a esta matéria no SAPL: Lei nº 3904/2026. Consulte a norma original.",
       "data": "2026-06-18",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11625",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5011,
+          "tipo": "Lei",
+          "sigla": "LEI",
+          "numero": "3904",
+          "ano": 2026,
+          "data": "2026-08-18",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5011"
+        }
+      ],
       "votacoes": [
         {
           "id": 2231,
@@ -3614,6 +3844,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11625"
         }
       ],
+      "documento": "Lei nº 3904/2026",
       "totalTramitacoes": 7,
       "andamento": {
         "id": 31774,
@@ -11240,13 +11471,23 @@
         "Paulo de Sa",
         "Roberto Carósio Filho"
       ],
-      "status": "nao-verificado",
-      "situacao": "Matéria cadastrada no SAPL. Há votação(ões) registrada(s); consulte os resultados abaixo. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "status": "norma-publicada",
+      "situacao": "Norma jurídica vinculada no SAPL: Emenda a Lei Orgânica Municipal nº 1/2026.",
       "data": "2026-03-05",
       "categoria": "Atividade legislativa",
       "fonte": "https://sapl.guariba.sp.leg.br/materia/11514",
       "origem": "sapl-api",
-      "normas": [],
+      "normas": [
+        {
+          "id": 5007,
+          "tipo": "Emenda a Lei Orgânica Municipal",
+          "sigla": "ELO",
+          "numero": "1",
+          "ano": 2026,
+          "data": "2026-10-14",
+          "fonte": "https://sapl.guariba.sp.leg.br/norma/5007"
+        }
+      ],
       "votacoes": [
         {
           "id": 2242,
@@ -11269,6 +11510,7 @@
           "fonte": "https://sapl.guariba.sp.leg.br/materia/11514"
         }
       ],
+      "documento": "Emenda a Lei Orgânica Municipal nº 1/2026",
       "totalTramitacoes": 9,
       "andamento": {
         "id": 31942,
@@ -46936,8 +47178,8 @@
   "apuracao": "normas-e-votacoes",
   "detalhesApuracao": "Status 'Virou lei' exige norma jurídica vinculada no SAPL. Votos são apresentados como registros de sessão e não substituem sanção/publicação.",
   "contagensApuracao": {
-    "materiasComLeiVinculada": 132,
-    "materiasComOutraNormaVinculada": 31,
+    "materiasComLeiVinculada": 153,
+    "materiasComOutraNormaVinculada": 32,
     "materiasComVotacao": 273
   },
   "apuracaoTramitacao": "api-sapl",
