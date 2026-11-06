@@ -1,10 +1,10 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-11-05",
+  "atualizadoEm": "2026-11-06",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
-    "2026": 207
+    "2026": 210
   },
   "fonte": "https://sapl.guariba.sp.leg.br/",
   "materias": [
@@ -32,6 +32,72 @@
       "totalTramitacoes": 0,
       "andamento": null,
       "historico": []
+    },
+    {
+      "id": "sapl-11681",
+      "saplId": 11681,
+      "tipo": "Projeto de Lei",
+      "sigla": "PL",
+      "numero": "60/2026",
+      "ano": 2026,
+      "titulo": "AUTORIZA A DOAÇÃO COM ENCARGOS DE IMÓVEL PERTENCENTE À CÂMARA MUNICIPAL DE GUARIBA AO MUNICÍPIO DE GUARIBA, DESTINADO À REGULARIZAÇÃO FUNDIÁRIA E…",
+      "resumo": "AUTORIZA A DOAÇÃO COM ENCARGOS DE IMÓVEL PERTENCENTE À CÂMARA MUNICIPAL DE GUARIBA AO MUNICÍPIO DE GUARIBA, DESTINADO À REGULARIZAÇÃO FUNDIÁRIA E À MANUTENÇÃO DAS ATIVIDADES DA EMEB “PROFª ANDRÉA GODOI WICK DELFINO”, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "autores": [
+        "anselmo-gimenes",
+        "calao-galeto",
+        "cassio-santa-cruz",
+        "fabiano-da-bocha",
+        "magna-rocha",
+        "marcia-alves",
+        "marquinhos-osti",
+        "paulo-da-sucata",
+        "paulo-de-sa",
+        "roberto-carosio-filho"
+      ],
+      "autoresOficiais": [
+        "Anselmo Gimenes",
+        "Calão - Galeto",
+        "Cassio Santa Cruz",
+        "Fabiano Da Bocha",
+        "Magna Rocha",
+        "Márcia Alves",
+        "Marquinhos Osti",
+        "Paulo Da Sucata",
+        "Paulo de Sa",
+        "Roberto Carósio Filho"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-28",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11681",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 31980,
+        "data": "2026-11-05",
+        "status": "Aguardando emissão de pareceres",
+        "descricao": "Matéria enviada para emissão dos pareceres.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11681"
+      },
+      "historico": [
+        {
+          "id": 31980,
+          "data": "2026-11-05",
+          "status": "Aguardando emissão de pareceres",
+          "descricao": "Matéria enviada para emissão dos pareceres.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11681"
+        },
+        {
+          "id": 31979,
+          "data": "2026-11-05",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "Inclusa para discussões preliminares.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11681"
+        }
+      ]
     },
     {
       "id": "sapl-11677",
@@ -132,6 +198,138 @@
       "totalTramitacoes": 0,
       "andamento": null,
       "historico": []
+    },
+    {
+      "id": "sapl-11680",
+      "saplId": 11680,
+      "tipo": "Projeto de Ementa à Lei Orgânica do Município",
+      "sigla": "EM",
+      "numero": "2/2026",
+      "ano": 2026,
+      "titulo": "ALTERA DISPOSITIVOS DA LEI ORGÂNICA DO MUNICÍPIO DE GUARIBA",
+      "resumo": "ALTERA DISPOSITIVOS DA LEI ORGÂNICA DO MUNICÍPIO DE GUARIBA",
+      "autores": [
+        "anselmo-gimenes",
+        "calao-galeto",
+        "cassio-santa-cruz",
+        "fabiano-da-bocha",
+        "magna-rocha",
+        "marcia-alves",
+        "marquinhos-osti",
+        "paulo-da-sucata",
+        "paulo-de-sa",
+        "roberto-carosio-filho"
+      ],
+      "autoresOficiais": [
+        "Anselmo Gimenes",
+        "Calão - Galeto",
+        "Cassio Santa Cruz",
+        "Fabiano Da Bocha",
+        "Magna Rocha",
+        "Márcia Alves",
+        "Marquinhos Osti",
+        "Paulo Da Sucata",
+        "Paulo de Sa",
+        "Roberto Carósio Filho"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-26",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11680",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 31978,
+        "data": "2026-11-05",
+        "status": "Aguardando emissão de pareceres",
+        "descricao": "Matéria enviada para emissão dos pareceres.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11680"
+      },
+      "historico": [
+        {
+          "id": 31978,
+          "data": "2026-11-05",
+          "status": "Aguardando emissão de pareceres",
+          "descricao": "Matéria enviada para emissão dos pareceres.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11680"
+        },
+        {
+          "id": 31977,
+          "data": "2026-11-05",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "Inclusa para discussões preliminares.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11680"
+        }
+      ]
+    },
+    {
+      "id": "sapl-11679",
+      "saplId": 11679,
+      "tipo": "Projeto de Resolução",
+      "sigla": "PRE",
+      "numero": "5/2026",
+      "ano": 2026,
+      "titulo": "ALTERA DISPOSITIVOS NO REGIMENTO INTERNO DA CÂMARA MUNICIPAL DE GUARIBA, NO CAPÍTULO I – SEÇÃO II – DA ELEIÇÃO DA MESA.",
+      "resumo": "ALTERA DISPOSITIVOS NO REGIMENTO INTERNO DA CÂMARA MUNICIPAL DE GUARIBA, NO CAPÍTULO I – SEÇÃO II – DA ELEIÇÃO DA MESA.",
+      "autores": [
+        "anselmo-gimenes",
+        "calao-galeto",
+        "cassio-santa-cruz",
+        "fabiano-da-bocha",
+        "magna-rocha",
+        "marcia-alves",
+        "marquinhos-osti",
+        "paulo-da-sucata",
+        "paulo-de-sa",
+        "roberto-carosio-filho"
+      ],
+      "autoresOficiais": [
+        "Anselmo Gimenes",
+        "Calão - Galeto",
+        "Cassio Santa Cruz",
+        "Fabiano Da Bocha",
+        "Magna Rocha",
+        "Márcia Alves",
+        "Marquinhos Osti",
+        "Paulo Da Sucata",
+        "Paulo de Sa",
+        "Roberto Carósio Filho"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-10-26",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11679",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 31976,
+        "data": "2026-11-05",
+        "status": "Aguardando emissão de pareceres",
+        "descricao": "Matéria enviada para emissão dos pareceres.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11679"
+      },
+      "historico": [
+        {
+          "id": 31976,
+          "data": "2026-11-05",
+          "status": "Aguardando emissão de pareceres",
+          "descricao": "Matéria enviada para emissão dos pareceres.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11679"
+        },
+        {
+          "id": 31975,
+          "data": "2026-11-05",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "Inclusa para discussões preliminares.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11679"
+        }
+      ]
     },
     {
       "id": "sapl-11672",
