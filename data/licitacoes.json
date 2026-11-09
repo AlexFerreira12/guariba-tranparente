@@ -12,6 +12,20 @@
   "anoFinal": 2026,
   "registros": [
     {
+      "id": "48664304000180-1-000272/2026",
+      "objeto": "AQUISICAO DE INSETICIDAS  LARVICIDAS E OLEO MINERA  DESTINADOS AS ACOES DA VIGILANCIA  PREVENDO O CONTROLE DE VETORES.",
+      "modalidade": "Pregão - Eletrônico",
+      "modalidadeId": 6,
+      "publicadoEm": "2026-11-09",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": null,
+      "valorHomologado": null,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
       "id": "48664304000180-1-000270/2026",
       "objeto": "AQUISICAO DE PEIXES PARA SOLTURA NO PARQUE DOS LAGOS.",
       "modalidade": "Pregão - Eletrônico",
@@ -228,7 +242,7 @@
       "modalidadeId": 6,
       "publicadoEm": "2026-10-16",
       "anoCompra": 2026,
-      "situacao": "Divulgada no PNCP",
+      "situacao": "Anulada",
       "valorEstimado": null,
       "valorHomologado": null,
       "orgao": "MUNICIPIO DE GUARIBA",
@@ -7278,5 +7292,5 @@
       "fonte": "https://pncp.gov.br/app/editais"
     }
   ],
-  "atualizadoEm": "2026-11-06"
+  "atualizadoEm": "2026-11-09"
 }
