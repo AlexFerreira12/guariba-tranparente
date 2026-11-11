@@ -12,6 +12,20 @@
   "anoFinal": 2026,
   "registros": [
     {
+      "id": "48664304000180-1-000273/2026",
+      "objeto": "AQUISICAO DE MATERIAIS ELETRICOS.",
+      "modalidade": "Dispensa",
+      "modalidadeId": 8,
+      "publicadoEm": "2026-11-10",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": 8960.8,
+      "valorHomologado": 8960.8,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
       "id": "48664304000180-1-000272/2026",
       "objeto": "AQUISICAO DE INSETICIDAS  LARVICIDAS E OLEO MINERA  DESTINADOS AS ACOES DA VIGILANCIA  PREVENDO O CONTROLE DE VETORES.",
       "modalidade": "Pregão - Eletrônico",
@@ -7292,5 +7306,5 @@
       "fonte": "https://pncp.gov.br/app/editais"
     }
   ],
-  "atualizadoEm": "2026-11-09"
+  "atualizadoEm": "2026-11-11"
 }
