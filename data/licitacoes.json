@@ -12,6 +12,34 @@
   "anoFinal": 2026,
   "registros": [
     {
+      "id": "48664304000180-1-000275/2026",
+      "objeto": "AQUISICAO DE MATERIAIS DE LIMPEZA E PRODUTOS DESCARTAVEIS.",
+      "modalidade": "Dispensa",
+      "modalidadeId": 8,
+      "publicadoEm": "2026-11-11",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": 23290.0,
+      "valorHomologado": 23290.0,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
+      "id": "48664304000180-1-000274/2026",
+      "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS DE MANUTENCAO CORRETIVA EM 06  SEIS  TELEVISORES  INCLUINDO O FORNECIMENTO E A SUBSTITUICAO DE COMPONENTES ELETRONICOS.",
+      "modalidade": "Dispensa",
+      "modalidadeId": 8,
+      "publicadoEm": "2026-11-11",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": null,
+      "valorHomologado": 2443.0,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
       "id": "48664304000180-1-000273/2026",
       "objeto": "AQUISICAO DE MATERIAIS ELETRICOS.",
       "modalidade": "Dispensa",
@@ -7306,5 +7334,5 @@
       "fonte": "https://pncp.gov.br/app/editais"
     }
   ],
-  "atualizadoEm": "2026-11-11"
+  "atualizadoEm": "2026-11-12"
 }
