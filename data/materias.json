@@ -1,13 +1,272 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-11-15",
+  "atualizadoEm": "2026-11-16",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
-    "2026": 221
+    "2026": 226
   },
   "fonte": "https://sapl.guariba.sp.leg.br/",
   "materias": [
+    {
+      "id": "sapl-11699",
+      "saplId": 11699,
+      "tipo": "Indicação",
+      "sigla": "IND",
+      "numero": "98/2026",
+      "ano": 2026,
+      "titulo": "Indica ao Chefe do Executivo Municipal que estudos sejam realizados pelo setor competente da prefeitura no sentido de que por intermédio das Secr…",
+      "resumo": "Indica ao Chefe do Executivo Municipal que estudos sejam realizados pelo setor competente da prefeitura no sentido de que por intermédio das Secretarias Municipais competentes, estude a viabilidade técnica, jurídica e orçamentária para a implantação de um Programa Municipal de Videomonitoramento Inteligente, abrangendo toda a extensão urbana do Município de Guariba. A proposta prevê a instalação gradual de câmeras de alta resolução, equipamentos de leitura de placas veiculares e outros recursos tecnológicos, priorizando locais de grande circulação de pessoas e veículos, pontos estratégicos de acesso à cidade e áreas que apresentem maior necessidade de fiscalização e segurança.",
+      "autores": [
+        "calao-galeto"
+      ],
+      "autoresOficiais": [
+        "Calão - Galeto"
+      ],
+      "status": "solicitado",
+      "situacao": "Indicação registrada no SAPL; execução não comprovada automaticamente.",
+      "data": "2026-11-16",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11699",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 32038,
+        "data": "2026-11-16",
+        "status": "Proposição inclusa no Expediente",
+        "descricao": "MATÉRIA INCLUSA PARA LEITURA NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11699"
+      },
+      "historico": [
+        {
+          "id": 32038,
+          "data": "2026-11-16",
+          "status": "Proposição inclusa no Expediente",
+          "descricao": "MATÉRIA INCLUSA PARA LEITURA NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11699"
+        },
+        {
+          "id": 32033,
+          "data": "2026-11-16",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "INCLUSA PARA DISCUSSÕES PRELIMINARES.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11699"
+        }
+      ]
+    },
+    {
+      "id": "sapl-11698",
+      "saplId": 11698,
+      "tipo": "Requerimento",
+      "sigla": "REQ",
+      "numero": "14/2026",
+      "ano": 2026,
+      "titulo": "Requer à Secretária Municipal de Educação, Profª. Vera Eliana Ambrósio Politi informações e esclarecimentos acerca de incidente envolvendo a Dire…",
+      "resumo": "Requer à Secretária Municipal de Educação, Profª. Vera Eliana Ambrósio Politi informações e esclarecimentos acerca de incidente envolvendo a Diretora e a Coordenadora da EMEB “Profª. Andrea Godoi Wik Delfino.",
+      "autores": [
+        "cassio-santa-cruz"
+      ],
+      "autoresOficiais": [
+        "Cassio Santa Cruz"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-11-16",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11698",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 32040,
+        "data": "2026-11-16",
+        "status": "Proposição inclusa no Expediente",
+        "descricao": "MATÉRIA INCLUSA PARA LEITURA, DISCUSSÃO E VOTAÇÃO NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11698"
+      },
+      "historico": [
+        {
+          "id": 32040,
+          "data": "2026-11-16",
+          "status": "Proposição inclusa no Expediente",
+          "descricao": "MATÉRIA INCLUSA PARA LEITURA, DISCUSSÃO E VOTAÇÃO NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11698"
+        },
+        {
+          "id": 32035,
+          "data": "2026-11-16",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "INCLUSA PARA DISCUSSÕES PRELIMINARES.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11698"
+        }
+      ]
+    },
+    {
+      "id": "sapl-11697",
+      "saplId": 11697,
+      "tipo": "Moção",
+      "sigla": "MOC",
+      "numero": "12/2026",
+      "ano": 2026,
+      "titulo": "Moção de Aplausos e Congratulações a todos os Diretores das Instituições de Ensino das redes pública e particular do Município de Guariba, em com…",
+      "resumo": "Moção de Aplausos e Congratulações a todos os Diretores das Instituições de Ensino das redes pública e particular do Município de Guariba, em comemoração ao Dia do Diretor Escolar, celebrado em 12 de novembro.",
+      "autores": [
+        "anselmo-gimenes",
+        "calao-galeto",
+        "cassio-santa-cruz",
+        "fabiano-da-bocha",
+        "magna-rocha",
+        "marcia-alves",
+        "marquinhos-osti",
+        "paulo-da-sucata",
+        "paulo-de-sa",
+        "roberto-carosio-filho"
+      ],
+      "autoresOficiais": [
+        "Anselmo Gimenes",
+        "Calão - Galeto",
+        "Cassio Santa Cruz",
+        "Fabiano Da Bocha",
+        "Ilza Dantas",
+        "Magna Rocha",
+        "Márcia Alves",
+        "Marquinhos Osti",
+        "Paulo Da Sucata",
+        "Paulo de Sa",
+        "Roberto Carósio Filho"
+      ],
+      "status": "nao-verificado",
+      "situacao": "Matéria cadastrada no SAPL. Conclusão legislativa e eventual norma vinculada não confirmadas.",
+      "data": "2026-11-16",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11697",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 32039,
+        "data": "2026-11-16",
+        "status": "Proposição inclusa no Expediente",
+        "descricao": "MATÉRIA INCLUSA PARA LEITURA, DISCUSSÃO E VOTAÇÃO NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11697"
+      },
+      "historico": [
+        {
+          "id": 32039,
+          "data": "2026-11-16",
+          "status": "Proposição inclusa no Expediente",
+          "descricao": "MATÉRIA INCLUSA PARA LEITURA, DISCUSSÃO E VOTAÇÃO NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11697"
+        },
+        {
+          "id": 32034,
+          "data": "2026-11-16",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "INCLUSA PARA DISCUSSÕES PRELIMINARES.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11697"
+        }
+      ]
+    },
+    {
+      "id": "sapl-11696",
+      "saplId": 11696,
+      "tipo": "Indicação",
+      "sigla": "IND",
+      "numero": "97/2026",
+      "ano": 2026,
+      "titulo": "Indica ao Chefe do Executivo Municipal que estudos sejam realizados pelo setor competente da prefeitura no sentido de providenciar a melhoria do …",
+      "resumo": "Indica ao Chefe do Executivo Municipal que estudos sejam realizados pelo setor competente da prefeitura no sentido de providenciar a melhoria do sistema de drenagem de águas pluviais na ponte localizada no bairro Bela vista, especialmente quanto à captação e ao escoamento adequado da água em períodos de chuva.",
+      "autores": [
+        "anselmo-gimenes"
+      ],
+      "autoresOficiais": [
+        "Anselmo Gimenes"
+      ],
+      "status": "solicitado",
+      "situacao": "Indicação registrada no SAPL; execução não comprovada automaticamente.",
+      "data": "2026-11-16",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11696",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 32037,
+        "data": "2026-11-16",
+        "status": "Proposição inclusa no Expediente",
+        "descricao": "MATÉRIA INCLUSA PARA LEITURA NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11696"
+      },
+      "historico": [
+        {
+          "id": 32037,
+          "data": "2026-11-16",
+          "status": "Proposição inclusa no Expediente",
+          "descricao": "MATÉRIA INCLUSA PARA LEITURA NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11696"
+        },
+        {
+          "id": 32032,
+          "data": "2026-11-16",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "INCLUSA PARA DISCUSSÕES PRELIMINARES.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11696"
+        }
+      ]
+    },
+    {
+      "id": "sapl-11695",
+      "saplId": 11695,
+      "tipo": "Indicação",
+      "sigla": "IND",
+      "numero": "96/2026",
+      "ano": 2026,
+      "titulo": "Indica ao Chefe do Executivo Municipal que estudos sejam realizados pelo setor competente da prefeitura no sentido de realizar melhorias no siste…",
+      "resumo": "Indica ao Chefe do Executivo Municipal que estudos sejam realizados pelo setor competente da prefeitura no sentido de realizar melhorias no sistema de iluminação interna e externa da Garagem Municipal, localizada no Residencial Santa Cruz.",
+      "autores": [
+        "fabiano-da-bocha"
+      ],
+      "autoresOficiais": [
+        "Fabiano Da Bocha"
+      ],
+      "status": "solicitado",
+      "situacao": "Indicação registrada no SAPL; execução não comprovada automaticamente.",
+      "data": "2026-11-16",
+      "categoria": "Atividade legislativa",
+      "fonte": "https://sapl.guariba.sp.leg.br/materia/11695",
+      "origem": "sapl-api",
+      "normas": [],
+      "votacoes": [],
+      "totalTramitacoes": 2,
+      "andamento": {
+        "id": 32036,
+        "data": "2026-11-16",
+        "status": "Proposição inclusa no Expediente",
+        "descricao": "MATÉRIA INCLUSA PARA LEITURA NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "fonte": "https://sapl.guariba.sp.leg.br/materia/11695"
+      },
+      "historico": [
+        {
+          "id": 32036,
+          "data": "2026-11-16",
+          "status": "Proposição inclusa no Expediente",
+          "descricao": "MATÉRIA INCLUSA PARA LEITURA NO EXPEDIENTE DA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11695"
+        },
+        {
+          "id": 32031,
+          "data": "2026-11-16",
+          "status": "Matéria apresenta para discussão preliminar",
+          "descricao": "INCLUSA PARA DISCUSSÕES PRELIMINARES.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11695"
+        }
+      ]
+    },
     {
       "id": "sapl-11693",
       "saplId": 11693,
@@ -902,15 +1161,36 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 32000,
-        "data": "2026-11-06",
+        "id": 32027,
+        "data": "2026-11-13",
         "status": "Proposição inclusa na Ordem do Dia",
-        "descricao": "INCLUSO PARA PRIMEIRA DISCUSSÃO E PRIMEIRA VOTAÇÃO NA 36ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "descricao": "INCLUSO PARA SEGUNDA DISCUSSÃO E SEGUNDA VOTAÇÃO NA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11680"
       },
       "historico": [
+        {
+          "id": 32027,
+          "data": "2026-11-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSO PARA SEGUNDA DISCUSSÃO E SEGUNDA VOTAÇÃO NA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11680"
+        },
+        {
+          "id": 32026,
+          "data": "2026-11-09",
+          "status": "Proposição aprovada em 1º turno",
+          "descricao": "MATÉRIA APROVADA EM PRIMEIRO TURNO DE VOTAÇÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11680"
+        },
+        {
+          "id": 32025,
+          "data": "2026-11-09",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11680"
+        },
         {
           "id": 32000,
           "data": "2026-11-06",
@@ -982,15 +1262,36 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 7,
       "andamento": {
-        "id": 32001,
-        "data": "2026-11-06",
+        "id": 32030,
+        "data": "2026-11-13",
         "status": "Proposição inclusa na Ordem do Dia",
-        "descricao": "INCLUSO PARA PRIMEIRA DISCUSSÃO E PRIMEIRA VOTAÇÃO NA 36ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "descricao": "INCLUSO PARA SEGUNDA DISCUSSÃO E SEGUNDA VOTAÇÃO NA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11679"
       },
       "historico": [
+        {
+          "id": 32030,
+          "data": "2026-11-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSO PARA SEGUNDA DISCUSSÃO E SEGUNDA VOTAÇÃO NA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11679"
+        },
+        {
+          "id": 32029,
+          "data": "2026-11-09",
+          "status": "Proposição aprovada em 1º turno",
+          "descricao": "MATÉRIA APROVADA EM PRIMEIRO TURNO DE VOTAÇÃO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11679"
+        },
+        {
+          "id": 32028,
+          "data": "2026-11-09",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11679"
+        },
         {
           "id": 32001,
           "data": "2026-11-06",
@@ -1727,15 +2028,36 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 3,
+      "totalTramitacoes": 6,
       "andamento": {
-        "id": 31991,
-        "data": "2026-11-06",
-        "status": "Proposição inclusa no Expediente",
-        "descricao": "INCLUSO PARA LEITURA E DISCUSSÃO NA 36ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+        "id": 32024,
+        "data": "2026-11-13",
+        "status": "Proposição inclusa na Ordem do Dia",
+        "descricao": "INCLUSO PARA DISCUSSÃO E VOTAÇÃO NA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11663"
       },
       "historico": [
+        {
+          "id": 32024,
+          "data": "2026-11-13",
+          "status": "Proposição inclusa na Ordem do Dia",
+          "descricao": "INCLUSO PARA DISCUSSÃO E VOTAÇÃO NA 37ª SESSÃO ORDINÁRIA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11663"
+        },
+        {
+          "id": 32023,
+          "data": "2026-11-13",
+          "status": "Proposição inclusa no Expediente",
+          "descricao": "INCLUSO PARA LEITURA E DISCUSSÃO NA 10ª AUDIÊNCIA PÚBLICA DA 2ª SESSÃO LEGISLATIVA DA 19ª LEGISLATURA.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11663"
+        },
+        {
+          "id": 32022,
+          "data": "2026-11-09",
+          "status": "Proposição apresentada em Plenário",
+          "descricao": "MATÉRIA APRESENTADA EM PLENÁRIO.",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11663"
+        },
         {
           "id": 31991,
           "data": "2026-11-06",
