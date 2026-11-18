@@ -12,6 +12,34 @@
   "anoFinal": 2026,
   "registros": [
     {
+      "id": "48664304000180-1-000286/2026",
+      "objeto": "AQUISICAO DE HD EXTERNO PORTATIL  1TB",
+      "modalidade": "Dispensa",
+      "modalidadeId": 8,
+      "publicadoEm": "2026-11-17",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": 2397.0,
+      "valorHomologado": 2397.0,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
+      "id": "48664304000180-1-000285/2026",
+      "objeto": "AQUISICAO DE ELETRODOS ADESIVOS DESCARTAVEIS.",
+      "modalidade": "Dispensa",
+      "modalidadeId": 8,
+      "publicadoEm": "2026-11-17",
+      "anoCompra": 2026,
+      "situacao": "Divulgada no PNCP",
+      "valorEstimado": 39510.0,
+      "valorHomologado": 39510.0,
+      "orgao": "MUNICIPIO DE GUARIBA",
+      "cnpj": "48664304000180",
+      "fonte": "https://pncp.gov.br/app/editais"
+    },
+    {
       "id": "48664304000180-1-000284/2026",
       "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PLANEJAR  MINISTRAR E DOCUMENTAR TREINAMENTOS PRESENCIAIS NAS NORMAS REGULAMENTADORAS NR 11  NR 12  NR 18  NR 23  NR 31  NR 32  NR 35 R NR 38  BEM COMO TREINAMENTO DE PRIMEIROS SOCORROS.",
       "modalidade": "Pregão - Eletrônico",
@@ -7460,5 +7488,5 @@
       "fonte": "https://pncp.gov.br/app/editais"
     }
   ],
-  "atualizadoEm": "2026-11-13"
+  "atualizadoEm": "2026-11-18"
 }
