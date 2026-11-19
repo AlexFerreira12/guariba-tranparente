@@ -1,6 +1,6 @@
 {
   "origem": "sapl-api",
-  "atualizadoEm": "2026-11-18",
+  "atualizadoEm": "2026-11-19",
   "cobertura": "Matérias de 2025 e 2026 devolvidas pela API pública do SAPL de Guariba na última coleta; tramitação, votações e sanção não auditadas automaticamente.",
   "anos": {
     "2025": 371,
@@ -3130,15 +3130,22 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 5,
       "andamento": {
-        "id": 31857,
-        "data": "2026-09-09",
-        "status": "Para providências cabíveis",
-        "descricao": "MATÉRIA ENCAMINHADA PARA O PODER EXECUTIVO PARA AÇÕES CABÍVEIS.",
+        "id": 32045,
+        "data": "2026-10-29",
+        "status": "Resposta da Proposição",
+        "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11651"
       },
       "historico": [
+        {
+          "id": 32045,
+          "data": "2026-10-29",
+          "status": "Resposta da Proposição",
+          "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11651"
+        },
         {
           "id": 31857,
           "data": "2026-09-09",
@@ -3192,15 +3199,22 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 5,
       "andamento": {
-        "id": 31856,
-        "data": "2026-09-09",
-        "status": "Para providências cabíveis",
-        "descricao": "MATÉRIA ENCAMINHADA PARA O PODER EXECUTIVO PARA AÇÕES CABÍVEIS.",
+        "id": 32044,
+        "data": "2026-10-29",
+        "status": "Resposta da Proposição",
+        "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11650"
       },
       "historico": [
+        {
+          "id": 32044,
+          "data": "2026-10-29",
+          "status": "Resposta da Proposição",
+          "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11650"
+        },
         {
           "id": 31856,
           "data": "2026-09-09",
@@ -3397,15 +3411,22 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 5,
       "andamento": {
-        "id": 31828,
-        "data": "2026-09-02",
-        "status": "Para providências cabíveis",
-        "descricao": "MATÉRIA ENCAMINHADA PARA O PODER EXECUTIVO PARA AÇÕES CABÍVEIS.",
+        "id": 32043,
+        "data": "2026-10-29",
+        "status": "Resposta da Proposição",
+        "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11647"
       },
       "historico": [
+        {
+          "id": 32043,
+          "data": "2026-10-29",
+          "status": "Resposta da Proposição",
+          "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11647"
+        },
         {
           "id": 31828,
           "data": "2026-09-02",
@@ -3459,15 +3480,22 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 5,
       "andamento": {
-        "id": 31827,
-        "data": "2026-09-02",
-        "status": "Para providências cabíveis",
-        "descricao": "MATÉRIA ENCAMINHADA PARA O PODER EXECUTIVO PARA AÇÕES CABÍVEIS.",
+        "id": 32042,
+        "data": "2026-10-29",
+        "status": "Resposta da Proposição",
+        "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11646"
       },
       "historico": [
+        {
+          "id": 32042,
+          "data": "2026-10-29",
+          "status": "Resposta da Proposição",
+          "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11646"
+        },
         {
           "id": 31827,
           "data": "2026-09-02",
@@ -3521,15 +3549,22 @@
       "origem": "sapl-api",
       "normas": [],
       "votacoes": [],
-      "totalTramitacoes": 4,
+      "totalTramitacoes": 5,
       "andamento": {
-        "id": 31826,
-        "data": "2026-09-02",
-        "status": "Para providências cabíveis",
-        "descricao": "MATÉRIA ENCAMINHADA PARA O PODER EXECUTIVO PARA AÇÕES CABÍVEIS.",
+        "id": 32041,
+        "data": "2026-10-29",
+        "status": "Resposta da Proposição",
+        "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
         "fonte": "https://sapl.guariba.sp.leg.br/materia/11645"
       },
       "historico": [
+        {
+          "id": 32041,
+          "data": "2026-10-29",
+          "status": "Resposta da Proposição",
+          "descricao": "MATÉRIA RECEBEU RESPOSTA VIA OFÍCIO DOS SETORES SOLICITADOS E ESTÁ DISPONÍVEL NA ABA \"DOCUMENTO ACESSÓRIO\".",
+          "fonte": "https://sapl.guariba.sp.leg.br/materia/11645"
+        },
         {
           "id": 31826,
           "data": "2026-09-02",
